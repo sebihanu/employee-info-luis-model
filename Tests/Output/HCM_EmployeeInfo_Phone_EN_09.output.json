@@ -1,0 +1,178 @@
+{
+  "TestSummary": "FAILED: 7/7",
+  "TestLanguage": "en",
+  "InputFileName": "HCM_EmployeeInfo_Phone_EN_09.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
+      "Utterance": "who has the phone number 2483746234",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.3248989,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "phone number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
+      "Utterance": "who has the contract number 23452873476",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.265294075,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
+      "Utterance": "who has the personal numeric code 238fdsdf234",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.2182848,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
+      "Utterance": "who has the registration code 2386sdhfghg",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.252853274,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "registration code",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: my\r\n",
+      "Utterance": "who has the phone 647623476",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.368777841,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "647623476",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "phone",
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: my\r\n",
+      "Utterance": "who has the contract 2398472384",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.278361529,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "2398472384",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "contract",
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: my\r\n",
+      "Utterance": "who has the pin 2348273643",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.2927915,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "2348273643",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+dotnet LuisTestClient\LuisClient.dll test -b "Tests/Input" -o "Tests/Output"

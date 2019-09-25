@@ -1,0 +1,297 @@
+{
+  "TestSummary": "FAILED: 12/12",
+  "TestLanguage": "en",
+  "InputFileName": "HCM_EmployeeInfo_Phone_EN_05.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Help FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n",
+      "Utterance": "What is Vasile's personal numeric code",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "Help",
+      "FoundTopIntentScore": 0.106845766,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "vasile",
+          "Type": "person"
+        },
+        {
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Help FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n TYPE: person\r\n",
+      "Utterance": "What is George's personal numeric code",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "Help",
+      "FoundTopIntentScore": 0.104857355,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n",
+      "Utterance": "What is Vasile's phone number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.09919379,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "vasile",
+          "Type": "person"
+        },
+        {
+          "Text": "phone number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n",
+      "Utterance": "What is Vasile's phone",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.09565879,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "vasile",
+          "Type": "person"
+        },
+        {
+          "Text": "phone",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n",
+      "Utterance": "What is Vasile's contract number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.100748032,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "vasile",
+          "Type": "person"
+        },
+        {
+          "Text": "contract number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n",
+      "Utterance": "What is Vasile's function",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.09741845,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "vasile",
+          "Type": "person"
+        },
+        {
+          "Text": "function",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n",
+      "Utterance": "What is Vasile's pin",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.09705087,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "vasile",
+          "Type": "person"
+        },
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n TYPE: person\r\n",
+      "Utterance": "What is George's phone number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.0932591,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "phone number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n TYPE: person\r\n",
+      "Utterance": "What is George's phone",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.08814316,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "phone",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n TYPE: person\r\n",
+      "Utterance": "What is George's contract number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.09698513,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n TYPE: person\r\n",
+      "Utterance": "What is George's function",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.0930089,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "function",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needValue\r\n TYPE: person\r\n",
+      "Utterance": "What is George's pin",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.09212765,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType"
+        }
+      ]
+    }
+  ]
+}

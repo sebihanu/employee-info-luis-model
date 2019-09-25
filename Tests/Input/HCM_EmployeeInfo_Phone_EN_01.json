@@ -1,0 +1,56 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    //employeeInfoType
+    {
+      "utterance": "phone number",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" }
+      ]
+    },
+    {
+      "utterance": "phone",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" }
+      ]
+    },
+    {
+      "utterance": "contract number",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" }
+      ]
+    },
+    {
+      "utterance": "contract",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" }
+      ]
+    },
+    {
+      "utterance": "pin",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" }
+      ]
+    },
+    {
+      "utterance": "personal numeric code",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" }
+      ]
+    },
+    {
+      "utterance": "registration code",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" }
+      ]
+    }
+  ]
+}

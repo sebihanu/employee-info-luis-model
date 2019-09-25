@@ -1,0 +1,103 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    //personName's employeeInfoType
+    {
+      "utterance": "What is Vasile's phone number",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is George's phone number",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is Vasile's phone",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is George's phone",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is Vasile's contract number",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is George's contract number",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is Vasile's function",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is George's function",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is Vasile's pin",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is George's pin",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is Vasile's personal numeric code",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "What is George's personal numeric code",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    //personName's employeeInfoType
+    {
+      "utterance": "phone number of Vasile Cuzmin ",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "phone number of George Palade",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "phone of Vasile Cuzmin",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "phone of George Palade",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "contract number of Vasile Cuzmin",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "contract number of George Palade",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "function of Vasile Cuzmin",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "function of George Palade",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "pin of Vasile Cuzmin",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "pin of George Palade",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "personal numeric code of Vasile Cuzmin",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    },
+    {
+      "utterance": "personal numeric code of George Palade",
+      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedEntities": [
+        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "person" }
+      ]
+    }
+  ]
+}

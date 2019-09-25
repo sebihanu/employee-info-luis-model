@@ -1,0 +1,376 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.2",
+  "name": "Employee-Info-Single-Intent",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "HCM_EmployeeInfo"
+    },
+    {
+      "name": "Hello"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "WhatAreYouDoing"
+    }
+  ],
+  "entities": [
+    {
+      "name": "employeeInfoValue",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "my",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "person",
+      "roles": [],
+      "hierarchyChildren": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "employeeInfoType",
+      "subLists": [
+        {
+          "canonicalForm": "001",
+          "list": [
+            "phone",
+            "phone number",
+            "telephone",
+            "cellphone"
+          ]
+        },
+        {
+          "canonicalForm": "002",
+          "list": [
+            "contract number",
+            "contract"
+          ]
+        },
+        {
+          "canonicalForm": "003",
+          "list": [
+            "function",
+            "role",
+            "position"
+          ]
+        },
+        {
+          "canonicalForm": "004",
+          "list": [
+            "personal numeric code",
+            "pin",
+            "registration code"
+          ]
+        }
+      ],
+      "roles": [
+        "needPerson",
+        "needValue"
+      ]
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "001",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "001 of ion popescu",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "person",
+          "startPos": 7,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "can you help me with my 001",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 21,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "can you please tell me whose 001 is 2342344323",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needPerson",
+          "startPos": 29,
+          "endPos": 31
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 36,
+          "endPos": 45
+        }
+      ]
+    },
+    {
+      "text": "could you please give me a piece of advice",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "could you please send me my 001",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 25,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "good evening",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "greetings",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "hello sir how are you",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "hi, what are you doing",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "how are you",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "how do you feel",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "how's it going",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "i don't know how to do it",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i don't want a car",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i want some assistance",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i want to book a ticket today",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to eat an hamburger",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to know my 001",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 15,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "i want to travel from paris to london",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'm in trouble",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "ion's 001",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "my 001",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "what are you doing",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "what is ion's 001",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 8,
+          "endPos": 10
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 14,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "what kind of dinosaur has blue teeth",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what's my 001",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "which colleague has the 001 563124124321",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needPerson",
+          "startPos": 24,
+          "endPos": 26
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 28,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "who has the 001 432432432",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needPerson",
+          "startPos": 12,
+          "endPos": 14
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 16,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "whose 001 is 123123",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needPerson",
+          "startPos": 6,
+          "endPos": 8
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 13,
+          "endPos": 18
+        }
+      ]
+    }
+  ],
+  "settings": []
+}

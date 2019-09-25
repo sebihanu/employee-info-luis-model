@@ -1,0 +1,164 @@
+{
+  "TestSummary": "FAILED: 7/7",
+  "TestLanguage": "en",
+  "InputFileName": "HCM_EmployeeInfo_Phone_EN_07.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello ",
+      "Utterance": "my phone",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "Hello",
+      "FoundTopIntentScore": 0.165162519,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
+          "Text": "phone",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
+      "Utterance": "my phone number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "Hello",
+      "FoundTopIntentScore": 0.112166241,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "phone number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
+      "Utterance": "my contract number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "Hello",
+      "FoundTopIntentScore": 0.1160194,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
+      "Utterance": "my contract",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "Hello",
+      "FoundTopIntentScore": 0.176878214,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
+      "Utterance": "my pin",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "Hello",
+      "FoundTopIntentScore": 0.175559744,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
+      "Utterance": "my registration code",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "Hello",
+      "FoundTopIntentScore": 0.116689675,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "registration code",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None ",
+      "Utterance": "my personal numeric code",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.09745014,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
+        }
+      ]
+    }
+  ]
+}
