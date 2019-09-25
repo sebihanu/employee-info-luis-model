@@ -1,18 +1,18 @@
 ## Business requirements:
 
-#### Story 1: As a employee I need to find employee information about me or my collegues.
+#### Story 1: As an employee I need to find employee information about me or my collegues.
 > What is *John*'s **phone number**?
 
 >	Can you help me with *George*'s **contract number**?
 
 >	My **phone number**
 		
-#### Story 2: As a employee I need to find which collegues match with a specific employee information value.
+#### Story 2: As an employee I need to find which collegues match with a specific employee information value.
 > Who has the **phone number** *+40726372172*?
 
 > Which collegue has *ABC351263* **contract number**?
 
-**Employee information** are: *phone, email, department, contract number, contract start date, dismissal days, position*
+Possible **employee information** are: *phone, email, department, contract number, contract start date, dismissal days, position*
 
 ## Implementation:
 - you can find LUIS model in **LuisModel** folder
