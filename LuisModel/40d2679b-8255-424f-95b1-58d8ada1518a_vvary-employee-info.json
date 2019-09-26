@@ -1,0 +1,388 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "vary-employee-info",
+  "name": "Employee-Info-Single-Intent",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "HCM_EmployeeInfo"
+    },
+    {
+      "name": "Hello"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "WhatAreYouDoing"
+    }
+  ],
+  "entities": [
+    {
+      "name": "employeeInfoValue",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "my",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "person",
+      "roles": [],
+      "hierarchyChildren": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "employeeInfoType",
+      "subLists": [
+        {
+          "canonicalForm": "001",
+          "list": [
+            "phone",
+            "phone number",
+            "telephone",
+            "cellphone"
+          ]
+        },
+        {
+          "canonicalForm": "002",
+          "list": [
+            "contract number",
+            "contract"
+          ]
+        },
+        {
+          "canonicalForm": "003",
+          "list": [
+            "function",
+            "role",
+            "position"
+          ]
+        },
+        {
+          "canonicalForm": "004",
+          "list": [
+            "personal numeric code",
+            "pin",
+            "registration code"
+          ]
+        }
+      ],
+      "roles": [
+        "needPerson",
+        "needValue"
+      ]
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "can you help me with my registration code",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 21,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "can you please tell me whose position is 2342344323",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needPerson",
+          "startPos": 29,
+          "endPos": 36
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 41,
+          "endPos": 50
+        }
+      ]
+    },
+    {
+      "text": "cellphone of ion popescu",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 0,
+          "endPos": 8
+        },
+        {
+          "entity": "person",
+          "startPos": 13,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "contract number",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 0,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "could you please give me a piece of advice",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "could you please send me my telephone",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 25,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "good evening",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "greetings",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "hello sir how are you",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "hi, what are you doing",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "how are you",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "how do you feel",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "how's it going",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "i don't know how to do it",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i don't want a car",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i want some assistance",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i want to book a ticket today",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to eat an hamburger",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to know my phone number",
+      "intent": "HCM_EmployeeInfo",
+      "entities": []
+    },
+    {
+      "text": "i want to travel from paris to london",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'm in trouble",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "ion's phone",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "my role",
+      "intent": "HCM_EmployeeInfo",
+      "entities": []
+    },
+    {
+      "text": "personal numeric code",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 0,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "position",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "what are you doing",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "what is ion's contract number",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 8,
+          "endPos": 10
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 14,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "what kind of dinosaur has blue teeth",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what's my personal numeric code",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "which colleague has the pin 563124124321",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needPerson",
+          "startPos": 24,
+          "endPos": 26
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 28,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "who has the contract 432432432",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needPerson",
+          "startPos": 12,
+          "endPos": 19
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 21,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "whose function is 123123",
+      "intent": "HCM_EmployeeInfo",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "role": "needPerson",
+          "startPos": 6,
+          "endPos": 13
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 18,
+          "endPos": 23
+        }
+      ]
+    }
+  ],
+  "settings": []
+}
