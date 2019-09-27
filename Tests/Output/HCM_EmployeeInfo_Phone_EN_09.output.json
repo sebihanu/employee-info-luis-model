@@ -10,7 +10,7 @@
       "Utterance": "who has the phone number 2483746234",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.8181564,
+      "FoundTopIntentScore": 0.8144503,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -31,7 +31,7 @@
       "Utterance": "who has the personal numeric code 238fdsdf234",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.477898151,
+      "FoundTopIntentScore": 0.481433034,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -52,7 +52,7 @@
       "Utterance": "who has the contract number 23452873476",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.6742776,
+      "FoundTopIntentScore": 0.677923739,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -77,7 +77,7 @@
       "Utterance": "who has the contract 2398472384",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.697975755,
+      "FoundTopIntentScore": 0.7012561,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -102,7 +102,7 @@
       "Utterance": "who has the registration code 2386sdhfghg",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.3938149,
+      "FoundTopIntentScore": 0.38728857,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -123,7 +123,7 @@
       "Utterance": "who has the phone 647623476",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.9291424,
+      "FoundTopIntentScore": 0.926561236,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -148,7 +148,7 @@
       "Utterance": "who has the pin 2348273643",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.794787943,
+      "FoundTopIntentScore": 0.789637268,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"

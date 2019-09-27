@@ -10,7 +10,7 @@
       "Utterance": "What is Vasile's phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.133904338,
+      "FoundTopIntentScore": 0.129530489,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -35,7 +35,7 @@
       "Utterance": "What is Vasile's function",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.2779153,
+      "FoundTopIntentScore": 0.23766011,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -60,7 +60,7 @@
       "Utterance": "What is Vasile's pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.155681252,
+      "FoundTopIntentScore": 0.1507993,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -85,7 +85,7 @@
       "Utterance": "What is George's function",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.336024582,
+      "FoundTopIntentScore": 0.278126627,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -106,7 +106,7 @@
       "Utterance": "What is George's pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.158827677,
+      "FoundTopIntentScore": 0.1534808,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -127,7 +127,7 @@
       "Utterance": "What is Vasile's phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.2379645,
+      "FoundTopIntentScore": 0.250688732,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -152,7 +152,7 @@
       "Utterance": "What is Vasile's contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.369405,
+      "FoundTopIntentScore": 0.381959319,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -177,7 +177,7 @@
       "Utterance": "What is Vasile's personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.6001498,
+      "FoundTopIntentScore": 0.610404134,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -202,7 +202,7 @@
       "Utterance": "What is George's phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.4216625,
+      "FoundTopIntentScore": 0.439589083,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -223,7 +223,7 @@
       "Utterance": "What is George's phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.129181683,
+      "FoundTopIntentScore": 0.13657929,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -244,7 +244,7 @@
       "Utterance": "What is George's contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.559692144,
+      "FoundTopIntentScore": 0.572434068,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -265,7 +265,7 @@
       "Utterance": "What is George's personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.742498934,
+      "FoundTopIntentScore": 0.7499371,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"

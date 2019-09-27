@@ -10,7 +10,7 @@
       "Utterance": "personal numeric code of George Palade",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.757802367,
+      "FoundTopIntentScore": 0.7514903,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -31,7 +31,7 @@
       "Utterance": "function of Vasile Cuzmin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.137000784,
+      "FoundTopIntentScore": 0.116030015,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -52,7 +52,7 @@
       "Utterance": "function of George Palade",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.168040738,
+      "FoundTopIntentScore": 0.135893464,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -73,7 +73,7 @@
       "Utterance": "pin of Vasile Cuzmin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.06923851,
+      "FoundTopIntentScore": 0.0684487,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -94,7 +94,7 @@
       "Utterance": "pin of George Palade",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.07704339,
+      "FoundTopIntentScore": 0.07566899,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -115,7 +115,7 @@
       "Utterance": "phone number of Vasile Cuzmin ",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.244767055,
+      "FoundTopIntentScore": 0.241881788,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -136,7 +136,7 @@
       "Utterance": "phone number of George Palade",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.401394665,
+      "FoundTopIntentScore": 0.390546978,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -157,7 +157,7 @@
       "Utterance": "phone of Vasile Cuzmin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.09884349,
+      "FoundTopIntentScore": 0.09613318,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -178,7 +178,7 @@
       "Utterance": "phone of George Palade",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.107994333,
+      "FoundTopIntentScore": 0.101124644,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -199,7 +199,7 @@
       "Utterance": "contract number of Vasile Cuzmin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.39172712,
+      "FoundTopIntentScore": 0.386220723,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -220,7 +220,7 @@
       "Utterance": "contract number of George Palade",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.5660576,
+      "FoundTopIntentScore": 0.554849,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -241,7 +241,7 @@
       "Utterance": "personal numeric code of Vasile Cuzmin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.626690865,
+      "FoundTopIntentScore": 0.6218462,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"

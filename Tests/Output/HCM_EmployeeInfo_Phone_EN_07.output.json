@@ -10,7 +10,7 @@
       "Utterance": "my pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.5719409,
+      "FoundTopIntentScore": 0.572949231,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -35,7 +35,7 @@
       "Utterance": "my phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.987488031,
+      "FoundTopIntentScore": 0.987111866,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -60,7 +60,7 @@
       "Utterance": "my phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.9705624,
+      "FoundTopIntentScore": 0.9681041,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -85,7 +85,7 @@
       "Utterance": "my contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.9741437,
+      "FoundTopIntentScore": 0.973294556,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -110,7 +110,7 @@
       "Utterance": "my contract",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.934024334,
+      "FoundTopIntentScore": 0.930222452,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -135,7 +135,7 @@
       "Utterance": "my personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.9695498,
+      "FoundTopIntentScore": 0.9688348,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -160,7 +160,7 @@
       "Utterance": "my registration code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.978964746,
+      "FoundTopIntentScore": 0.9788545,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"

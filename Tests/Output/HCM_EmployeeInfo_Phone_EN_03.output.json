@@ -6,11 +6,32 @@
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
+      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "George Palade's personal numeric code",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.7554863,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
       "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "Vasile Cuzmin's function",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.146518067,
+      "FoundTopIntentScore": 0.120712407,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -31,7 +52,7 @@
       "Utterance": "George Palade's function",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.161906481,
+      "FoundTopIntentScore": 0.125949934,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -52,7 +73,7 @@
       "Utterance": "Vasile Cuzmin's pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.0743574649,
+      "FoundTopIntentScore": 0.07108973,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -73,7 +94,7 @@
       "Utterance": "George Palade's pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.06358881,
+      "FoundTopIntentScore": 0.0603204258,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -94,7 +115,7 @@
       "Utterance": "Vasile Cuzmin's phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.235418633,
+      "FoundTopIntentScore": 0.251054347,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -115,7 +136,7 @@
       "Utterance": "George Palade's phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.4038901,
+      "FoundTopIntentScore": 0.4279409,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -136,7 +157,7 @@
       "Utterance": "Vasile Cuzmin's phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.09295574,
+      "FoundTopIntentScore": 0.09966463,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -157,7 +178,7 @@
       "Utterance": "George Palade's phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.113809943,
+      "FoundTopIntentScore": 0.123629682,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -178,7 +199,7 @@
       "Utterance": "Vasile Cuzmin's contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.373259038,
+      "FoundTopIntentScore": 0.389059633,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -199,7 +220,7 @@
       "Utterance": "George Palade's contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.555335939,
+      "FoundTopIntentScore": 0.5728079,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -220,28 +241,7 @@
       "Utterance": "Vasile Cuzmin's personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.6077433,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "personal numeric code",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "George Palade's personal numeric code",
-      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.745653331,
+      "FoundTopIntentScore": 0.620426238,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
