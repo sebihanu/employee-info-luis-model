@@ -1,96 +1,12 @@
 {
-  "TestSummary": "FAILED: 5/7",
+  "TestSummary": "FAILED: 1/7",
   "TestLanguage": "en",
   "InputFileName": "HCM_EmployeeInfo_Phone_EN_08.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED. ENTITIES:  TYPE: my\r\n",
-      "Utterance": "what's my phone number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.96152544,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "phone number",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: my\r\n",
-      "Utterance": "what's my phone",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.852069557,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "phone",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: my\r\n",
-      "Utterance": "what's my contract number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.977338552,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "contract number",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: my\r\n",
-      "Utterance": "what's my contract",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.934369862,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "contract",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: my\r\n",
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "what's my pin",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
       "FoundTopIntent": "HCM_EmployeeInfo",
@@ -105,8 +21,117 @@
       ],
       "FoundEntities": [
         {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
           "Text": "pin",
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what's my phone number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.96152544,
+      "ExpectedEntities": [
+        {
           "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
+          "Text": "phone number",
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what's my phone",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.852069557,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
+          "Text": "phone",
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what's my contract number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.977338552,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
+          "Text": "contract number",
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what's my contract",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.934369862,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
+          "Text": "contract",
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     },
@@ -131,7 +156,8 @@
         },
         {
           "Text": "personal numeric code",
-          "Type": "employeeInfoType"
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     },
@@ -156,7 +182,8 @@
         },
         {
           "Text": "registration code",
-          "Type": "employeeInfoType"
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     }

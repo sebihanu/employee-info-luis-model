@@ -98,6 +98,12 @@
           "entity": "my",
           "startPos": 21,
           "endPos": 22
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 24,
+          "endPos": 40
         }
       ]
     },
@@ -160,6 +166,12 @@
           "entity": "my",
           "startPos": 25,
           "endPos": 26
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 28,
+          "endPos": 36
         }
       ]
     },
@@ -236,7 +248,19 @@
     {
       "text": "i want to know my phone number",
       "intent": "HCM_EmployeeInfo",
-      "entities": []
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 15,
+          "endPos": 16
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 18,
+          "endPos": 29
+        }
+      ]
     },
     {
       "text": "i want to travel from paris to london",
@@ -268,7 +292,19 @@
     {
       "text": "my role",
       "intent": "HCM_EmployeeInfo",
-      "entities": []
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
     },
     {
       "text": "personal numeric code",
@@ -329,6 +365,12 @@
           "entity": "my",
           "startPos": 7,
           "endPos": 8
+        },
+        {
+          "entity": "employeeInfoType",
+          "role": "needValue",
+          "startPos": 10,
+          "endPos": 30
         }
       ]
     },
