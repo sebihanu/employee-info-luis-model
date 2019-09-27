@@ -1,161 +1,179 @@
 {
-  "TestSummary": "FAILED: 7/7",
+  "TestSummary": "FAILED: 6/7",
   "TestLanguage": "en",
   "InputFileName": "HCM_EmployeeInfo_Phone_EN_10.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
+      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: employeeInfoValue\r\n",
       "Utterance": "which collegue has the phone number 2483 746234",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.448725849,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.8139927,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType",
           "Role": "needPerson"
         },
         {
-          "Type": "my"
+          "Type": "employeeInfoValue"
         }
       ],
       "FoundEntities": [
         {
           "Text": "phone number",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
-      "Utterance": "which collegue has the phone 6476 23476",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.501816034,
-      "ExpectedEntities": [
-        {
           "Type": "employeeInfoType",
-          "Role": "needPerson"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "phone",
-          "Type": "employeeInfoType"
+          "Role": "needValue"
         }
       ]
     },
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
+      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: employeeInfoValue\r\n",
       "Utterance": "which collegue has the contract number 2345 2873476",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.253062248,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.84198004,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType",
           "Role": "needPerson"
         },
         {
-          "Type": "my"
+          "Type": "employeeInfoValue"
         }
       ],
       "FoundEntities": [
         {
           "Text": "contract number",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
-      "Utterance": "which collegue has the contract 23984 72384",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.390523344,
-      "ExpectedEntities": [
-        {
           "Type": "employeeInfoType",
-          "Role": "needPerson"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "contract",
-          "Type": "employeeInfoType"
+          "Role": "needValue"
         }
       ]
     },
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
-      "Utterance": "which collegue has the pin 2348 273643",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.254068017,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "pin",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
+      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: employeeInfoValue\r\n",
       "Utterance": "which collegue has the personal numeric code 238fd sdf234",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.292018563,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.932824135,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType",
           "Role": "needPerson"
         },
         {
-          "Type": "my"
+          "Type": "employeeInfoValue"
         }
       ],
       "FoundEntities": [
         {
           "Text": "personal numeric code",
-          "Type": "employeeInfoType"
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     },
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: my\r\n",
+      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: employeeInfoValue\r\n",
       "Utterance": "which collegue has the registration code 2386s dhfghg",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.3496622,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.835793436,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType",
           "Role": "needPerson"
         },
         {
-          "Type": "my"
+          "Type": "employeeInfoValue"
         }
       ],
       "FoundEntities": [
         {
           "Text": "registration code",
           "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "which collegue has the phone 6476 23476",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.5104356,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "employeeInfoValue"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "6476",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "phone",
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "which collegue has the pin 2348 273643",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.4348967,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "employeeInfoValue"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "2348",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "which collegue has the contract 23984 72384",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.79605037,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
+        },
+        {
+          "Type": "employeeInfoValue"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "23984",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "contract",
+          "Type": "employeeInfoType",
+          "Role": "needPerson"
         }
       ]
     }

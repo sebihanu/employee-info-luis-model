@@ -1,16 +1,42 @@
 {
-  "TestSummary": "FAILED: 7/7",
+  "TestSummary": "PASSED: 7/7",
   "TestLanguage": "en",
   "InputFileName": "HCM_EmployeeInfo_Phone_EN_07.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello ",
+      "Result": "PASSED",
+      "Utterance": "my phone number",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.988071144,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
+          "Text": "phone number",
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
       "Utterance": "my phone",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "Hello",
-      "FoundTopIntentScore": 0.165162519,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.9680681,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -26,37 +52,17 @@
         },
         {
           "Text": "phone",
-          "Type": "employeeInfoType"
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     },
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
-      "Utterance": "my phone number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "Hello",
-      "FoundTopIntentScore": 0.112166241,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "phone number",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
+      "Result": "PASSED",
       "Utterance": "my contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "Hello",
-      "FoundTopIntentScore": 0.1160194,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.98852545,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -66,18 +72,23 @@
         }
       ],
       "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
         {
           "Text": "contract number",
-          "Type": "employeeInfoType"
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     },
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
+      "Result": "PASSED",
       "Utterance": "my contract",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "Hello",
-      "FoundTopIntentScore": 0.176878214,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.967492342,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -87,18 +98,23 @@
         }
       ],
       "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
         {
           "Text": "contract",
-          "Type": "employeeInfoType"
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     },
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
+      "Result": "PASSED",
       "Utterance": "my pin",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "Hello",
-      "FoundTopIntentScore": 0.175559744,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.833952248,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -108,39 +124,23 @@
         }
       ],
       "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
         {
           "Text": "pin",
-          "Type": "employeeInfoType"
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     },
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: Hello FAILED. ENTITIES:  TYPE: my\r\n",
-      "Utterance": "my registration code",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "Hello",
-      "FoundTopIntentScore": 0.116689675,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType"
-        },
-        {
-          "Type": "my"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "registration code",
-          "Type": "employeeInfoType"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfo, Found: None ",
+      "Result": "PASSED",
       "Utterance": "my personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "None",
-      "FoundTopIntentScore": 0.09745014,
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.977859,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -156,7 +156,34 @@
         },
         {
           "Text": "personal numeric code",
+          "Type": "employeeInfoType",
+          "Role": "needValue"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "my registration code",
+      "ExpectedTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntent": "HCM_EmployeeInfo",
+      "FoundTopIntentScore": 0.9606062,
+      "ExpectedEntities": [
+        {
           "Type": "employeeInfoType"
+        },
+        {
+          "Type": "my"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "my"
+        },
+        {
+          "Text": "registration code",
+          "Type": "employeeInfoType",
+          "Role": "needValue"
         }
       ]
     }
