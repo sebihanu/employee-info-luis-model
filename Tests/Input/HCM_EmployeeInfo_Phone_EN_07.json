@@ -5,7 +5,7 @@
     //my employeeInfoType
     {
       "utterance": "my phone number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
         { "type": "employeeInfoType" },
         { "type": "my" }
@@ -13,7 +13,7 @@
     },
     {
       "utterance": "my phone",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
         { "type": "employeeInfoType" },
         { "type": "my" }
@@ -21,7 +21,7 @@
     },
     {
       "utterance": "my contract number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
         { "type": "employeeInfoType" },
         { "type": "my" }
@@ -29,7 +29,7 @@
     },
     {
       "utterance": "my contract",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
         { "type": "employeeInfoType" },
         { "type": "my" }
@@ -37,7 +37,7 @@
     },
     {
       "utterance": "my pin",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
         { "type": "employeeInfoType" },
         { "type": "my" }
@@ -45,7 +45,7 @@
     },
     {
       "utterance": "my personal numeric code",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
         { "type": "employeeInfoType" },
         { "type": "my" }
@@ -53,7 +53,7 @@
     },
     {
       "utterance": "my registration code",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
         { "type": "employeeInfoType" },
         { "type": "my" }

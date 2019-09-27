@@ -1,0 +1,42 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    //who is {position}
+    {
+      "utterance": "who is manager",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
+      "expectedEntities": [        
+        { "type": "position" }
+      ]
+    },
+    {
+      "utterance": "who is teacher",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
+      "expectedEntities": [        
+        { "type": "position" }
+      ]
+    },
+	{
+      "utterance": "who is supervisor",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
+      "expectedEntities": [        
+        { "type": "position" }
+      ]
+    },
+	{
+      "utterance": "which collegue is administrator",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
+      "expectedEntities": [        
+        { "type": "position" }
+      ]
+    },
+	{
+      "utterance": "which person is accountant",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
+      "expectedEntities": [        
+        { "type": "position" }
+      ]
+    }
+  ]
+}

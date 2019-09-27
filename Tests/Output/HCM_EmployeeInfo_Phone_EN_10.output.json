@@ -1,66 +1,19 @@
 {
-  "TestSummary": "FAILED: 6/7",
+  "TestSummary": "FAILED: 2/7",
   "TestLanguage": "en",
   "InputFileName": "HCM_EmployeeInfo_Phone_EN_10.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: employeeInfoValue\r\n",
-      "Utterance": "which collegue has the phone number 2483 746234",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.8139927,
+      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoValue\r\n",
+      "Utterance": "which colleague has the personal numeric code 238fd sdf234",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.860224366,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
-        },
-        {
-          "Type": "employeeInfoValue"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "phone number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: employeeInfoValue\r\n",
-      "Utterance": "which collegue has the contract number 2345 2873476",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.84198004,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
-        },
-        {
-          "Type": "employeeInfoValue"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "contract number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: employeeInfoValue\r\n",
-      "Utterance": "which collegue has the personal numeric code 238fd sdf234",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.932824135,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "employeeInfoValue"
@@ -69,21 +22,19 @@
       "FoundEntities": [
         {
           "Text": "personal numeric code",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
-      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoType ROLE: needPerson\r\n TYPE: employeeInfoValue\r\n",
-      "Utterance": "which collegue has the registration code 2386s dhfghg",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.835793436,
+      "Result": "FAILED. ENTITIES:  TYPE: employeeInfoValue\r\n",
+      "Utterance": "which colleague has the registration code 2386s dhfghg",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.8760777,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "employeeInfoValue"
@@ -97,15 +48,14 @@
       ]
     },
     {
-      "Result": "FAILED: Intent score too low ",
-      "Utterance": "which collegue has the phone 6476 23476",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.5104356,
+      "Result": "PASSED",
+      "Utterance": "which colleague has the phone number 2483 746234",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.964597046,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "employeeInfoValue"
@@ -113,53 +63,24 @@
       ],
       "FoundEntities": [
         {
-          "Text": "6476",
+          "Text": "2483 746234",
           "Type": "employeeInfoValue"
         },
         {
-          "Text": "phone",
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent score too low ",
-      "Utterance": "which collegue has the pin 2348 273643",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.4348967,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
-        },
-        {
-          "Type": "employeeInfoValue"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "2348",
-          "Type": "employeeInfoValue"
-        },
-        {
-          "Text": "pin",
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
+          "Text": "phone number",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "PASSED",
-      "Utterance": "which collegue has the contract 23984 72384",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.79605037,
+      "Utterance": "which colleague has the phone 6476 23476",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.969165742,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "employeeInfoValue"
@@ -167,13 +88,87 @@
       ],
       "FoundEntities": [
         {
-          "Text": "23984",
+          "Text": "6476 23476",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "phone",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "which colleague has the contract number 2345 2873476",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.9028475,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "employeeInfoValue"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "2345 2873476",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "contract number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "which colleague has the contract 23984 72384",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.946006238,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "employeeInfoValue"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "23984 72384",
           "Type": "employeeInfoValue"
         },
         {
           "Text": "contract",
-          "Type": "employeeInfoType",
-          "Role": "needPerson"
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "which colleague has the pin 2348 273643",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.9119553,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "employeeInfoValue"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "2348 273643",
+          "Type": "employeeInfoValue"
+        },
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType"
         }
       ]
     }

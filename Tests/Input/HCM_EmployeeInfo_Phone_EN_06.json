@@ -2,100 +2,100 @@
   "testLanguage": "en",
   "intentMinScore": "0.75",
   "inputTestUtterances": [
-    //personName's employeeInfoType
+    //What is personName's employeeInfoType 
     {
       "utterance": "What is Vasile Cuzmin's phone number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is George Palade's phone number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is Vasile Cuzmin's phone",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is George Palade's phone",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is Vasile Cuzmin's contract number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is George Palade's contract number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is Vasile Cuzmin's function",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is George Palade's function",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is Vasile Cuzmin's pin",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is George Palade's pin",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is Vasile Cuzmin's personal numeric code",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "What is George Palade's personal numeric code",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     }

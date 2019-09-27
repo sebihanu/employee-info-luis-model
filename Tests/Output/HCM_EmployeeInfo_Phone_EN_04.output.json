@@ -7,83 +7,13 @@
   "OutputTestUtterances": [
     {
       "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "contract number of Vasile Cuzmin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.762963951,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "contract number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "contract number of George Palade",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.8674912,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "contract number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "personal numeric code of Vasile Cuzmin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.8433972,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "personal numeric code",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "personal numeric code of George Palade",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.898802,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.757802367,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -92,21 +22,103 @@
       "FoundEntities": [
         {
           "Text": "personal numeric code",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "function of Vasile Cuzmin",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.137000784,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "function",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "function of George Palade",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.168040738,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "function",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "pin of Vasile Cuzmin",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.06923851,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: None FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "pin of George Palade",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "None",
+      "FoundTopIntentScore": 0.07704339,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "phone number of Vasile Cuzmin ",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.5374404,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.244767055,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -115,21 +127,19 @@
       "FoundEntities": [
         {
           "Text": "phone number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "phone number of George Palade",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.6741923,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.401394665,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -138,21 +148,19 @@
       "FoundEntities": [
         {
           "Text": "phone number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "phone of Vasile Cuzmin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.2706752,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.09884349,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -161,21 +169,19 @@
       "FoundEntities": [
         {
           "Text": "phone",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "phone of George Palade",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.2802414,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.107994333,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -184,21 +190,19 @@
       "FoundEntities": [
         {
           "Text": "phone",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "function of Vasile Cuzmin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.3442516,
+      "Utterance": "contract number of Vasile Cuzmin",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.39172712,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -206,22 +210,20 @@
       ],
       "FoundEntities": [
         {
-          "Text": "function",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "contract number",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "function of George Palade",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.380609959,
+      "Utterance": "contract number of George Palade",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.5660576,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -229,22 +231,20 @@
       ],
       "FoundEntities": [
         {
-          "Text": "function",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "contract number",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "pin of Vasile Cuzmin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.283190429,
+      "Utterance": "personal numeric code of Vasile Cuzmin",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.626690865,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -252,32 +252,8 @@
       ],
       "FoundEntities": [
         {
-          "Text": "pin",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "pin of George Palade",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.295080453,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "pin",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
         }
       ]
     }

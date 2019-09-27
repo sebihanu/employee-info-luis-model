@@ -2,60 +2,60 @@
   "testLanguage": "en",
   "intentMinScore": "0.75",
   "inputTestUtterances": [
-    //who has the employeeInfoType
+    //who has the employeeInfoType employeeInfoValue
     {
       "utterance": "who has the phone number 2483746234",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needPerson" },
+        { "type": "employeeInfoType" },
         { "type": "employeeInfoValue" }
       ]
     },
     {
       "utterance": "who has the phone 647623476",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needPerson" },
+        { "type": "employeeInfoType" },
         { "type": "employeeInfoValue" }
       ]
     },
     {
       "utterance": "who has the contract number 23452873476",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needPerson" },
+        { "type": "employeeInfoType" },
         { "type": "employeeInfoValue" }
       ]
     },
     {
       "utterance": "who has the contract 2398472384",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needPerson" },
+        { "type": "employeeInfoType" },
         { "type": "employeeInfoValue" }
       ]
     },
     {
       "utterance": "who has the pin 2348273643",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needPerson" },
+        { "type": "employeeInfoType" },
         { "type": "employeeInfoValue" }
       ]
     },
     {
       "utterance": "who has the personal numeric code 238fdsdf234",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needPerson" },
+        { "type": "employeeInfoType" },
         { "type": "employeeInfoValue" }
       ]
     },
     {
       "utterance": "who has the registration code 2386sdhfghg",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoPerson",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needPerson" },
+        { "type": "employeeInfoType" },
         { "type": "employeeInfoValue" }
       ]
     }
