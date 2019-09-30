@@ -1,55 +1,55 @@
 {
   "testLanguage": "en",
   "intentMinScore": "0.75",
-  "inputTestUtterances": [
-    //employeeInfoType
+  "inputTestUtterances": [   
+	//employeeInfoType  
     {
       "utterance": "phone number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" }
+        { "type": "employeeInfoType" }
       ]
     },
     {
       "utterance": "phone",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" }
+        { "type": "employeeInfoType" }
       ]
     },
     {
       "utterance": "contract number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" }
+        { "type": "employeeInfoType" }
       ]
     },
     {
       "utterance": "contract",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" }
+        { "type": "employeeInfoType" }
       ]
     },
     {
       "utterance": "pin",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" }
+        { "type": "employeeInfoType" }
       ]
     },
     {
       "utterance": "personal numeric code",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" }
+        { "type": "employeeInfoType" }
       ]
     },
     {
       "utterance": "registration code",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" }
+        { "type": "employeeInfoType" }
       ]
     }
   ]

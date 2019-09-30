@@ -1,0 +1,99 @@
+{
+  "TestSummary": "FAILED: 3/5",
+  "TestLanguage": "en",
+  "InputFileName": "HCM_EmployeeInfo_Phone_EN_11.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "who is teacher",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.389358819,
+      "ExpectedEntities": [
+        {
+          "Type": "position"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "teacher",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "who is supervisor",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.257597029,
+      "ExpectedEntities": [
+        {
+          "Type": "position"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "supervisor",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "which collegue is administrator",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.335974,
+      "ExpectedEntities": [
+        {
+          "Type": "position"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "administrator",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who is manager",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.8757419,
+      "ExpectedEntities": [
+        {
+          "Type": "position"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "manager",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "which person is accountant",
+      "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.9510393,
+      "ExpectedEntities": [
+        {
+          "Type": "position"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "accountant",
+          "Type": "position"
+        }
+      ]
+    }
+  ]
+}

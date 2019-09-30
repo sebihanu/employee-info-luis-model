@@ -6,15 +6,14 @@
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is Vasile Cuzmin's contract number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.7555498,
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "What is Vasile Cuzmin's phone",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.132514164,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -22,22 +21,20 @@
       ],
       "FoundEntities": [
         {
-          "Text": "contract number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "phone",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is George Palade's contract number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.855448246,
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "What is George Palade's phone",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.11115583,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -45,22 +42,20 @@
       ],
       "FoundEntities": [
         {
-          "Text": "contract number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "phone",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is Vasile Cuzmin's personal numeric code",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.8387154,
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "What is Vasile Cuzmin's function",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.247442424,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -68,22 +63,20 @@
       ],
       "FoundEntities": [
         {
-          "Text": "personal numeric code",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "function",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is George Palade's personal numeric code",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.8931628,
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "What is George Palade's function",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.271967679,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -91,22 +84,62 @@
       ],
       "FoundEntities": [
         {
-          "Text": "personal numeric code",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "function",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "What is Vasile Cuzmin's pin",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.1572956,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent not matching expected one. Expected: HCM_EmployeeInfoValue, Found: HCM_EmployeeInfoPerson FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "What is George Palade's pin",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoPerson",
+      "FoundTopIntentScore": 0.148414448,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "pin",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "What is Vasile Cuzmin's phone number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.532936335,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.160204813,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -115,21 +148,19 @@
       "FoundEntities": [
         {
           "Text": "phone number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "What is George Palade's phone number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.6559796,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.2731366,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -138,21 +169,19 @@
       "FoundEntities": [
         {
           "Text": "phone number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is Vasile Cuzmin's phone",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.274359077,
+      "Utterance": "What is Vasile Cuzmin's contract number",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.26794222,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -160,22 +189,20 @@
       ],
       "FoundEntities": [
         {
-          "Text": "phone",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "contract number",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is George Palade's phone",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.286809057,
+      "Utterance": "What is George Palade's contract number",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.415493459,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -183,22 +210,20 @@
       ],
       "FoundEntities": [
         {
-          "Text": "phone",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "contract number",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is Vasile Cuzmin's function",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.345240325,
+      "Utterance": "What is Vasile Cuzmin's personal numeric code",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.5004386,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -206,22 +231,20 @@
       ],
       "FoundEntities": [
         {
-          "Text": "function",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is George Palade's function",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.380384058,
+      "Utterance": "What is George Palade's personal numeric code",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.64504844,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -229,55 +252,8 @@
       ],
       "FoundEntities": [
         {
-          "Text": "function",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is Vasile Cuzmin's pin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.285894424,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "pin",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "What is George Palade's pin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.299311131,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "pin",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
         }
       ]
     }

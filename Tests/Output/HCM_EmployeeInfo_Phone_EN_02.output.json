@@ -7,106 +7,13 @@
   "OutputTestUtterances": [
     {
       "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "George's phone number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.7956282,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "phone number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "Vasile's contract number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.825757265,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "contract number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "George's contract number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.9151514,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "contract number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
-      "Utterance": "Vasile's personal numeric code",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.880846858,
-      "ExpectedEntities": [
-        {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        },
-        {
-          "Type": "person"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "personal numeric code",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "George's personal numeric code",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.927857161,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.84302,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -115,21 +22,19 @@
       "FoundEntities": [
         {
           "Text": "personal numeric code",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "Vasile's phone number",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.64325124,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.386214763,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -138,21 +43,40 @@
       "FoundEntities": [
         {
           "Text": "phone number",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "George's phone number",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.6306662,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "phone number",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "Vasile's phone",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.373451561,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.180820152,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -161,21 +85,19 @@
       "FoundEntities": [
         {
           "Text": "phone",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "George's phone",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.451893359,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.263445079,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -184,21 +106,61 @@
       "FoundEntities": [
         {
           "Text": "phone",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "Vasile's contract number",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.534413934,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "George's contract number",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.7312486,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "Vasile's function",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.442565739,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.142201886,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -207,21 +169,19 @@
       "FoundEntities": [
         {
           "Text": "function",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "George's function",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.5187514,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.167766079,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -230,21 +190,19 @@
       "FoundEntities": [
         {
           "Text": "function",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "Vasile's pin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.3771289,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.108201541,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -253,21 +211,19 @@
       "FoundEntities": [
         {
           "Text": "pin",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         }
       ]
     },
     {
       "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
       "Utterance": "George's pin",
-      "ExpectedTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntent": "HCM_EmployeeInfo",
-      "FoundTopIntentScore": 0.4319203,
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.117211252,
       "ExpectedEntities": [
         {
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
         },
         {
           "Type": "person"
@@ -276,8 +232,28 @@
       "FoundEntities": [
         {
           "Text": "pin",
-          "Type": "employeeInfoType",
-          "Role": "needValue"
+          "Type": "employeeInfoType"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low FAILED. ENTITIES:  TYPE: person\r\n",
+      "Utterance": "Vasile's personal numeric code",
+      "ExpectedTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntent": "HCM_EmployeeInfoValue",
+      "FoundTopIntentScore": 0.7286466,
+      "ExpectedEntities": [
+        {
+          "Type": "employeeInfoType"
+        },
+        {
+          "Type": "person"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "personal numeric code",
+          "Type": "employeeInfoType"
         }
       ]
     }

@@ -5,97 +5,97 @@
     //personName's employeeInfoType
     {
       "utterance": "Vasile Cuzmin's phone number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "George Palade's phone number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "Vasile Cuzmin's phone",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "George Palade's phone",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "Vasile Cuzmin's contract number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "George Palade's contract number",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "Vasile Cuzmin's function",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "George Palade's function",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "Vasile Cuzmin's pin",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "George Palade's pin",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "Vasile Cuzmin's personal numeric code",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     },
     {
       "utterance": "George Palade's personal numeric code",
-      "expectedTopIntent": "HCM_EmployeeInfo",
+      "expectedTopIntent": "HCM_EmployeeInfoValue",
       "expectedEntities": [
-        { "type": "employeeInfoType", "role": "needValue" },
+        { "type": "employeeInfoType" },
         { "type": "person" }
       ]
     }
