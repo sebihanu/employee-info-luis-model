@@ -10,7 +10,7 @@
       "Utterance": "who has the phone number 2483746234",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.8144503,
+      "FoundTopIntentScore": 0.79752177,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -31,7 +31,7 @@
       "Utterance": "who has the personal numeric code 238fdsdf234",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.481433034,
+      "FoundTopIntentScore": 0.47682634,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -52,7 +52,7 @@
       "Utterance": "who has the contract number 23452873476",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.677923739,
+      "FoundTopIntentScore": 0.668489754,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -63,12 +63,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "23452873476",
-          "Type": "employeeInfoValue"
-        },
-        {
           "Text": "contract number",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "23452873476",
+          "Type": "employeeInfoValue"
         }
       ]
     },
@@ -77,7 +77,7 @@
       "Utterance": "who has the contract 2398472384",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.7012561,
+      "FoundTopIntentScore": 0.7084247,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -88,12 +88,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "2398472384",
-          "Type": "employeeInfoValue"
-        },
-        {
           "Text": "contract",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "2398472384",
+          "Type": "employeeInfoValue"
         }
       ]
     },
@@ -102,7 +102,7 @@
       "Utterance": "who has the registration code 2386sdhfghg",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.38728857,
+      "FoundTopIntentScore": 0.615611,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -123,7 +123,7 @@
       "Utterance": "who has the phone 647623476",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.926561236,
+      "FoundTopIntentScore": 0.9262025,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -134,12 +134,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "647623476",
-          "Type": "employeeInfoValue"
-        },
-        {
           "Text": "phone",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "647623476",
+          "Type": "employeeInfoValue"
         }
       ]
     },
@@ -148,7 +148,7 @@
       "Utterance": "who has the pin 2348273643",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.789637268,
+      "FoundTopIntentScore": 0.7920731,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -159,12 +159,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "2348273643",
-          "Type": "employeeInfoValue"
-        },
-        {
           "Text": "pin",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "2348273643",
+          "Type": "employeeInfoValue"
         }
       ]
     }

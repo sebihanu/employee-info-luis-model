@@ -10,7 +10,7 @@
       "Utterance": "George's personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.84302,
+      "FoundTopIntentScore": 0.8400381,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -31,7 +31,7 @@
       "Utterance": "Vasile's phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.386214763,
+      "FoundTopIntentScore": 0.392345339,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -52,7 +52,7 @@
       "Utterance": "George's phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.6306662,
+      "FoundTopIntentScore": 0.640980661,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -73,7 +73,7 @@
       "Utterance": "Vasile's phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.180820152,
+      "FoundTopIntentScore": 0.179126933,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -94,7 +94,7 @@
       "Utterance": "George's phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.263445079,
+      "FoundTopIntentScore": 0.262820423,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -115,7 +115,7 @@
       "Utterance": "Vasile's contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.534413934,
+      "FoundTopIntentScore": 0.537234068,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -136,7 +136,7 @@
       "Utterance": "George's contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.7312486,
+      "FoundTopIntentScore": 0.7350681,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -157,7 +157,7 @@
       "Utterance": "Vasile's function",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.142201886,
+      "FoundTopIntentScore": 0.1467864,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -178,7 +178,7 @@
       "Utterance": "George's function",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.167766079,
+      "FoundTopIntentScore": 0.176294386,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -199,7 +199,7 @@
       "Utterance": "Vasile's pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.108201541,
+      "FoundTopIntentScore": 0.105778679,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -220,7 +220,7 @@
       "Utterance": "George's pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.117211252,
+      "FoundTopIntentScore": 0.114620551,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -241,7 +241,7 @@
       "Utterance": "Vasile's personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.7286466,
+      "FoundTopIntentScore": 0.72470367,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"

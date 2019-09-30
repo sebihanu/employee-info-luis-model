@@ -10,7 +10,7 @@
       "Utterance": "What is Vasile Cuzmin's phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.132514164,
+      "FoundTopIntentScore": 0.130872324,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -31,7 +31,7 @@
       "Utterance": "What is George Palade's phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.11115583,
+      "FoundTopIntentScore": 0.109622627,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -52,7 +52,7 @@
       "Utterance": "What is Vasile Cuzmin's function",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.247442424,
+      "FoundTopIntentScore": 0.22548084,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -73,7 +73,7 @@
       "Utterance": "What is George Palade's function",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.271967679,
+      "FoundTopIntentScore": 0.241712764,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -94,7 +94,7 @@
       "Utterance": "What is Vasile Cuzmin's pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.1572956,
+      "FoundTopIntentScore": 0.157942012,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -115,7 +115,7 @@
       "Utterance": "What is George Palade's pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.148414448,
+      "FoundTopIntentScore": 0.149814457,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -136,7 +136,7 @@
       "Utterance": "What is Vasile Cuzmin's phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.160204813,
+      "FoundTopIntentScore": 0.1637032,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -157,7 +157,7 @@
       "Utterance": "What is George Palade's phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.2731366,
+      "FoundTopIntentScore": 0.279706955,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -178,7 +178,7 @@
       "Utterance": "What is Vasile Cuzmin's contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.26794222,
+      "FoundTopIntentScore": 0.2707557,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -199,7 +199,7 @@
       "Utterance": "What is George Palade's contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.415493459,
+      "FoundTopIntentScore": 0.41935724,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -220,7 +220,7 @@
       "Utterance": "What is Vasile Cuzmin's personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.5004386,
+      "FoundTopIntentScore": 0.496582657,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -241,7 +241,7 @@
       "Utterance": "What is George Palade's personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.64504844,
+      "FoundTopIntentScore": 0.6403003,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"

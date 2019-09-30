@@ -10,7 +10,7 @@
       "Utterance": "my pin",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.572949231,
+      "FoundTopIntentScore": 0.5697752,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -21,12 +21,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "my",
-          "Type": "my"
-        },
-        {
           "Text": "pin",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "my",
+          "Type": "my"
         }
       ]
     },
@@ -35,7 +35,7 @@
       "Utterance": "my phone number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.987111866,
+      "FoundTopIntentScore": 0.9883152,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -46,12 +46,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "my",
-          "Type": "my"
-        },
-        {
           "Text": "phone number",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "my",
+          "Type": "my"
         }
       ]
     },
@@ -60,7 +60,7 @@
       "Utterance": "my phone",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.9681041,
+      "FoundTopIntentScore": 0.9699495,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -71,12 +71,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "my",
-          "Type": "my"
-        },
-        {
           "Text": "phone",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "my",
+          "Type": "my"
         }
       ]
     },
@@ -85,7 +85,7 @@
       "Utterance": "my contract number",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.973294556,
+      "FoundTopIntentScore": 0.97424227,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -96,12 +96,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "my",
-          "Type": "my"
-        },
-        {
           "Text": "contract number",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "my",
+          "Type": "my"
         }
       ]
     },
@@ -110,7 +110,7 @@
       "Utterance": "my contract",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.930222452,
+      "FoundTopIntentScore": 0.9293189,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -121,12 +121,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "my",
-          "Type": "my"
-        },
-        {
           "Text": "contract",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "my",
+          "Type": "my"
         }
       ]
     },
@@ -135,7 +135,7 @@
       "Utterance": "my personal numeric code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.9688348,
+      "FoundTopIntentScore": 0.9681655,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -146,12 +146,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "my",
-          "Type": "my"
-        },
-        {
           "Text": "personal numeric code",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "my",
+          "Type": "my"
         }
       ]
     },
@@ -160,7 +160,7 @@
       "Utterance": "my registration code",
       "ExpectedTopIntent": "HCM_EmployeeInfoValue",
       "FoundTopIntent": "HCM_EmployeeInfoValue",
-      "FoundTopIntentScore": 0.9788545,
+      "FoundTopIntentScore": 0.9597512,
       "ExpectedEntities": [
         {
           "Type": "employeeInfoType"
@@ -171,12 +171,12 @@
       ],
       "FoundEntities": [
         {
-          "Text": "my",
-          "Type": "my"
-        },
-        {
           "Text": "registration code",
           "Type": "employeeInfoType"
+        },
+        {
+          "Text": "my",
+          "Type": "my"
         }
       ]
     }

@@ -1,0 +1,590 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "employeeInfoType-simple-entity",
+  "name": "Employee-Info-Single-Intent",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "HCM_EmployeeInfoPerson"
+    },
+    {
+      "name": "HCM_EmployeeInfoValue"
+    },
+    {
+      "name": "Hello"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "WhatAreYouDoing"
+    }
+  ],
+  "entities": [
+    {
+      "name": "employeeInfoType",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "employeeInfoValue",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "my",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "person",
+      "roles": [],
+      "hierarchyChildren": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "position",
+      "subLists": [
+        {
+          "canonicalForm": "manager",
+          "list": []
+        },
+        {
+          "canonicalForm": "accountant",
+          "list": []
+        },
+        {
+          "canonicalForm": "developer",
+          "list": []
+        },
+        {
+          "canonicalForm": "receptionist",
+          "list": []
+        },
+        {
+          "canonicalForm": "director",
+          "list": []
+        },
+        {
+          "canonicalForm": "administrator",
+          "list": []
+        },
+        {
+          "canonicalForm": "supervisor",
+          "list": []
+        },
+        {
+          "canonicalForm": "consultant",
+          "list": []
+        },
+        {
+          "canonicalForm": "engineer",
+          "list": []
+        },
+        {
+          "canonicalForm": "project manager",
+          "list": []
+        },
+        {
+          "canonicalForm": "teacher",
+          "list": []
+        },
+        {
+          "canonicalForm": "ceo",
+          "list": []
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "can you help me with my registration code",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 21,
+          "endPos": 22
+        },
+        {
+          "entity": "employeeInfoType",
+          "startPos": 24,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "cellphone of ion popescu",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 0,
+          "endPos": 8
+        },
+        {
+          "entity": "person",
+          "startPos": 13,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "contract number",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 0,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "could you please give me a piece of advice",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "could you please send me my telephone",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 25,
+          "endPos": 26
+        },
+        {
+          "entity": "employeeInfoType",
+          "startPos": 28,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "give me the name of the person that has the telephone 1232 23434",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 44,
+          "endPos": 52
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 54,
+          "endPos": 63
+        }
+      ]
+    },
+    {
+      "text": "good evening",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "greetings",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "hello sir how are you",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "hi, what are you doing",
+      "intent": "Hello",
+      "entities": []
+    },
+    {
+      "text": "how are you",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "how do you feel",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "how's it going",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "i don't know how to do it",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i don't want a car",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i want some assistance",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i want to book a ticket today",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to eat an hamburger",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to know my phone number",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 15,
+          "endPos": 16
+        },
+        {
+          "entity": "employeeInfoType",
+          "startPos": 18,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "i want to travel from paris to london",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i would like to know whose role is accountant",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 27,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "i'm in trouble",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "ion popescu's function",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 0,
+          "endPos": 10
+        },
+        {
+          "entity": "employeeInfoType",
+          "startPos": 14,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "ion's phone",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "employeeInfoType",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "my role",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "employeeInfoType",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "personal numeric code",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 0,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "please tell me the person who has the cellphone 012318273",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 38,
+          "endPos": 46
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 48,
+          "endPos": 56
+        }
+      ]
+    },
+    {
+      "text": "position",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "tell me which colleague has the contract number 647623476",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 32,
+          "endPos": 46
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 48,
+          "endPos": 56
+        }
+      ]
+    },
+    {
+      "text": "what are you doing",
+      "intent": "WhatAreYouDoing",
+      "entities": []
+    },
+    {
+      "text": "what is ion's contract number",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "person",
+          "startPos": 8,
+          "endPos": 10
+        },
+        {
+          "entity": "employeeInfoType",
+          "startPos": 14,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "what kind of dinosaur has blue teeth",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what's my personal numeric code",
+      "intent": "HCM_EmployeeInfoValue",
+      "entities": [
+        {
+          "entity": "my",
+          "startPos": 7,
+          "endPos": 8
+        },
+        {
+          "entity": "employeeInfoType",
+          "startPos": 10,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "which colleague has the pin 23645234",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 24,
+          "endPos": 26
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 28,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "which colleague is accountant",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": []
+    },
+    {
+      "text": "which colleagues have the personal numeric code 3242348 343",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 26,
+          "endPos": 46
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 48,
+          "endPos": 58
+        }
+      ]
+    },
+    {
+      "text": "which person has the phone 123123",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 21,
+          "endPos": 25
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 27,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "which person is developer",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": []
+    },
+    {
+      "text": "who has the contract 62w548 237456",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 12,
+          "endPos": 19
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 21,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "who have the receptionist position",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 26,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "who is ceo",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": []
+    },
+    {
+      "text": "who is project manager",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": []
+    },
+    {
+      "text": "whose function is director",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": []
+    },
+    {
+      "text": "whose phone number is 3236476",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 6,
+          "endPos": 17
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 22,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "whose registration code is 34234",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 6,
+          "endPos": 22
+        },
+        {
+          "entity": "employeeInfoValue",
+          "startPos": 27,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "would you like to help me with whose function is manager",
+      "intent": "HCM_EmployeeInfoPerson",
+      "entities": [
+        {
+          "entity": "employeeInfoType",
+          "startPos": 37,
+          "endPos": 44
+        }
+      ]
+    }
+  ],
+  "settings": []
+}

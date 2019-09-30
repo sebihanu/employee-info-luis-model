@@ -10,7 +10,7 @@
       "Utterance": "who is teacher",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.389358819,
+      "FoundTopIntentScore": 0.405926824,
       "ExpectedEntities": [
         {
           "Type": "position"
@@ -28,7 +28,7 @@
       "Utterance": "who is supervisor",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.257597029,
+      "FoundTopIntentScore": 0.2701954,
       "ExpectedEntities": [
         {
           "Type": "position"
@@ -46,7 +46,7 @@
       "Utterance": "which collegue is administrator",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.335974,
+      "FoundTopIntentScore": 0.3490661,
       "ExpectedEntities": [
         {
           "Type": "position"
@@ -64,7 +64,7 @@
       "Utterance": "who is manager",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.8757419,
+      "FoundTopIntentScore": 0.8809207,
       "ExpectedEntities": [
         {
           "Type": "position"
@@ -82,7 +82,7 @@
       "Utterance": "which person is accountant",
       "ExpectedTopIntent": "HCM_EmployeeInfoPerson",
       "FoundTopIntent": "HCM_EmployeeInfoPerson",
-      "FoundTopIntentScore": 0.9510393,
+      "FoundTopIntentScore": 0.9476696,
       "ExpectedEntities": [
         {
           "Type": "position"
