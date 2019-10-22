@@ -10,7 +10,7 @@
       "Utterance": "email",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9630517,
+      "FoundTopIntentScore": 0.766372,
       "ExpectedEntities": [
         {
           "Text": "email",
@@ -29,7 +29,7 @@
       "Utterance": "mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.977876961,
+      "FoundTopIntentScore": 0.8362734,
       "ExpectedEntities": [
         {
           "Text": "mail",
@@ -48,7 +48,7 @@
       "Utterance": "mail address",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.981497645,
+      "FoundTopIntentScore": 0.942818046,
       "ExpectedEntities": [
         {
           "Text": "mail address",
@@ -67,7 +67,7 @@
       "Utterance": "e-mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9529895,
+      "FoundTopIntentScore": 0.8760566,
       "ExpectedEntities": [
         {
           "Text": "e - mail",
@@ -86,7 +86,7 @@
       "Utterance": "electronic mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.972553551,
+      "FoundTopIntentScore": 0.9094204,
       "ExpectedEntities": [
         {
           "Text": "electronic mail",

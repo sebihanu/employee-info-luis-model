@@ -10,7 +10,7 @@
       "Utterance": "contract end date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.987927,
+      "FoundTopIntentScore": 0.9702818,
       "ExpectedEntities": [
         {
           "Text": "contract end date",
@@ -29,7 +29,7 @@
       "Utterance": "contract termination date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.986742735,
+      "FoundTopIntentScore": 0.963209331,
       "ExpectedEntities": [
         {
           "Text": "contract termination date",
@@ -48,7 +48,7 @@
       "Utterance": "end date of the contract",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9737733,
+      "FoundTopIntentScore": 0.9630478,
       "ExpectedEntities": [
         {
           "Text": "end date of the contract",
@@ -67,7 +67,7 @@
       "Utterance": "contract expiry date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9788122,
+      "FoundTopIntentScore": 0.9402934,
       "ExpectedEntities": [
         {
           "Text": "contract expiry date",

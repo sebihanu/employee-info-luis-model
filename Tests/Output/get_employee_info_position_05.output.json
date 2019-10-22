@@ -10,7 +10,7 @@
       "Utterance": "position of raluca miu",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9584679,
+      "FoundTopIntentScore": 0.9092848,
       "ExpectedEntities": [
         {
           "Text": "position",
@@ -37,7 +37,7 @@
       "Utterance": "role of raluca miu",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.963781536,
+      "FoundTopIntentScore": 0.9178412,
       "ExpectedEntities": [
         {
           "Text": "role",
@@ -64,7 +64,7 @@
       "Utterance": "function of raluca miu",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.96075,
+      "FoundTopIntentScore": 0.92267853,
       "ExpectedEntities": [
         {
           "Text": "function",
@@ -91,7 +91,7 @@
       "Utterance": "occupation of raluca miu",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9667986,
+      "FoundTopIntentScore": 0.9262844,
       "ExpectedEntities": [
         {
           "Text": "occupation",
@@ -118,7 +118,7 @@
       "Utterance": "job of raluca miu",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9596138,
+      "FoundTopIntentScore": 0.914410651,
       "ExpectedEntities": [
         {
           "Text": "job",

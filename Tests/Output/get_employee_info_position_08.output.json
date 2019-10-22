@@ -10,7 +10,7 @@
       "Utterance": "what's raluca's position?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9665953,
+      "FoundTopIntentScore": 0.9612319,
       "ExpectedEntities": [
         {
           "Text": "position",
@@ -37,7 +37,7 @@
       "Utterance": "what's raluca's role?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.970177,
+      "FoundTopIntentScore": 0.963807642,
       "ExpectedEntities": [
         {
           "Text": "role",
@@ -64,7 +64,7 @@
       "Utterance": "what's raluca's function?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9678199,
+      "FoundTopIntentScore": 0.9670516,
       "ExpectedEntities": [
         {
           "Text": "function",
@@ -91,7 +91,7 @@
       "Utterance": "what's raluca's occupation?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9692012,
+      "FoundTopIntentScore": 0.9631518,
       "ExpectedEntities": [
         {
           "Text": "occupation",
@@ -118,7 +118,7 @@
       "Utterance": "what's raluca's job?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9695094,
+      "FoundTopIntentScore": 0.9662239,
       "ExpectedEntities": [
         {
           "Text": "job",

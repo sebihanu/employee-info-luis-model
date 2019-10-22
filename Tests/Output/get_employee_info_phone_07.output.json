@@ -1,16 +1,70 @@
 {
-  "TestSummary": "PASSED: 4/4",
+  "TestSummary": "FAILED: 2/4",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_phone_07.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "what is raluca miu's telephone",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.5587966,
+      "ExpectedEntities": [
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "what is raluca miu's cellphone",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.6658331,
+      "ExpectedEntities": [
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        }
+      ]
+    },
+    {
       "Result": "PASSED",
       "Utterance": "what is raluca miu's phone number?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.980537832,
+      "FoundTopIntentScore": 0.978331149,
       "ExpectedEntities": [
         {
           "Text": "phone number",
@@ -37,7 +91,7 @@
       "Utterance": "what is raluca miu's phone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.901237249,
+      "FoundTopIntentScore": 0.7918583,
       "ExpectedEntities": [
         {
           "Text": "phone",
@@ -55,60 +109,6 @@
         },
         {
           "Text": "phone",
-          "Type": "phone number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "what is raluca miu's telephone",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8544492,
-      "ExpectedEntities": [
-        {
-          "Text": "telephone",
-          "Type": "phone number"
-        },
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        },
-        {
-          "Text": "telephone",
-          "Type": "phone number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "what is raluca miu's cellphone",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.837941468,
-      "ExpectedEntities": [
-        {
-          "Text": "cellphone",
-          "Type": "phone number"
-        },
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        },
-        {
-          "Text": "cellphone",
           "Type": "phone number"
         }
       ]

@@ -10,7 +10,7 @@
       "Utterance": "contract of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9356169,
+      "FoundTopIntentScore": 0.7968584,
       "ExpectedEntities": [
         {
           "Text": "contract",
@@ -41,7 +41,7 @@
       "Utterance": "contract id of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.96738863,
+      "FoundTopIntentScore": 0.9402785,
       "ExpectedEntities": [
         {
           "Text": "contract id",
@@ -68,7 +68,7 @@
       "Utterance": "contract number of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9677077,
+      "FoundTopIntentScore": 0.940994442,
       "ExpectedEntities": [
         {
           "Text": "contract number",

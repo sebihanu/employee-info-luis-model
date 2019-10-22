@@ -10,7 +10,7 @@
       "Utterance": "what is raluca's contract?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.904986143,
+      "FoundTopIntentScore": 0.8666471,
       "ExpectedEntities": [
         {
           "Text": "contract",
@@ -41,7 +41,7 @@
       "Utterance": "what is raluca's contract number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.943608463,
+      "FoundTopIntentScore": 0.9379049,
       "ExpectedEntities": [
         {
           "Text": "contract number",
@@ -68,7 +68,7 @@
       "Utterance": "what is raluca's contract id",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9418509,
+      "FoundTopIntentScore": 0.935463,
       "ExpectedEntities": [
         {
           "Text": "contract id",

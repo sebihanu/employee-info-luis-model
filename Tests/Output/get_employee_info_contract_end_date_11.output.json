@@ -10,7 +10,7 @@
       "Utterance": "help me with raluca miu's contract end date?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9518091,
+      "FoundTopIntentScore": 0.958348036,
       "ExpectedEntities": [
         {
           "Text": "contract end date",
@@ -37,7 +37,7 @@
       "Utterance": "help me with raluca miu's contract termination date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9379309,
+      "FoundTopIntentScore": 0.93069464,
       "ExpectedEntities": [
         {
           "Text": "contract termination date",
@@ -64,7 +64,7 @@
       "Utterance": "help me with raluca miu's end date of the contract",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.918715835,
+      "FoundTopIntentScore": 0.932438254,
       "ExpectedEntities": [
         {
           "Text": "end date of the contract",
@@ -91,7 +91,7 @@
       "Utterance": "help me with raluca miu's contract expiry date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.918513536,
+      "FoundTopIntentScore": 0.907672,
       "ExpectedEntities": [
         {
           "Text": "contract expiry date",

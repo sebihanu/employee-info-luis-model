@@ -10,7 +10,7 @@
       "Utterance": "who have the contract start date 03/05/2019",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.945768654,
+      "FoundTopIntentScore": 0.9406477,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -65,7 +65,7 @@
       "Utterance": "who have the contract date 03/05/2019",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9423078,
+      "FoundTopIntentScore": 0.9347732,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -120,7 +120,7 @@
       "Utterance": "who have the contract signed date 03/05/2019",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9420628,
+      "FoundTopIntentScore": 0.9346371,
       "ExpectedEntities": [
         {
           "Text": "who",

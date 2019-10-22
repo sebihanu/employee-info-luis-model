@@ -10,7 +10,7 @@
       "Utterance": "what's raluca miu's cnp",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9895321,
+      "FoundTopIntentScore": 0.981393635,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -37,7 +37,7 @@
       "Utterance": "what's raluca miu's national identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9244628,
+      "FoundTopIntentScore": 0.9105011,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -64,7 +64,7 @@
       "Utterance": "what's raluca miu's national identity number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9122388,
+      "FoundTopIntentScore": 0.858496845,
       "ExpectedEntities": [
         {
           "Text": "national identity number",
@@ -91,7 +91,7 @@
       "Utterance": "what's raluca miu's personal numerical code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8887938,
+      "FoundTopIntentScore": 0.802621,
       "ExpectedEntities": [
         {
           "Text": "personal numerical code",
@@ -118,7 +118,7 @@
       "Utterance": "what's raluca miu's personal numeric code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8881841,
+      "FoundTopIntentScore": 0.801478565,
       "ExpectedEntities": [
         {
           "Text": "personal numeric code",
@@ -145,7 +145,7 @@
       "Utterance": "what's raluca miu's personal identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9168489,
+      "FoundTopIntentScore": 0.8861225,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",

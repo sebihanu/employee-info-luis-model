@@ -1,0 +1,1646 @@
+{
+  "name": "CosminProto",
+  "versionId": "0.2",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "get_employee_info"
+    },
+    {
+      "name": "get_info_of_empolyee"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "contract end date",
+      "roles": []
+    },
+    {
+      "name": "contract end date value",
+      "roles": []
+    },
+    {
+      "name": "contract ID",
+      "roles": []
+    },
+    {
+      "name": "contract ID value",
+      "roles": []
+    },
+    {
+      "name": "contract start date",
+      "roles": []
+    },
+    {
+      "name": "contract start date value",
+      "roles": []
+    },
+    {
+      "name": "department",
+      "roles": []
+    },
+    {
+      "name": "department value",
+      "roles": []
+    },
+    {
+      "name": "employee ID",
+      "roles": []
+    },
+    {
+      "name": "employee name",
+      "roles": []
+    },
+    {
+      "name": "mail",
+      "roles": []
+    },
+    {
+      "name": "mail value",
+      "roles": []
+    },
+    {
+      "name": "notice days",
+      "roles": []
+    },
+    {
+      "name": "notice days value",
+      "roles": []
+    },
+    {
+      "name": "personal numeric code",
+      "roles": []
+    },
+    {
+      "name": "personal numeric code value",
+      "roles": []
+    },
+    {
+      "name": "phone number",
+      "roles": []
+    },
+    {
+      "name": "phone number value",
+      "roles": []
+    },
+    {
+      "name": "position",
+      "roles": []
+    },
+    {
+      "name": "position value",
+      "roles": []
+    }
+  ],
+  "closedLists": [],
+  "composites": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": [
+        "to",
+        "from"
+      ]
+    },
+    {
+      "name": "number",
+      "roles": []
+    },
+    {
+      "name": "ordinal",
+      "roles": []
+    }
+  ],
+  "regex_features": [],
+  "model_features": [
+    {
+      "activated": true,
+      "name": "phone PL",
+      "words": "phone,phone number,telephone,cellphone",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "contract PL",
+      "words": "contract,contract number,contract id",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "position PL",
+      "words": "function,role,position,occupation,job",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "cnp PL",
+      "words": "cnp,national identification number,national identity number,personal numerical code,personal numeric code,personal identification number",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "email PL",
+      "words": "email,mail,mail address,e-mail,electronic mail",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "department PL",
+      "words": "department,division,section",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "contract start date PL",
+      "words": "contract start date,contract date,contract signed date",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "contract end date PL",
+      "words": "contract end date,contract termination date,end date of the contract,contract expiry date",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "notice days PL",
+      "words": "notice,notice days,dismissal,dismissal days",
+      "mode": true
+    },
+    {
+      "activated": true,
+      "name": "position value PL",
+      "words": "manager,accountant,software developer,director,engineer,consultant,auditor,executive,advisor,teacher,secretary,nurse,assistant,officer,chief,doctor,professor,journalist,architect,developer,project manager,software engineer,analyst,project engineer,financial analyst,account manager,technician,sales manager,systems engineer,account executive,product manager,coach",
+      "mode": true
+    }
+  ],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "can you help me with george's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 21,
+          "endPos": 26,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 30,
+          "endPos": 41,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "cnp",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "text": "contract end date of matilda",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 16,
+          "entity": "contract end date"
+        },
+        {
+          "startPos": 21,
+          "endPos": 27,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "contract id of susan?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 10,
+          "entity": "contract ID"
+        },
+        {
+          "startPos": 15,
+          "endPos": 19,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "contract start date of valentin",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 18,
+          "entity": "contract start date"
+        },
+        {
+          "startPos": 23,
+          "endPos": 30,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "department of george palade",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 9,
+          "entity": "department"
+        },
+        {
+          "startPos": 14,
+          "endPos": 26,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "dismissal days of boris",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 13,
+          "entity": "notice days"
+        },
+        {
+          "startPos": 18,
+          "endPos": 22,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "dismissal days of boris manta",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 13,
+          "entity": "notice days"
+        },
+        {
+          "startPos": 18,
+          "endPos": 28,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "division of george",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 7,
+          "entity": "department"
+        },
+        {
+          "startPos": 12,
+          "endPos": 17,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "e-mail of grigore",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 5,
+          "entity": "mail"
+        },
+        {
+          "startPos": 10,
+          "endPos": 16,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "fabian bute's dismissal days",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 10,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 14,
+          "endPos": 27,
+          "entity": "notice days"
+        }
+      ]
+    },
+    {
+      "text": "fabian's dismissal days",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 5,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 9,
+          "endPos": 22,
+          "entity": "notice days"
+        }
+      ]
+    },
+    {
+      "text": "florin miu's email?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 9,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 13,
+          "endPos": 17,
+          "entity": "mail"
+        }
+      ]
+    },
+    {
+      "text": "florin's email?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 5,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 9,
+          "endPos": 13,
+          "entity": "mail"
+        }
+      ]
+    },
+    {
+      "text": "function of mina",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 7,
+          "entity": "position"
+        },
+        {
+          "startPos": 12,
+          "endPos": 15,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "fynn's national identification number",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 3,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 7,
+          "endPos": 36,
+          "entity": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "text": "give me an advice",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "give me cindy's contract",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 12,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 16,
+          "endPos": 23,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "give me john's phone",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 15,
+          "endPos": 19,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "greg's contract end date",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 3,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 7,
+          "endPos": 23,
+          "entity": "contract end date"
+        }
+      ]
+    },
+    {
+      "text": "how is the weather?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how many notice days do i have?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 9,
+          "endPos": 19,
+          "entity": "notice days"
+        },
+        {
+          "startPos": 24,
+          "endPos": 24,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "how many notice days fred has?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 9,
+          "endPos": 19,
+          "entity": "notice days"
+        },
+        {
+          "startPos": 21,
+          "endPos": 24,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "how many notice days fred obama has?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 9,
+          "endPos": 19,
+          "entity": "notice days"
+        },
+        {
+          "startPos": 21,
+          "endPos": 30,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "mail of grigore ioan",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 3,
+          "entity": "mail"
+        },
+        {
+          "startPos": 8,
+          "endPos": 19,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "maria hulu's section?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 9,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 13,
+          "endPos": 19,
+          "entity": "department"
+        }
+      ]
+    },
+    {
+      "text": "maria's department?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 4,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 8,
+          "endPos": 17,
+          "entity": "department"
+        }
+      ]
+    },
+    {
+      "text": "michael oliver's contract?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 13,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 17,
+          "endPos": 24,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "michael's contract number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 6,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 10,
+          "endPos": 24,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "mircea's contract start date?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 5,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 9,
+          "endPos": 27,
+          "entity": "contract start date"
+        }
+      ]
+    },
+    {
+      "text": "my contract id?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 10,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "my contract start date?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 21,
+          "entity": "contract start date"
+        }
+      ]
+    },
+    {
+      "text": "my department?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 12,
+          "entity": "department"
+        }
+      ]
+    },
+    {
+      "text": "my dismissal days?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 16,
+          "entity": "notice days"
+        }
+      ]
+    },
+    {
+      "text": "my end date of the contract?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 26,
+          "entity": "contract end date"
+        }
+      ]
+    },
+    {
+      "text": "my job?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 5,
+          "entity": "position"
+        }
+      ]
+    },
+    {
+      "text": "my mail address?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 14,
+          "entity": "mail"
+        }
+      ]
+    },
+    {
+      "text": "my national identification number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 32,
+          "entity": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "text": "my phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 3,
+          "endPos": 14,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "national identification number of miruna",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 29,
+          "entity": "personal numeric code"
+        },
+        {
+          "startPos": 34,
+          "endPos": 39,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "national identification number of miruna stan",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 29,
+          "entity": "personal numeric code"
+        },
+        {
+          "startPos": 34,
+          "endPos": 44,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "phone number of mark",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 11,
+          "entity": "phone number"
+        },
+        {
+          "startPos": 16,
+          "endPos": 19,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "phone number of mark twain",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 11,
+          "entity": "phone number"
+        },
+        {
+          "startPos": 16,
+          "endPos": 25,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "position of grigore muru",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 7,
+          "entity": "position"
+        },
+        {
+          "startPos": 12,
+          "endPos": 23,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "to whom does contract xyz09876 belong",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 3,
+          "endPos": 6,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 20,
+          "entity": "contract ID"
+        },
+        {
+          "startPos": 22,
+          "endPos": 29,
+          "entity": "contract ID value"
+        }
+      ]
+    },
+    {
+      "text": "to whom does e-mail diana@yahoo.net belong",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 3,
+          "endPos": 6,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 18,
+          "entity": "mail"
+        },
+        {
+          "startPos": 20,
+          "endPos": 34,
+          "entity": "mail value"
+        }
+      ]
+    },
+    {
+      "text": "to whom does national identification number 1345365421 belong",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 3,
+          "endPos": 6,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 42,
+          "entity": "personal numeric code"
+        },
+        {
+          "startPos": 44,
+          "endPos": 53,
+          "entity": "personal numeric code value"
+        }
+      ]
+    },
+    {
+      "text": "to whom does the cellphone 9976543210 belong",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 3,
+          "endPos": 6,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 17,
+          "endPos": 25,
+          "entity": "phone number"
+        },
+        {
+          "startPos": 27,
+          "endPos": 36,
+          "entity": "phone number value"
+        }
+      ]
+    },
+    {
+      "text": "tudor's position?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 4,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 8,
+          "endPos": 15,
+          "entity": "position"
+        }
+      ]
+    },
+    {
+      "text": "what is contract end date of matilda campu",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 24,
+          "entity": "contract end date"
+        },
+        {
+          "startPos": 29,
+          "endPos": 41,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "what is contract id of susan lee?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 18,
+          "entity": "contract ID"
+        },
+        {
+          "startPos": 23,
+          "endPos": 31,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "what is jane's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 21,
+          "endPos": 26,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "what is john's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 15,
+          "endPos": 19,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "what is mike's phone?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 15,
+          "endPos": 19,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "what is mircea balu's contract date?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 18,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 22,
+          "endPos": 34,
+          "entity": "contract start date"
+        }
+      ]
+    },
+    {
+      "text": "what is occupation of grigore",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 17,
+          "entity": "position"
+        },
+        {
+          "startPos": 22,
+          "endPos": 28,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "what is tudor vama's role?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 17,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 21,
+          "endPos": 24,
+          "entity": "position"
+        }
+      ]
+    },
+    {
+      "text": "what time is it?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what's contract start date of valentin cimpoi",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 7,
+          "endPos": 25,
+          "entity": "contract start date"
+        },
+        {
+          "startPos": 30,
+          "endPos": 44,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "what's fynn laslo's national identification number",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 7,
+          "endPos": 16,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 20,
+          "endPos": 49,
+          "entity": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "text": "what's greg yang's contract termination date",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 7,
+          "endPos": 15,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 19,
+          "endPos": 43,
+          "entity": "contract end date"
+        }
+      ]
+    },
+    {
+      "text": "who has 14 days notice",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 8,
+          "endPos": 9,
+          "entity": "notice days value"
+        },
+        {
+          "startPos": 16,
+          "endPos": 21,
+          "entity": "notice days"
+        }
+      ]
+    },
+    {
+      "text": "who has 2 dismissal days",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 8,
+          "endPos": 8,
+          "entity": "notice days value"
+        },
+        {
+          "startPos": 10,
+          "endPos": 23,
+          "entity": "notice days"
+        }
+      ]
+    },
+    {
+      "text": "who has the contract date 12/15/2000",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 24,
+          "entity": "contract start date"
+        },
+        {
+          "startPos": 26,
+          "endPos": 35,
+          "entity": "contract start date value"
+        }
+      ]
+    },
+    {
+      "text": "who has the contract id fds43234765",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 22,
+          "entity": "contract ID"
+        },
+        {
+          "startPos": 24,
+          "endPos": 34,
+          "entity": "contract ID value"
+        }
+      ]
+    },
+    {
+      "text": "who has the end date of the contract 03/08/2017",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 35,
+          "entity": "contract end date"
+        },
+        {
+          "startPos": 37,
+          "endPos": 46,
+          "entity": "contract end date value"
+        }
+      ]
+    },
+    {
+      "text": "who has the function of software developer",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 19,
+          "entity": "position"
+        },
+        {
+          "startPos": 24,
+          "endPos": 41,
+          "entity": "position value"
+        }
+      ]
+    },
+    {
+      "text": "who has the mail sorin@gmail.com",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 15,
+          "entity": "mail"
+        },
+        {
+          "startPos": 17,
+          "endPos": 31,
+          "entity": "mail value"
+        }
+      ]
+    },
+    {
+      "text": "who has the national identification number 1854334545431",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 41,
+          "entity": "personal numeric code"
+        },
+        {
+          "startPos": 43,
+          "endPos": 55,
+          "entity": "personal numeric code value"
+        }
+      ]
+    },
+    {
+      "text": "who has the phone number 0113356789",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 23,
+          "entity": "phone number"
+        },
+        {
+          "startPos": 25,
+          "endPos": 34,
+          "entity": "phone number value"
+        }
+      ]
+    },
+    {
+      "text": "who have 10 days notice",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 9,
+          "endPos": 10,
+          "entity": "notice days value"
+        },
+        {
+          "startPos": 17,
+          "endPos": 22,
+          "entity": "notice days"
+        }
+      ]
+    },
+    {
+      "text": "who have 17 dismissal days",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 9,
+          "endPos": 10,
+          "entity": "notice days value"
+        },
+        {
+          "startPos": 12,
+          "endPos": 25,
+          "entity": "notice days"
+        }
+      ]
+    },
+    {
+      "text": "who have the contract end date 05/11/2013",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 29,
+          "entity": "contract end date"
+        },
+        {
+          "startPos": 31,
+          "endPos": 40,
+          "entity": "contract end date value"
+        }
+      ]
+    },
+    {
+      "text": "who have the contract fyt89032123",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 20,
+          "entity": "contract ID"
+        },
+        {
+          "startPos": 22,
+          "endPos": 32,
+          "entity": "contract ID value"
+        }
+      ]
+    },
+    {
+      "text": "who have the contract start date 11/11/2020",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 31,
+          "entity": "contract start date"
+        },
+        {
+          "startPos": 33,
+          "endPos": 42,
+          "entity": "contract start date value"
+        }
+      ]
+    },
+    {
+      "text": "who have the email florin@totalsoft.ro",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 17,
+          "entity": "mail"
+        },
+        {
+          "startPos": 19,
+          "endPos": 37,
+          "entity": "mail value"
+        }
+      ]
+    },
+    {
+      "text": "who have the national identification number 1842347654321",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 42,
+          "entity": "personal numeric code"
+        },
+        {
+          "startPos": 44,
+          "endPos": 56,
+          "entity": "personal numeric code value"
+        }
+      ]
+    },
+    {
+      "text": "who have the phone 0123456789",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 17,
+          "entity": "phone number"
+        },
+        {
+          "startPos": 19,
+          "endPos": 28,
+          "entity": "phone number value"
+        }
+      ]
+    },
+    {
+      "text": "who have the position of accountant",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 20,
+          "entity": "position"
+        },
+        {
+          "startPos": 25,
+          "endPos": 34,
+          "entity": "position value"
+        }
+      ]
+    },
+    {
+      "text": "who is manager",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 7,
+          "endPos": 13,
+          "entity": "position value"
+        }
+      ]
+    },
+    {
+      "text": "who is part of the accounting section",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 19,
+          "endPos": 28,
+          "entity": "department value"
+        },
+        {
+          "startPos": 30,
+          "endPos": 36,
+          "entity": "department"
+        }
+      ]
+    },
+    {
+      "text": "who is part of the human resources department",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 19,
+          "endPos": 33,
+          "entity": "department value"
+        },
+        {
+          "startPos": 35,
+          "endPos": 44,
+          "entity": "department"
+        }
+      ]
+    },
+    {
+      "text": "who owns the contract number jhr432376",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 27,
+          "entity": "contract ID"
+        },
+        {
+          "startPos": 29,
+          "endPos": 37,
+          "entity": "contract ID value"
+        }
+      ]
+    },
+    {
+      "text": "who owns the national identification number 567657654321",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 42,
+          "entity": "personal numeric code"
+        },
+        {
+          "startPos": 44,
+          "endPos": 55,
+          "entity": "personal numeric code value"
+        }
+      ]
+    },
+    {
+      "text": "who owns the telephone 9996543210",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 13,
+          "endPos": 21,
+          "entity": "phone number"
+        },
+        {
+          "startPos": 23,
+          "endPos": 32,
+          "entity": "phone number value"
+        }
+      ]
+    }
+  ],
+  "luis_schema_version": "4.0.0",
+  "tokenizerVersion": "1.0.0",
+  "settings": []
+}

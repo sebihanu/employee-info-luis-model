@@ -1,16 +1,97 @@
 {
-  "TestSummary": "PASSED: 6/6",
+  "TestSummary": "FAILED: 3/6",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_cnp_04.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "national identity number of raluca",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.71994555,
+      "ExpectedEntities": [
+        {
+          "Text": "national identity number",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "national identity number",
+          "Type": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "personal numerical code of raluca",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.639243841,
+      "ExpectedEntities": [
+        {
+          "Text": "personal numerical code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "personal numerical code",
+          "Type": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "personal numeric code of raluca",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.6386313,
+      "ExpectedEntities": [
+        {
+          "Text": "personal numeric code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "personal numeric code",
+          "Type": "personal numeric code"
+        }
+      ]
+    },
+    {
       "Result": "PASSED",
       "Utterance": "cnp of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.988919139,
+      "FoundTopIntentScore": 0.9550827,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -29,10 +110,6 @@
         {
           "Text": "cnp",
           "Type": "personal numeric code"
-        },
-        {
-          "Text": "of",
-          "Type": "personal numeric code value"
         }
       ]
     },
@@ -41,7 +118,7 @@
       "Utterance": "national identification number of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9188109,
+      "FoundTopIntentScore": 0.8325793,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -60,103 +137,6 @@
         {
           "Text": "national identification number",
           "Type": "personal numeric code"
-        },
-        {
-          "Text": "of",
-          "Type": "personal numeric code value"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "national identity number of raluca",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.90028584,
-      "ExpectedEntities": [
-        {
-          "Text": "national identity number",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        },
-        {
-          "Text": "national identity number",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "of",
-          "Type": "personal numeric code value"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "personal numerical code of raluca",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.878892362,
-      "ExpectedEntities": [
-        {
-          "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        },
-        {
-          "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "of",
-          "Type": "personal numeric code value"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "personal numeric code of raluca",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8786622,
-      "ExpectedEntities": [
-        {
-          "Text": "personal numeric code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        },
-        {
-          "Text": "personal numeric code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "of",
-          "Type": "personal numeric code value"
         }
       ]
     },
@@ -165,7 +145,7 @@
       "Utterance": "personal identification number of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9097573,
+      "FoundTopIntentScore": 0.7840208,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",
@@ -184,10 +164,6 @@
         {
           "Text": "personal identification number",
           "Type": "personal numeric code"
-        },
-        {
-          "Text": "of",
-          "Type": "personal numeric code value"
         }
       ]
     }

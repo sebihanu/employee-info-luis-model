@@ -10,7 +10,7 @@
       "Utterance": "who have the phone number 0722123456 123",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.89796114,
+      "FoundTopIntentScore": 0.8979025,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -57,7 +57,7 @@
       "Utterance": "who have the phone 0722123456 123",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9218516,
+      "FoundTopIntentScore": 0.8829629,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -100,7 +100,7 @@
       "Utterance": "who have the telephone 0722123456 123",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.920418143,
+      "FoundTopIntentScore": 0.8515711,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -143,7 +143,7 @@
       "Utterance": "who have the cellphone 0722123456 123",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8975419,
+      "FoundTopIntentScore": 0.8438367,
       "ExpectedEntities": [
         {
           "Text": "who",

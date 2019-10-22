@@ -10,7 +10,7 @@
       "Utterance": "what's raluca miu's email?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8922395,
+      "FoundTopIntentScore": 0.8581954,
       "ExpectedEntities": [
         {
           "Text": "email",
@@ -37,7 +37,7 @@
       "Utterance": "what's raluca miu's mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.87749666,
+      "FoundTopIntentScore": 0.796939552,
       "ExpectedEntities": [
         {
           "Text": "mail",
@@ -64,7 +64,7 @@
       "Utterance": "what's raluca miu's mail address",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9479903,
+      "FoundTopIntentScore": 0.953822255,
       "ExpectedEntities": [
         {
           "Text": "mail address",
@@ -91,7 +91,7 @@
       "Utterance": "what's raluca miu's e-mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9264592,
+      "FoundTopIntentScore": 0.9357397,
       "ExpectedEntities": [
         {
           "Text": "e - mail",
@@ -118,7 +118,7 @@
       "Utterance": "what's raluca miu's electronic mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9364595,
+      "FoundTopIntentScore": 0.9409604,
       "ExpectedEntities": [
         {
           "Text": "electronic mail",

@@ -1,16 +1,16 @@
 {
-  "TestSummary": "PASSED: 5/5",
+  "TestSummary": "FAILED: 2/5",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_email_11.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "PASSED",
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "help me with raluca miu's email?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8098402,
+      "FoundTopIntentScore": 0.740791738,
       "ExpectedEntities": [
         {
           "Text": "email",
@@ -33,11 +33,11 @@
       ]
     },
     {
-      "Result": "PASSED",
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "help me with raluca miu's mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.788408339,
+      "FoundTopIntentScore": 0.6535508,
       "ExpectedEntities": [
         {
           "Text": "mail",
@@ -64,7 +64,7 @@
       "Utterance": "help me with raluca miu's mail address",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.907347739,
+      "FoundTopIntentScore": 0.9114521,
       "ExpectedEntities": [
         {
           "Text": "mail address",
@@ -91,7 +91,7 @@
       "Utterance": "help me with raluca miu's e-mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.873756945,
+      "FoundTopIntentScore": 0.881660938,
       "ExpectedEntities": [
         {
           "Text": "e - mail",
@@ -118,7 +118,7 @@
       "Utterance": "help me with raluca miu's electronic mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8910442,
+      "FoundTopIntentScore": 0.891787648,
       "ExpectedEntities": [
         {
           "Text": "electronic mail",

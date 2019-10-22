@@ -1,16 +1,70 @@
 {
-  "TestSummary": "PASSED: 6/6",
+  "TestSummary": "FAILED: 2/6",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_cnp_11.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "help me with raluca miu's personal numerical code",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.6974756,
+      "ExpectedEntities": [
+        {
+          "Text": "personal numerical code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "personal numerical code",
+          "Type": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "help me with raluca miu's personal numeric code",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.696383,
+      "ExpectedEntities": [
+        {
+          "Text": "personal numeric code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "personal numeric code",
+          "Type": "personal numeric code"
+        }
+      ]
+    },
+    {
       "Result": "PASSED",
       "Utterance": "help me with raluca miu's cnp",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9798176,
+      "FoundTopIntentScore": 0.9611648,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -37,7 +91,7 @@
       "Utterance": "help me with raluca miu's national identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.876854,
+      "FoundTopIntentScore": 0.845953465,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -64,7 +118,7 @@
       "Utterance": "help me with raluca miu's national identity number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.857468545,
+      "FoundTopIntentScore": 0.766479254,
       "ExpectedEntities": [
         {
           "Text": "national identity number",
@@ -82,60 +136,6 @@
         },
         {
           "Text": "national identity number",
-          "Type": "personal numeric code"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "help me with raluca miu's personal numerical code",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.827925742,
-      "ExpectedEntities": [
-        {
-          "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        },
-        {
-          "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "help me with raluca miu's personal numeric code",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.827304065,
-      "ExpectedEntities": [
-        {
-          "Text": "personal numeric code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        },
-        {
-          "Text": "personal numeric code",
           "Type": "personal numeric code"
         }
       ]
@@ -145,7 +145,7 @@
       "Utterance": "help me with raluca miu's personal identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8659194,
+      "FoundTopIntentScore": 0.8094574,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",

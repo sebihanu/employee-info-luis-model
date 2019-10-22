@@ -10,7 +10,7 @@
       "Utterance": "contract",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.988213,
+      "FoundTopIntentScore": 0.9384432,
       "ExpectedEntities": [
         {
           "Text": "contract",
@@ -29,7 +29,7 @@
       "Utterance": "contract number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9902054,
+      "FoundTopIntentScore": 0.974064946,
       "ExpectedEntities": [
         {
           "Text": "contract number",
@@ -48,7 +48,7 @@
       "Utterance": "contract id",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.989206553,
+      "FoundTopIntentScore": 0.9704725,
       "ExpectedEntities": [
         {
           "Text": "contract id",

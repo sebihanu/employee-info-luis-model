@@ -10,7 +10,7 @@
       "Utterance": "who have the cnp 1823123743283",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.997852743,
+      "FoundTopIntentScore": 0.9976805,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -49,7 +49,7 @@
       "Utterance": "who have the national identification number 1823123743283",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.92503494,
+      "FoundTopIntentScore": 0.9216406,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -88,7 +88,7 @@
       "Utterance": "who have the national identity number 1823123743283",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9389305,
+      "FoundTopIntentScore": 0.9096754,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -127,7 +127,7 @@
       "Utterance": "who have the personal numerical code 1823123743283",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.916797936,
+      "FoundTopIntentScore": 0.8549673,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -166,7 +166,7 @@
       "Utterance": "who have the personal numeric code 1823123743283",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9150999,
+      "FoundTopIntentScore": 0.8519618,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -205,7 +205,7 @@
       "Utterance": "who have the personal identification number 1823123743283",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9232885,
+      "FoundTopIntentScore": 0.905010939,
       "ExpectedEntities": [
         {
           "Text": "who",

@@ -10,7 +10,7 @@
       "Utterance": "raluca's contract start date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.971102059,
+      "FoundTopIntentScore": 0.9568652,
       "ExpectedEntities": [
         {
           "Text": "contract start date",
@@ -37,7 +37,7 @@
       "Utterance": "raluca's contract date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.978874862,
+      "FoundTopIntentScore": 0.9639609,
       "ExpectedEntities": [
         {
           "Text": "contract date",
@@ -64,7 +64,7 @@
       "Utterance": "raluca's contract signed date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9596464,
+      "FoundTopIntentScore": 0.935472667,
       "ExpectedEntities": [
         {
           "Text": "contract signed date",

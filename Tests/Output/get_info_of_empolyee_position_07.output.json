@@ -1,16 +1,16 @@
 {
-  "TestSummary": "PASSED: 2/2",
+  "TestSummary": "FAILED: 1/2",
   "TestLanguage": "en",
   "InputFileName": "get_info_of_empolyee_position_07.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "PASSED",
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "who is analyst",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8768082,
+      "FoundTopIntentScore": 0.714740932,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -37,7 +37,7 @@
       "Utterance": "who is assistant",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.958128631,
+      "FoundTopIntentScore": 0.8999309,
       "ExpectedEntities": [
         {
           "Text": "who",

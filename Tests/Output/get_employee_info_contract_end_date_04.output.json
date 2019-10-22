@@ -10,7 +10,7 @@
       "Utterance": "contract end date of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.966953754,
+      "FoundTopIntentScore": 0.938091457,
       "ExpectedEntities": [
         {
           "Text": "contract end date",
@@ -37,7 +37,7 @@
       "Utterance": "contract termination date of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9674171,
+      "FoundTopIntentScore": 0.9352424,
       "ExpectedEntities": [
         {
           "Text": "contract termination date",
@@ -64,7 +64,7 @@
       "Utterance": "end date of the contract of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9310425,
+      "FoundTopIntentScore": 0.908515632,
       "ExpectedEntities": [
         {
           "Text": "end date of the contract",
@@ -91,7 +91,7 @@
       "Utterance": "contract expiry date of raluca",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9540605,
+      "FoundTopIntentScore": 0.9080223,
       "ExpectedEntities": [
         {
           "Text": "contract expiry date",

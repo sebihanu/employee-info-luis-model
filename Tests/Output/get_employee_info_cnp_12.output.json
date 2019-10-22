@@ -1,16 +1,70 @@
 {
-  "TestSummary": "PASSED: 6/6",
+  "TestSummary": "FAILED: 2/6",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_cnp_12.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "my personal numerical code",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.667183042,
+      "ExpectedEntities": [
+        {
+          "Text": "personal numerical code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "employee name"
+        },
+        {
+          "Text": "personal numerical code",
+          "Type": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "my personal numeric code",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.6664155,
+      "ExpectedEntities": [
+        {
+          "Text": "personal numeric code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "employee name"
+        },
+        {
+          "Text": "personal numeric code",
+          "Type": "personal numeric code"
+        }
+      ]
+    },
+    {
       "Result": "PASSED",
       "Utterance": "my cnp",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.992369831,
+      "FoundTopIntentScore": 0.9879251,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -37,7 +91,7 @@
       "Utterance": "my national identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.947307169,
+      "FoundTopIntentScore": 0.8920688,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -64,7 +118,7 @@
       "Utterance": "my national identity number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9300203,
+      "FoundTopIntentScore": 0.772097,
       "ExpectedEntities": [
         {
           "Text": "national identity number",
@@ -82,60 +136,6 @@
         },
         {
           "Text": "national identity number",
-          "Type": "personal numeric code"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "my personal numerical code",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.907154739,
-      "ExpectedEntities": [
-        {
-          "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "my",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "my",
-          "Type": "employee name"
-        },
-        {
-          "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "my personal numeric code",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9069214,
-      "ExpectedEntities": [
-        {
-          "Text": "personal numeric code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "my",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "my",
-          "Type": "employee name"
-        },
-        {
-          "Text": "personal numeric code",
           "Type": "personal numeric code"
         }
       ]
@@ -145,7 +145,7 @@
       "Utterance": "my personal identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9385533,
+      "FoundTopIntentScore": 0.8416858,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",

@@ -10,7 +10,7 @@
       "Utterance": "who has the cnp 1823123743283 999",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.966915369,
+      "FoundTopIntentScore": 0.9489109,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -53,7 +53,7 @@
       "Utterance": "who has the national identification number 1823123743283 999",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.936972439,
+      "FoundTopIntentScore": 0.927416,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -96,7 +96,7 @@
       "Utterance": "who has the national identity number 1823123743283 999",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9449914,
+      "FoundTopIntentScore": 0.9159934,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -139,7 +139,7 @@
       "Utterance": "who has the personal numerical code 1823123743283 999",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9350933,
+      "FoundTopIntentScore": 0.887296259,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -182,7 +182,7 @@
       "Utterance": "who has the personal numeric code 1823123743283 999",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.934204936,
+      "FoundTopIntentScore": 0.8857074,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -225,7 +225,7 @@
       "Utterance": "who has the personal identification number 1823123743283 999",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9364692,
+      "FoundTopIntentScore": 0.9164214,
       "ExpectedEntities": [
         {
           "Text": "who",

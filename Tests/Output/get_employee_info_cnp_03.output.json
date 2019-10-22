@@ -10,7 +10,7 @@
       "Utterance": "raluca miu's cnp",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.99209094,
+      "FoundTopIntentScore": 0.979193866,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -37,7 +37,7 @@
       "Utterance": "raluca miu's national identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.937368631,
+      "FoundTopIntentScore": 0.901011348,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -64,7 +64,7 @@
       "Utterance": "raluca miu's national identity number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.926231861,
+      "FoundTopIntentScore": 0.841521263,
       "ExpectedEntities": [
         {
           "Text": "national identity number",
@@ -91,7 +91,7 @@
       "Utterance": "raluca miu's personal numerical code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.908109367,
+      "FoundTopIntentScore": 0.7845175,
       "ExpectedEntities": [
         {
           "Text": "personal numerical code",
@@ -118,7 +118,7 @@
       "Utterance": "raluca miu's personal numeric code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9077117,
+      "FoundTopIntentScore": 0.7835572,
       "ExpectedEntities": [
         {
           "Text": "personal numeric code",
@@ -145,7 +145,7 @@
       "Utterance": "raluca miu's personal identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.931018054,
+      "FoundTopIntentScore": 0.874073565,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",

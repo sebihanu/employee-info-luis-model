@@ -10,7 +10,7 @@
       "Utterance": "what's raluca's email?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.910843849,
+      "FoundTopIntentScore": 0.86490196,
       "ExpectedEntities": [
         {
           "Text": "email",
@@ -37,7 +37,7 @@
       "Utterance": "what's raluca's mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8918401,
+      "FoundTopIntentScore": 0.784515262,
       "ExpectedEntities": [
         {
           "Text": "mail",
@@ -64,7 +64,7 @@
       "Utterance": "what's raluca's mail address",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9517977,
+      "FoundTopIntentScore": 0.9481628,
       "ExpectedEntities": [
         {
           "Text": "mail address",
@@ -91,7 +91,7 @@
       "Utterance": "what's raluca's e-mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9272501,
+      "FoundTopIntentScore": 0.923098,
       "ExpectedEntities": [
         {
           "Text": "e - mail",
@@ -118,7 +118,7 @@
       "Utterance": "what's raluca's electronic mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9375072,
+      "FoundTopIntentScore": 0.9293642,
       "ExpectedEntities": [
         {
           "Text": "electronic mail",

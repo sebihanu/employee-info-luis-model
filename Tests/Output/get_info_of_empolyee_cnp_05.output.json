@@ -1,16 +1,55 @@
 {
-  "TestSummary": "PASSED: 6/6",
+  "TestSummary": "FAILED: 1/6",
   "TestLanguage": "en",
   "InputFileName": "get_info_of_empolyee_cnp_05.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "who have the personal numeric code 1823123743283?",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.7492909,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "personal numeric code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "personal numeric code value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "personal numeric code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "personal numeric code value"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
       "Result": "PASSED",
       "Utterance": "who have the cnp 1823123743283?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9644748,
+      "FoundTopIntentScore": 0.9650807,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -49,7 +88,7 @@
       "Utterance": "who have the national identification number 1823123743283?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8357599,
+      "FoundTopIntentScore": 0.841489732,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -88,7 +127,7 @@
       "Utterance": "who have the national identity number 1823123743283?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8567835,
+      "FoundTopIntentScore": 0.8125923,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -127,7 +166,7 @@
       "Utterance": "who have the personal numerical code 1823123743283?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8371692,
+      "FoundTopIntentScore": 0.752311349,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -149,45 +188,6 @@
         },
         {
           "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "personal numeric code value"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "builtin.number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "who have the personal numeric code 1823123743283?",
-      "ExpectedTopIntent": "get_info_of_empolyee",
-      "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8352696,
-      "ExpectedEntities": [
-        {
-          "Text": "who",
-          "Type": "employee ID"
-        },
-        {
-          "Text": "personal numeric code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "personal numeric code value"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "who",
-          "Type": "employee ID"
-        },
-        {
-          "Text": "personal numeric code",
           "Type": "personal numeric code"
         },
         {
@@ -205,7 +205,7 @@
       "Utterance": "who have the personal identification number 1823123743283?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8354428,
+      "FoundTopIntentScore": 0.815357268,
       "ExpectedEntities": [
         {
           "Text": "who",

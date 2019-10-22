@@ -1,16 +1,97 @@
 {
-  "TestSummary": "PASSED: 4/4",
+  "TestSummary": "FAILED: 3/4",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_phone_10.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "help me with raluca's phone",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.7046543,
+      "ExpectedEntities": [
+        {
+          "Text": "phone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "phone",
+          "Type": "phone number"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "help me with raluca's telephone",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.403604776,
+      "ExpectedEntities": [
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "help me with raluca's cellphone",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.53734833,
+      "ExpectedEntities": [
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        }
+      ]
+    },
+    {
       "Result": "PASSED",
       "Utterance": "help me with raluca's phone number?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9775271,
+      "FoundTopIntentScore": 0.9694187,
       "ExpectedEntities": [
         {
           "Text": "phone number",
@@ -28,87 +109,6 @@
         },
         {
           "Text": "phone number",
-          "Type": "phone number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "help me with raluca's phone",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.878538,
-      "ExpectedEntities": [
-        {
-          "Text": "phone",
-          "Type": "phone number"
-        },
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        },
-        {
-          "Text": "phone",
-          "Type": "phone number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "help me with raluca's telephone",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8123673,
-      "ExpectedEntities": [
-        {
-          "Text": "telephone",
-          "Type": "phone number"
-        },
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        },
-        {
-          "Text": "telephone",
-          "Type": "phone number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "help me with raluca's cellphone",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.7903268,
-      "ExpectedEntities": [
-        {
-          "Text": "cellphone",
-          "Type": "phone number"
-        },
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca",
-          "Type": "employee name"
-        },
-        {
-          "Text": "cellphone",
           "Type": "phone number"
         }
       ]

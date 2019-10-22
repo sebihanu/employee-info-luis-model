@@ -10,7 +10,7 @@
       "Utterance": "who owns the phone number 0722123456",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.941215,
+      "FoundTopIntentScore": 0.950365365,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -49,7 +49,7 @@
       "Utterance": "who owns the phone 0722123456",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.962527633,
+      "FoundTopIntentScore": 0.953148,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -88,7 +88,7 @@
       "Utterance": "who owns the telephone 0722123456",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9483919,
+      "FoundTopIntentScore": 0.912321448,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -127,7 +127,7 @@
       "Utterance": "who owns the cellphone 0722123456",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9234227,
+      "FoundTopIntentScore": 0.894328535,
       "ExpectedEntities": [
         {
           "Text": "who",

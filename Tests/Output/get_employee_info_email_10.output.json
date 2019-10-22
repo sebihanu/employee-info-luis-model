@@ -1,16 +1,16 @@
 {
-  "TestSummary": "PASSED: 5/5",
+  "TestSummary": "FAILED: 2/5",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_email_10.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "PASSED",
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "help me with raluca's email?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8135135,
+      "FoundTopIntentScore": 0.7102919,
       "ExpectedEntities": [
         {
           "Text": "email",
@@ -33,11 +33,11 @@
       ]
     },
     {
-      "Result": "PASSED",
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "help me with raluca's mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.78251195,
+      "FoundTopIntentScore": 0.5906105,
       "ExpectedEntities": [
         {
           "Text": "mail",
@@ -64,7 +64,7 @@
       "Utterance": "help me with raluca's mail address",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.901735246,
+      "FoundTopIntentScore": 0.885987341,
       "ExpectedEntities": [
         {
           "Text": "mail address",
@@ -91,7 +91,7 @@
       "Utterance": "help me with raluca's e-mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8604898,
+      "FoundTopIntentScore": 0.8424451,
       "ExpectedEntities": [
         {
           "Text": "e - mail",
@@ -118,7 +118,7 @@
       "Utterance": "help me with raluca's electronic mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8807761,
+      "FoundTopIntentScore": 0.856519639,
       "ExpectedEntities": [
         {
           "Text": "electronic mail",

@@ -10,7 +10,7 @@
       "Utterance": "help me with raluca miu's contract?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.872867167,
+      "FoundTopIntentScore": 0.83620435,
       "ExpectedEntities": [
         {
           "Text": "contract",
@@ -41,7 +41,7 @@
       "Utterance": "help me with raluca miu's contract id",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.932649255,
+      "FoundTopIntentScore": 0.9359422,
       "ExpectedEntities": [
         {
           "Text": "contract id",
@@ -68,7 +68,7 @@
       "Utterance": "help me with raluca miu's contract number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.93385,
+      "FoundTopIntentScore": 0.937145054,
       "ExpectedEntities": [
         {
           "Text": "contract number",

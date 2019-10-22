@@ -10,7 +10,7 @@
       "Utterance": "help me with raluca miu's contract start date?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.946118355,
+      "FoundTopIntentScore": 0.95675,
       "ExpectedEntities": [
         {
           "Text": "contract start date",
@@ -37,7 +37,7 @@
       "Utterance": "help me with raluca miu's contract date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9410422,
+      "FoundTopIntentScore": 0.93630445,
       "ExpectedEntities": [
         {
           "Text": "contract date",
@@ -64,7 +64,7 @@
       "Utterance": "help me with raluca miu's contract signed date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9123083,
+      "FoundTopIntentScore": 0.9079526,
       "ExpectedEntities": [
         {
           "Text": "contract signed date",

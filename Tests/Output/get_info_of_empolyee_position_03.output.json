@@ -10,7 +10,7 @@
       "Utterance": "who has the function of account manager please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9979524,
+      "FoundTopIntentScore": 0.9989337,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -45,7 +45,7 @@
       "Utterance": "who has the role of account manager please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.997616768,
+      "FoundTopIntentScore": 0.9987591,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -80,7 +80,7 @@
       "Utterance": "who has the position of account manager please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9984265,
+      "FoundTopIntentScore": 0.9991949,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -115,7 +115,7 @@
       "Utterance": "who has the occupation of account manager please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.996500432,
+      "FoundTopIntentScore": 0.9981268,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -150,7 +150,7 @@
       "Utterance": "who has the job of account manager please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.998493135,
+      "FoundTopIntentScore": 0.999202549,
       "ExpectedEntities": [
         {
           "Text": "who",
