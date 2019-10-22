@@ -1,0 +1,2568 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.3",
+  "name": "CosminProto",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "CancelHolidayRequest"
+    },
+    {
+      "name": "contact_us"
+    },
+    {
+      "name": "get_employee_info"
+    },
+    {
+      "name": "get_info_of_empolyee"
+    },
+    {
+      "name": "HolidayBalance"
+    },
+    {
+      "name": "HolidayRequestStatus"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "overdraft"
+    },
+    {
+      "name": "pay_person"
+    },
+    {
+      "name": "payday"
+    },
+    {
+      "name": "savings_target"
+    },
+    {
+      "name": "smalltalk.name"
+    },
+    {
+      "name": "smalltalk_hello"
+    },
+    {
+      "name": "smalltalk_thank"
+    },
+    {
+      "name": "spend_category"
+    },
+    {
+      "name": "statement"
+    },
+    {
+      "name": "upcoming_bills"
+    }
+  ],
+  "entities": [
+    {
+      "name": "contract end date",
+      "roles": []
+    },
+    {
+      "name": "contract end date value",
+      "roles": []
+    },
+    {
+      "name": "contract ID",
+      "roles": []
+    },
+    {
+      "name": "contract ID value",
+      "roles": []
+    },
+    {
+      "name": "contract start date",
+      "roles": []
+    },
+    {
+      "name": "contract start date value",
+      "roles": []
+    },
+    {
+      "name": "department",
+      "roles": []
+    },
+    {
+      "name": "department value",
+      "roles": []
+    },
+    {
+      "name": "employee ID",
+      "roles": []
+    },
+    {
+      "name": "employee name",
+      "roles": []
+    },
+    {
+      "name": "mail",
+      "roles": []
+    },
+    {
+      "name": "mail value",
+      "roles": []
+    },
+    {
+      "name": "notice days",
+      "roles": []
+    },
+    {
+      "name": "notice days value",
+      "roles": []
+    },
+    {
+      "name": "personal numeric code",
+      "roles": []
+    },
+    {
+      "name": "personal numeric code value",
+      "roles": []
+    },
+    {
+      "name": "phone number",
+      "roles": []
+    },
+    {
+      "name": "phone number value",
+      "roles": []
+    },
+    {
+      "name": "position",
+      "roles": []
+    },
+    {
+      "name": "position value",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": [
+        "from",
+        "to"
+      ]
+    },
+    {
+      "name": "number",
+      "roles": []
+    },
+    {
+      "name": "ordinal",
+      "roles": []
+    }
+  ],
+  "model_features": [
+    {
+      "name": "phone PL",
+      "mode": true,
+      "words": "phone,phone number,telephone,cellphone",
+      "activated": true
+    },
+    {
+      "name": "contract PL",
+      "mode": true,
+      "words": "contract,contract number,contract id",
+      "activated": true
+    },
+    {
+      "name": "position PL",
+      "mode": true,
+      "words": "function,role,position,occupation,job",
+      "activated": true
+    },
+    {
+      "name": "cnp PL",
+      "mode": true,
+      "words": "cnp,national identification number,national identity number,personal numerical code,personal numeric code,personal identification number",
+      "activated": true
+    },
+    {
+      "name": "email PL",
+      "mode": true,
+      "words": "email,mail,mail address,e-mail,electronic mail",
+      "activated": true
+    },
+    {
+      "name": "department PL",
+      "mode": true,
+      "words": "department,division,section",
+      "activated": true
+    },
+    {
+      "name": "contract start date PL",
+      "mode": true,
+      "words": "contract start date,contract date,contract signed date",
+      "activated": true
+    },
+    {
+      "name": "contract end date PL",
+      "mode": true,
+      "words": "contract end date,contract termination date,end date of the contract,contract expiry date",
+      "activated": true
+    },
+    {
+      "name": "notice days PL",
+      "mode": true,
+      "words": "notice,notice days,dismissal,dismissal days",
+      "activated": true
+    },
+    {
+      "name": "position value PL",
+      "mode": true,
+      "words": "manager,accountant,software developer,director,engineer,consultant,auditor,executive,advisor,teacher,secretary,nurse,assistant,officer,chief,doctor,professor,journalist,architect,developer,project manager,software engineer,analyst,project engineer,financial analyst,account manager,technician,sales manager,systems engineer,account executive,product manager,coach",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "am i in my overdraft?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "am i near my overdraft limit?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "am i on track for my savings goal",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "am i saving enough money?",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "am i saving enough?",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "application invalidation",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "at what stage is my request for leave?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "balance",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "can i change my saving goal",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "can i have an overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "can i have your name?",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "can i hit my savings goal",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "can i pay somebody",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "can i repay my friend",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "can i see a transaction of my spending and bills",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "can i see my statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "can i send my friend some money",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "can i take a few more days off?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "can i take out an overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "can i talk to someone about",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "can i to pay someone",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "can i use a few days of remaining leave?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "can you dance with me?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you help me with george's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 21,
+          "endPos": 26
+        },
+        {
+          "entity": "phone number",
+          "startPos": 30,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "can you tell me a status of the remaining leave, please?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "cancel me a vacation request",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "cancel request",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "cancel request holidays",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "cheers for that",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "cnp",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "personal numeric code",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "contract end date of matilda",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "contract end date",
+          "startPos": 0,
+          "endPos": 16
+        },
+        {
+          "entity": "employee name",
+          "startPos": 21,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "contract id of susan?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "contract ID",
+          "startPos": 0,
+          "endPos": 10
+        },
+        {
+          "entity": "employee name",
+          "startPos": 15,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "contract start date of valentin",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "contract start date",
+          "startPos": 0,
+          "endPos": 18
+        },
+        {
+          "entity": "employee name",
+          "startPos": 23,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "cool thank you",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "delete my vacation request",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "department of george palade",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "department",
+          "startPos": 0,
+          "endPos": 9
+        },
+        {
+          "entity": "employee name",
+          "startPos": 14,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "dismissal days of boris",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "notice days",
+          "startPos": 0,
+          "endPos": 13
+        },
+        {
+          "entity": "employee name",
+          "startPos": 18,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "dismissal days of boris manta",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "notice days",
+          "startPos": 0,
+          "endPos": 13
+        },
+        {
+          "entity": "employee name",
+          "startPos": 18,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "division of george",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "department",
+          "startPos": 0,
+          "endPos": 7
+        },
+        {
+          "entity": "employee name",
+          "startPos": 12,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "do i have an overdraft?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "do i still have vacation days?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "do you have a name?",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "do you have any information about my vacation request?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "does it take longer to approve the holiday request?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "e-mail of grigore",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "mail",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "employee name",
+          "startPos": 10,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "fabian bute's dismissal days",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 10
+        },
+        {
+          "entity": "notice days",
+          "startPos": 14,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "fabian's dismissal days",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "notice days",
+          "startPos": 9,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "florin miu's email?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 9
+        },
+        {
+          "entity": "mail",
+          "startPos": 13,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "florin's email?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "mail",
+          "startPos": 9,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "function of mina",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "position",
+          "startPos": 0,
+          "endPos": 7
+        },
+        {
+          "entity": "employee name",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "fynn's national identification number",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 3
+        },
+        {
+          "entity": "personal numeric code",
+          "startPos": 7,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "give me an advice",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "give me cindy's contract",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 12
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 16,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "give me john's phone",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 11
+        },
+        {
+          "entity": "phone number",
+          "startPos": 15,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "give me my bank statement.",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "give me my statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "give me some details about the request for vacation initiated",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "give me the bank contact details",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "great thank you",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "greg's contract end date",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 3
+        },
+        {
+          "entity": "contract end date",
+          "startPos": 7,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "has my request for leave been approved for tomorrow?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "has my request for leave been approved?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "has the request for leave been admitted?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "hello there",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "hey there",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "hey you",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "hi good afternoon",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "hi there",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "holiday balance",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "holiday days report",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "horror movies are the best.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how are my savings doing",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "how big is my overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how can i pay back a friend",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "how can i repay my over draft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how can i send money to a friend",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "how close am i to my overdraft?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how do i contact a human",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "how do i contact the bank?",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "how do i contact you?",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "how do you do",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "how has my spend been split",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how is the weather?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how large is my overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how long is it before i get paid?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "how long is it til payday?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "how long til my bill is due",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "how long til payday",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "how many bills are coming before payday?",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "how many days of rest leave without payment do i have?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "how many notice days do i have?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "notice days",
+          "startPos": 9,
+          "endPos": 19
+        },
+        {
+          "entity": "employee name",
+          "startPos": 24,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "how many notice days fred has?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "notice days",
+          "startPos": 9,
+          "endPos": 19
+        },
+        {
+          "entity": "employee name",
+          "startPos": 21,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "how many notice days fred obama has?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "notice days",
+          "startPos": 9,
+          "endPos": 19
+        },
+        {
+          "entity": "employee name",
+          "startPos": 21,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "how much did i spend this month?",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how much have i spent on ?",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how much have i spent on this month?",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how much money have i spent on ?",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how much overdraft do i have left?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how much overdraft do i have remaining",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how to repay someone",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "i am going to have a steak.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i appreciate it",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "i changed my mind. cancel the request for vacation rest",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "i don't want any more leave",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "i expect an answer related to my request for leave",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "i initiated a request for leave and i want to know if it's ok",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "i like my boss.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i like to swimm.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need to contact the bank",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "i need to pay a friend",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "i need to see a statement of my bills",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "i need to send some money",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "i need to talk to you about",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "i need to transfer some money",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "i want a raise.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to buy a new car.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to call you",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "i want to see my bank statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "i want to see my latest transactions",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "i want to see my statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "i want to set my saving target",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "i want to talk to a person",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "i want to talk to someone",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "i want to talk to you about savings progress",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "i want your telephone number",
+      "intent": "contact_us",
+      "entities": []
+    },
+    {
+      "text": "i'am quitting my job.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'll have the orange duck and a double jack daniel's on the rocks.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'm going to take some vacation",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "invalidation of leave request",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "inventory of holiday days left",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "is my vacation request ok?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "left rest vacation",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "let's talk about the planet!",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "long time no see",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "mail of grigore ioan",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "mail",
+          "startPos": 0,
+          "endPos": 3
+        },
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "maria hulu's section?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 9
+        },
+        {
+          "entity": "department",
+          "startPos": 13,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "maria's department?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 4
+        },
+        {
+          "entity": "department",
+          "startPos": 8,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "michael oliver's contract?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 13
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 17,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "michael's contract number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 6
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 10,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "mircea's contract start date?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "contract start date",
+          "startPos": 9,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "morning to you",
+      "intent": "smalltalk_hello",
+      "entities": []
+    },
+    {
+      "text": "my contract id?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 3,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "my contract start date?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "contract start date",
+          "startPos": 3,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "my department?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "department",
+          "startPos": 3,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "my dismissal days?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "notice days",
+          "startPos": 3,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "my end date of the contract?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "contract end date",
+          "startPos": 3,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "my job?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "position",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "my mail address?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "mail",
+          "startPos": 3,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "my national identification number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "personal numeric code",
+          "startPos": 3,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "my phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "phone number",
+          "startPos": 3,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "national identification number of miruna",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "personal numeric code",
+          "startPos": 0,
+          "endPos": 29
+        },
+        {
+          "entity": "employee name",
+          "startPos": 34,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "national identification number of miruna stan",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "personal numeric code",
+          "startPos": 0,
+          "endPos": 29
+        },
+        {
+          "entity": "employee name",
+          "startPos": 34,
+          "endPos": 44
+        }
+      ]
+    },
+    {
+      "text": "phone number of mark",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "phone number",
+          "startPos": 0,
+          "endPos": 11
+        },
+        {
+          "entity": "employee name",
+          "startPos": 16,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "phone number of mark twain",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "phone number",
+          "startPos": 0,
+          "endPos": 11
+        },
+        {
+          "entity": "employee name",
+          "startPos": 16,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "please cancel my request for leave tomorrow",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "position of grigore muru",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "position",
+          "startPos": 0,
+          "endPos": 7
+        },
+        {
+          "entity": "employee name",
+          "startPos": 12,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "remove my request for leave",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "show me a statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "show me my recent transactions",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "something came up and i want you to withdraw my request for leave",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "status",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "stop a request for leave",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "tell me about my overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "tell me am i near my overdraft limit?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "tell me how much i've dropped on this month",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "tell me how much i've spent on",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "tell me if i have unused vacation days",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "tell me my upcoming bills",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "tell me what i have spent my money on",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "tell me what your name is",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "tell me your name?",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "thank you",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "thank you again",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "thank you so much",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "thanks a lot",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "thanks for your help",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "thanks so much",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "thanks very much",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "that is great, thanks",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "the balance of holiday days",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "to whom does contract xyz09876 belong",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 13,
+          "endPos": 20
+        },
+        {
+          "entity": "contract ID value",
+          "startPos": 22,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "to whom does e-mail diana@yahoo.net belong",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "mail",
+          "startPos": 13,
+          "endPos": 18
+        },
+        {
+          "entity": "mail value",
+          "startPos": 20,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "to whom does national identification number 1345365421 belong",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "personal numeric code",
+          "startPos": 13,
+          "endPos": 42
+        },
+        {
+          "entity": "personal numeric code value",
+          "startPos": 44,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "to whom does the cellphone 9976543210 belong",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "phone number",
+          "startPos": 17,
+          "endPos": 25
+        },
+        {
+          "entity": "phone number value",
+          "startPos": 27,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "tudor's position?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 4
+        },
+        {
+          "entity": "position",
+          "startPos": 8,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "very good thank you",
+      "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "what are my recent purchases?",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "what are you called",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "what bills am i yet to pay",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills are coming up",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills are coming up?",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills do i have coming up",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills have i still got to pay?",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what can i call you?",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "what can you tell me about the vacation request?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "what do i call you",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "what happened to my vacation request?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "what have i spent my money on",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "what have i spent my money on?",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "what is contract end date of matilda campu",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "contract end date",
+          "startPos": 8,
+          "endPos": 24
+        },
+        {
+          "entity": "employee name",
+          "startPos": 29,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "what is contract id of susan lee?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "contract ID",
+          "startPos": 8,
+          "endPos": 18
+        },
+        {
+          "entity": "employee name",
+          "startPos": 23,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "what is jane's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 11
+        },
+        {
+          "entity": "phone number",
+          "startPos": 21,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "what is john's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 11
+        },
+        {
+          "entity": "phone number",
+          "startPos": 15,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "what is mike's phone?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 11
+        },
+        {
+          "entity": "phone number",
+          "startPos": 15,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "what is mircea balu's contract date?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 18
+        },
+        {
+          "entity": "contract start date",
+          "startPos": 22,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "what is my overdraft limit",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "what is my saving goal?",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "what is my savings target",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "what is my spend split",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "what is occupation of grigore",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "position",
+          "startPos": 8,
+          "endPos": 17
+        },
+        {
+          "entity": "employee name",
+          "startPos": 22,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "what is tudor vama's role?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 17
+        },
+        {
+          "entity": "position",
+          "startPos": 21,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "what is your interest rate on an overdraft?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "what is your name?",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "what time is it?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what's contract start date of valentin cimpoi",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "contract start date",
+          "startPos": 7,
+          "endPos": 25
+        },
+        {
+          "entity": "employee name",
+          "startPos": 30,
+          "endPos": 44
+        }
+      ]
+    },
+    {
+      "text": "what's fynn laslo's national identification number",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 7,
+          "endPos": 16
+        },
+        {
+          "entity": "personal numeric code",
+          "startPos": 20,
+          "endPos": 49
+        }
+      ]
+    },
+    {
+      "text": "what's greg yang's contract termination date",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 7,
+          "endPos": 15
+        },
+        {
+          "entity": "contract end date",
+          "startPos": 19,
+          "endPos": 43
+        }
+      ]
+    },
+    {
+      "text": "what's my free days balance?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "what's the status of my vacation days?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "whats your name",
+      "intent": "smalltalk.name",
+      "entities": []
+    },
+    {
+      "text": "when am i getting paid",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when can i expect to be paid",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when do i next get paid",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when is my next payday?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when is pay day?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when is payday",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when will i next be paid?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "which bills are coming up",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "which bills do i need to pay before i get paid?",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "which bills do i still need to pay",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "who has 14 days notice",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "notice days value",
+          "startPos": 8,
+          "endPos": 9
+        },
+        {
+          "entity": "notice days",
+          "startPos": 16,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "who has 2 dismissal days",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "notice days value",
+          "startPos": 8,
+          "endPos": 8
+        },
+        {
+          "entity": "notice days",
+          "startPos": 10,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "who has the contract date 12/15/2000",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "contract start date",
+          "startPos": 12,
+          "endPos": 24
+        },
+        {
+          "entity": "contract start date value",
+          "startPos": 26,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "who has the contract id fds43234765",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 12,
+          "endPos": 22
+        },
+        {
+          "entity": "contract ID value",
+          "startPos": 24,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "who has the end date of the contract 03/08/2017",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "contract end date",
+          "startPos": 12,
+          "endPos": 35
+        },
+        {
+          "entity": "contract end date value",
+          "startPos": 37,
+          "endPos": 46
+        }
+      ]
+    },
+    {
+      "text": "who has the function of software developer",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "position",
+          "startPos": 12,
+          "endPos": 19
+        },
+        {
+          "entity": "position value",
+          "startPos": 24,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "who has the mail sorin@gmail.com",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "mail",
+          "startPos": 12,
+          "endPos": 15
+        },
+        {
+          "entity": "mail value",
+          "startPos": 17,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "who has the national identification number 1854334545431",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "personal numeric code",
+          "startPos": 12,
+          "endPos": 41
+        },
+        {
+          "entity": "personal numeric code value",
+          "startPos": 43,
+          "endPos": 55
+        }
+      ]
+    },
+    {
+      "text": "who has the phone number 0113356789",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "phone number",
+          "startPos": 12,
+          "endPos": 23
+        },
+        {
+          "entity": "phone number value",
+          "startPos": 25,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "who have 10 days notice",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "notice days value",
+          "startPos": 9,
+          "endPos": 10
+        },
+        {
+          "entity": "notice days",
+          "startPos": 17,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "who have 17 dismissal days",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "notice days value",
+          "startPos": 9,
+          "endPos": 10
+        },
+        {
+          "entity": "notice days",
+          "startPos": 12,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "who have the contract end date 05/11/2013",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "contract end date",
+          "startPos": 13,
+          "endPos": 29
+        },
+        {
+          "entity": "contract end date value",
+          "startPos": 31,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "who have the contract fyt89032123",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 13,
+          "endPos": 20
+        },
+        {
+          "entity": "contract ID value",
+          "startPos": 22,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "who have the contract start date 11/11/2020",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "contract start date",
+          "startPos": 13,
+          "endPos": 31
+        },
+        {
+          "entity": "contract start date value",
+          "startPos": 33,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "who have the email florin@totalsoft.ro",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "mail",
+          "startPos": 13,
+          "endPos": 17
+        },
+        {
+          "entity": "mail value",
+          "startPos": 19,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "who have the national identification number 1842347654321",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "personal numeric code",
+          "startPos": 13,
+          "endPos": 42
+        },
+        {
+          "entity": "personal numeric code value",
+          "startPos": 44,
+          "endPos": 56
+        }
+      ]
+    },
+    {
+      "text": "who have the phone 0123456789",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "phone number",
+          "startPos": 13,
+          "endPos": 17
+        },
+        {
+          "entity": "phone number value",
+          "startPos": 19,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "who have the position of accountant",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "position",
+          "startPos": 13,
+          "endPos": 20
+        },
+        {
+          "entity": "position value",
+          "startPos": 25,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "who is manager",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "position value",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "who is part of the accounting section",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "department value",
+          "startPos": 19,
+          "endPos": 28
+        },
+        {
+          "entity": "department",
+          "startPos": 30,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "who is part of the human resources department",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "department value",
+          "startPos": 19,
+          "endPos": 33
+        },
+        {
+          "entity": "department",
+          "startPos": 35,
+          "endPos": 44
+        }
+      ]
+    },
+    {
+      "text": "who owns the contract number jhr432376",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 13,
+          "endPos": 27
+        },
+        {
+          "entity": "contract ID value",
+          "startPos": 29,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "who owns the national identification number 567657654321",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "personal numeric code",
+          "startPos": 13,
+          "endPos": 42
+        },
+        {
+          "entity": "personal numeric code value",
+          "startPos": 44,
+          "endPos": 55
+        }
+      ]
+    },
+    {
+      "text": "who owns the telephone 9996543210",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "phone number",
+          "startPos": 13,
+          "endPos": 21
+        },
+        {
+          "entity": "phone number value",
+          "startPos": 23,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "will i hit my savings target",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "you're ok with my vacation request",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
