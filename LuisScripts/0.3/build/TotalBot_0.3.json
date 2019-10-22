@@ -20,6 +20,36 @@
     },
     {
       "name": "smalltalk_thank"
+    },
+    {
+      "name": "overdraft"
+    },
+    {
+      "name": "pay_person"
+    },
+    {
+      "name": "payday"
+    },
+    {
+      "name": "savings_target"
+    },
+    {
+      "name": "spend_category"
+    },
+    {
+      "name": "statement"
+    },
+    {
+      "name": "upcoming_bills"
+    },
+    {
+      "name": "HolidayBalance"
+    },
+    {
+      "name": "CancelHolidayRequest"
+    },
+    {
+      "name": "HolidayRequestStatus"
     }
   ],
   "entities": [
@@ -1645,6 +1675,56 @@
       "entities": []
     },
     {
+      "text": "can you dance with me?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "horror movies are the best.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am going to have a steak.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i like my boss.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i like to swimm.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want a raise.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to buy a new car.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'am quitting my job.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'll have the orange duck and a double jack daniel's on the rocks.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "let's talk about the planet!",
+      "intent": "None",
+      "entities": []
+    },
+    {
       "text": "can i talk to someone about",
       "intent": "contact_us",
       "entities": []
@@ -1867,6 +1947,611 @@
     {
       "text": "very good thank you",
       "intent": "smalltalk_thank",
+      "entities": []
+    },
+    {
+      "text": "am i in my overdraft?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "am i near my overdraft limit?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "can i have an overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "can i take out an overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "do i have an overdraft?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how big is my overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how can i repay my over draft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how close am i to my overdraft?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how large is my overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how much overdraft do i have left?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "how much overdraft do i have remaining",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "tell me about my overdraft",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "tell me am i near my overdraft limit?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "what is my overdraft limit",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "what is your interest rate on an overdraft?",
+      "intent": "overdraft",
+      "entities": []
+    },
+    {
+      "text": "can i pay somebody",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "can i repay my friend",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "can i send my friend some money",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "can i to pay someone",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "how can i pay back a friend",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "how can i send money to a friend",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "how to repay someone",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "i need to pay a friend",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "i need to send some money",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "i need to transfer some money",
+      "intent": "pay_person",
+      "entities": []
+    },
+    {
+      "text": "how long is it before i get paid?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "how long is it til payday?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "how long til payday",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when am i getting paid",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when can i expect to be paid",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when do i next get paid",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when is my next payday?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when is pay day?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when is payday",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "when will i next be paid?",
+      "intent": "payday",
+      "entities": []
+    },
+    {
+      "text": "am i on track for my savings goal",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "am i saving enough money?",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "am i saving enough?",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "can i change my saving goal",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "can i hit my savings goal",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "how are my savings doing",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "i want to set my saving target",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "i want to talk to you about savings progress",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "what is my saving goal?",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "what is my savings target",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "will i hit my savings target",
+      "intent": "savings_target",
+      "entities": []
+    },
+    {
+      "text": "how has my spend been split",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how much did i spend this month?",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how much have i spent on ?",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how much have i spent on this month?",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "how much money have i spent on ?",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "tell me how much i've dropped on this month",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "tell me how much i've spent on",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "tell me what i have spent my money on",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "what have i spent my money on",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "what is my spend split",
+      "intent": "spend_category",
+      "entities": []
+    },
+    {
+      "text": "can i see a transaction of my spending and bills",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "can i see my statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "give me my bank statement.",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "give me my statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "i need to see a statement of my bills",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "i want to see my bank statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "i want to see my latest transactions",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "i want to see my statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "show me a statement",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "show me my recent transactions",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "what are my recent purchases?",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "what have i spent my money on?",
+      "intent": "statement",
+      "entities": []
+    },
+    {
+      "text": "how long til my bill is due",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "how many bills are coming before payday?",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "tell me my upcoming bills",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills am i yet to pay",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills are coming up",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills are coming up?",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills do i have coming up",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "what bills have i still got to pay?",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "which bills are coming up",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "which bills do i need to pay before i get paid?",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "which bills do i still need to pay",
+      "intent": "upcoming_bills",
+      "entities": []
+    },
+    {
+      "text": "balance",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "can i take a few more days off?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "can i use a few days of remaining leave?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "can you tell me a status of the remaining leave, please?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "do i still have vacation days?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "holiday balance",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "holiday days report",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "how many days of rest leave without payment do i have?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "inventory of holiday days left",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "left rest vacation",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "tell me if i have unused vacation days",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "the balance of holiday days",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "what's my free days balance?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "what's the status of my vacation days?",
+      "intent": "HolidayBalance",
+      "entities": []
+    },
+    {
+      "text": "application invalidation",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "cancel me a vacation request",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "cancel request",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "cancel request holidays",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "delete my vacation request",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "i changed my mind. cancel the request for vacation rest",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "i don't want any more leave",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "i'm going to take some vacation",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "invalidation of leave request",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "please cancel my request for leave tomorrow",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "remove my request for leave",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "something came up and i want you to withdraw my request for leave",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "stop a request for leave",
+      "intent": "CancelHolidayRequest",
+      "entities": []
+    },
+    {
+      "text": "at what stage is my request for leave?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "do you have any information about my vacation request?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "does it take longer to approve the holiday request?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "give me some details about the request for vacation initiated",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "has my request for leave been approved for tomorrow?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "has my request for leave been approved?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "has the request for leave been admitted?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "i expect an answer related to my request for leave",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "i initiated a request for leave and i want to know if it's ok",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "is my vacation request ok?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "status",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "what can you tell me about the vacation request?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "what happened to my vacation request?",
+      "intent": "HolidayRequestStatus",
+      "entities": []
+    },
+    {
+      "text": "you're ok with my vacation request",
+      "intent": "HolidayRequestStatus",
       "entities": []
     }
   ],

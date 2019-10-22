@@ -10,7 +10,7 @@
       "Utterance": "who have the function of analyst?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9206406,
+      "FoundTopIntentScore": 0.8567962,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -45,7 +45,7 @@
       "Utterance": "who have the role of analyst?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.910380542,
+      "FoundTopIntentScore": 0.8463234,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -80,7 +80,7 @@
       "Utterance": "who have the position of analyst?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9372417,
+      "FoundTopIntentScore": 0.893375933,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -115,7 +115,7 @@
       "Utterance": "who have the occupation of analyst?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.889250934,
+      "FoundTopIntentScore": 0.808520555,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -150,7 +150,7 @@
       "Utterance": "who have the job of analyst?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.932490468,
+      "FoundTopIntentScore": 0.8713441,
       "ExpectedEntities": [
         {
           "Text": "who",

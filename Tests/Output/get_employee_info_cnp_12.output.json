@@ -1,5 +1,5 @@
 {
-  "TestSummary": "FAILED: 2/6",
+  "TestSummary": "FAILED: 3/6",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_cnp_12.json",
   "InputFolder": "Input",
@@ -7,10 +7,37 @@
   "OutputTestUtterances": [
     {
       "Result": "FAILED: Intent score too low ",
+      "Utterance": "my national identity number",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.6982985,
+      "ExpectedEntities": [
+        {
+          "Text": "national identity number",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "employee name"
+        },
+        {
+          "Text": "national identity number",
+          "Type": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "my personal numerical code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.667183042,
+      "FoundTopIntentScore": 0.497865081,
       "ExpectedEntities": [
         {
           "Text": "personal numerical code",
@@ -37,7 +64,7 @@
       "Utterance": "my personal numeric code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.6664155,
+      "FoundTopIntentScore": 0.49742198,
       "ExpectedEntities": [
         {
           "Text": "personal numeric code",
@@ -64,7 +91,7 @@
       "Utterance": "my cnp",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9879251,
+      "FoundTopIntentScore": 0.9582465,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -91,7 +118,7 @@
       "Utterance": "my national identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8920688,
+      "FoundTopIntentScore": 0.9119162,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -109,33 +136,6 @@
         },
         {
           "Text": "national identification number",
-          "Type": "personal numeric code"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "my national identity number",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.772097,
-      "ExpectedEntities": [
-        {
-          "Text": "national identity number",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "my",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "my",
-          "Type": "employee name"
-        },
-        {
-          "Text": "national identity number",
           "Type": "personal numeric code"
         }
       ]
@@ -145,7 +145,7 @@
       "Utterance": "my personal identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8416858,
+      "FoundTopIntentScore": 0.8345943,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",

@@ -10,7 +10,7 @@
       "Utterance": "who have the contract end date 03/05/2019",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.919620454,
+      "FoundTopIntentScore": 0.8996745,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -65,7 +65,7 @@
       "Utterance": "who have the contract termination date 03/05/2019",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.880485833,
+      "FoundTopIntentScore": 0.852609,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -120,7 +120,7 @@
       "Utterance": "who have the end date of the contract 03/05/2019",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9461498,
+      "FoundTopIntentScore": 0.91715914,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -149,6 +149,10 @@
           "Type": "contract end date value"
         },
         {
+          "Text": "05 / 2019",
+          "Type": "contract start date value"
+        },
+        {
           "Text": "who",
           "Type": "employee ID"
         },
@@ -175,7 +179,7 @@
       "Utterance": "who have the contract expiry date 03/05/2019",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.905150056,
+      "FoundTopIntentScore": 0.8753888,
       "ExpectedEntities": [
         {
           "Text": "who",

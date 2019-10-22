@@ -6,11 +6,11 @@
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED: Intent not matching expected one. Expected: get_employee_info, Found: smalltalk_hello ",
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "telephone",
       "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "smalltalk_hello",
-      "FoundTopIntentScore": 0.4814305,
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.3238548,
       "ExpectedEntities": [
         {
           "Text": "telephone",
@@ -29,7 +29,7 @@
       "Utterance": "cellphone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.6503789,
+      "FoundTopIntentScore": 0.620719,
       "ExpectedEntities": [
         {
           "Text": "cellphone",
@@ -48,7 +48,7 @@
       "Utterance": "phone number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9669966,
+      "FoundTopIntentScore": 0.973048031,
       "ExpectedEntities": [
         {
           "Text": "phone number",
@@ -67,7 +67,7 @@
       "Utterance": "phone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.923799932,
+      "FoundTopIntentScore": 0.918507457,
       "ExpectedEntities": [
         {
           "Text": "phone",

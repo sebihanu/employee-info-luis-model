@@ -10,7 +10,7 @@
       "Utterance": "national identity number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.734091043,
+      "FoundTopIntentScore": 0.7260671,
       "ExpectedEntities": [
         {
           "Text": "national identity number",
@@ -29,7 +29,7 @@
       "Utterance": "personal numerical code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.6362005,
+      "FoundTopIntentScore": 0.5367469,
       "ExpectedEntities": [
         {
           "Text": "personal numerical code",
@@ -48,7 +48,7 @@
       "Utterance": "personal numeric code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.6362005,
+      "FoundTopIntentScore": 0.5367469,
       "ExpectedEntities": [
         {
           "Text": "personal numeric code",
@@ -67,7 +67,7 @@
       "Utterance": "cnp",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.929279,
+      "FoundTopIntentScore": 0.9442986,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -86,7 +86,7 @@
       "Utterance": "national identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8756588,
+      "FoundTopIntentScore": 0.9254195,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -105,7 +105,7 @@
       "Utterance": "personal identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.819069564,
+      "FoundTopIntentScore": 0.8565444,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",

@@ -138,6 +138,16 @@
 - give me an advice
 - how is the weather?
 - what time is it?
+- can you dance with me?
+- horror movies are the best.
+- i am going to have a steak.
+- i like my boss.
+- i like to swimm.
+- i want a raise.
+- i want to buy a new car.
+- i'am quitting my job.
+- i'll have the orange duck and a double jack daniel's on the rocks.
+- let's talk about the planet!
 
 ## contact_us
 - can i talk to someone about
@@ -193,6 +203,151 @@
 - that is great, thanks
 - very good thank you
 
+## overdraft
+- am i in my overdraft?
+- am i near my overdraft limit?
+- can i have an overdraft
+- can i take out an overdraft
+- do i have an overdraft?
+- how big is my overdraft
+- how can i repay my over draft
+- how close am i to my overdraft?
+- how large is my overdraft
+- how much overdraft do i have left?
+- how much overdraft do i have remaining
+- tell me about my overdraft
+- tell me am i near my overdraft limit?
+- what is my overdraft limit
+- what is your interest rate on an overdraft?
+
+
+## pay_person
+- can i pay somebody
+- can i repay my friend
+- can i send my friend some money
+- can i to pay someone
+- how can i pay back a friend
+- how can i send money to a friend
+- how to repay someone
+- i need to pay a friend
+- i need to send some money
+- i need to transfer some money
+
+
+## payday
+- how long is it before i get paid?
+- how long is it til payday?
+- how long til payday
+- when am i getting paid
+- when can i expect to be paid
+- when do i next get paid
+- when is my next payday?
+- when is pay day?
+- when is payday
+- when will i next be paid?
+
+
+## savings_target
+- am i on track for my savings goal
+- am i saving enough money?
+- am i saving enough?
+- can i change my saving goal
+- can i hit my savings goal
+- how are my savings doing
+- i want to set my saving target
+- i want to talk to you about savings progress
+- what is my saving goal?
+- what is my savings target
+- will i hit my savings target
+
+## spend_category
+- how has my spend been split
+- how much did i spend this month?
+- how much have i spent on ?
+- how much have i spent on this month?
+- how much money have i spent on ?
+- tell me how much i've dropped on this month
+- tell me how much i've spent on
+- tell me what i have spent my money on
+- what have i spent my money on
+- what is my spend split
+
+
+## statement
+- can i see a transaction of my spending and bills
+- can i see my statement
+- give me my bank statement.
+- give me my statement
+- i need to see a statement of my bills
+- i want to see my bank statement
+- i want to see my latest transactions
+- i want to see my statement
+- show me a statement
+- show me my recent transactions
+- what are my recent purchases?
+- what have i spent my money on?
+
+
+## upcoming_bills
+- how long til my bill is due
+- how many bills are coming before payday?
+- tell me my upcoming bills
+- what bills am i yet to pay
+- what bills are coming up
+- what bills are coming up?
+- what bills do i have coming up
+- what bills have i still got to pay?
+- which bills are coming up
+- which bills do i need to pay before i get paid?
+- which bills do i still need to pay
+
+## HolidayBalance
+- balance
+- can i take a few more days off?
+- can i use a few days of remaining leave?
+- can you tell me a status of the remaining leave, please?
+- do i still have vacation days?
+- holiday balance
+- holiday days report
+- how many days of rest leave without payment do i have?
+- inventory of holiday days left
+- left rest vacation
+- tell me if i have unused vacation days
+- the balance of holiday days
+- what's my free days balance?
+- what's the status of my vacation days?
+
+## CancelHolidayRequest
+- application invalidation
+- cancel
+- cancel me a vacation request
+- cancel request
+- cancel request holidays
+- delete my vacation request
+- i changed my mind. cancel the request for vacation rest
+- i don't want any more leave
+- i'm going to take some vacation
+- invalidation of leave request
+- please cancel my request for leave tomorrow
+- remove my request for leave
+- something came up and i want you to withdraw my request for leave
+- stop a request for leave
+
+## HolidayRequestStatus
+- at what stage is my request for leave?
+- do you have any information about my vacation request?
+- does it take longer to approve the holiday request?
+- give me some details about the request for vacation initiated
+- has my request for leave been approved for tomorrow?
+- has my request for leave been approved?
+- has the request for leave been admitted?
+- i expect an answer related to my request for leave
+- i initiated a request for leave and i want to know if it's ok
+- is my vacation request ok?
+- status
+- what can you tell me about the vacation request?
+- what happened to my vacation request?
+- you're ok with my vacation request
 
 > # Entity definitions
 

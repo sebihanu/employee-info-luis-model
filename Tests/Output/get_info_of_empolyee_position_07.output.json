@@ -10,7 +10,7 @@
       "Utterance": "who is analyst",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.714740932,
+      "FoundTopIntentScore": 0.660022259,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -37,7 +37,7 @@
       "Utterance": "who is assistant",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8999309,
+      "FoundTopIntentScore": 0.8862749,
       "ExpectedEntities": [
         {
           "Text": "who",

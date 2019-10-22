@@ -10,7 +10,7 @@
       "Utterance": "who has the phone number 0722123456 012",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.886079431,
+      "FoundTopIntentScore": 0.877670467,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -57,7 +57,7 @@
       "Utterance": "who has the phone 0722123456 012",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8461092,
+      "FoundTopIntentScore": 0.764701545,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -100,7 +100,7 @@
       "Utterance": "who has the telephone 0722123456 012",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8353107,
+      "FoundTopIntentScore": 0.759992838,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -143,7 +143,7 @@
       "Utterance": "who has the cellphone 0722123456 012",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8361527,
+      "FoundTopIntentScore": 0.7574925,
       "ExpectedEntities": [
         {
           "Text": "who",

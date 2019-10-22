@@ -10,7 +10,7 @@
       "Utterance": "my telephone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.39890933,
+      "FoundTopIntentScore": 0.28226766,
       "ExpectedEntities": [
         {
           "Text": "telephone",
@@ -37,7 +37,7 @@
       "Utterance": "my cellphone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.675608,
+      "FoundTopIntentScore": 0.5355874,
       "ExpectedEntities": [
         {
           "Text": "cellphone",
@@ -64,7 +64,7 @@
       "Utterance": "my phone number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.980206847,
+      "FoundTopIntentScore": 0.970616341,
       "ExpectedEntities": [
         {
           "Text": "phone number",
@@ -91,7 +91,7 @@
       "Utterance": "my phone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9558323,
+      "FoundTopIntentScore": 0.8911994,
       "ExpectedEntities": [
         {
           "Text": "phone",

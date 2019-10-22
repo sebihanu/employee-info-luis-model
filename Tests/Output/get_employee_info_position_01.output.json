@@ -10,7 +10,7 @@
       "Utterance": "position",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.916650653,
+      "FoundTopIntentScore": 0.916519642,
       "ExpectedEntities": [
         {
           "Text": "position",
@@ -29,7 +29,7 @@
       "Utterance": "role",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9353479,
+      "FoundTopIntentScore": 0.941838145,
       "ExpectedEntities": [
         {
           "Text": "role",
@@ -48,7 +48,7 @@
       "Utterance": "function",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9439397,
+      "FoundTopIntentScore": 0.956346869,
       "ExpectedEntities": [
         {
           "Text": "function",
@@ -67,7 +67,7 @@
       "Utterance": "occupation",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9491508,
+      "FoundTopIntentScore": 0.9535898,
       "ExpectedEntities": [
         {
           "Text": "occupation",
@@ -86,7 +86,7 @@
       "Utterance": "job",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9273304,
+      "FoundTopIntentScore": 0.941098,
       "ExpectedEntities": [
         {
           "Text": "job",

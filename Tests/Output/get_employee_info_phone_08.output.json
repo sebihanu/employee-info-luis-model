@@ -10,7 +10,7 @@
       "Utterance": "what's raluca's telephone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.6030702,
+      "FoundTopIntentScore": 0.48156,
       "ExpectedEntities": [
         {
           "Text": "telephone",
@@ -37,7 +37,7 @@
       "Utterance": "what's raluca's cellphone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.7178061,
+      "FoundTopIntentScore": 0.591925859,
       "ExpectedEntities": [
         {
           "Text": "cellphone",
@@ -64,7 +64,7 @@
       "Utterance": "what's raluca's phone number?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9877845,
+      "FoundTopIntentScore": 0.985239148,
       "ExpectedEntities": [
         {
           "Text": "phone number",
@@ -91,7 +91,7 @@
       "Utterance": "what's raluca's phone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8637763,
+      "FoundTopIntentScore": 0.7835742,
       "ExpectedEntities": [
         {
           "Text": "phone",

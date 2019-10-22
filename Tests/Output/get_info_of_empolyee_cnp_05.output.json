@@ -1,5 +1,5 @@
 {
-  "TestSummary": "FAILED: 1/6",
+  "TestSummary": "FAILED: 4/6",
   "TestLanguage": "en",
   "InputFileName": "get_info_of_empolyee_cnp_05.json",
   "InputFolder": "Input",
@@ -7,10 +7,88 @@
   "OutputTestUtterances": [
     {
       "Result": "FAILED: Intent score too low ",
+      "Utterance": "who have the national identity number 1823123743283?",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.6804497,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "national identity number",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "personal numeric code value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "national identity number",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "personal numeric code value"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "who have the personal numerical code 1823123743283?",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.5189369,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "personal numerical code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "personal numeric code value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "personal numerical code",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "personal numeric code value"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "who have the personal numeric code 1823123743283?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.7492909,
+      "FoundTopIntentScore": 0.51450026,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -45,11 +123,50 @@
       ]
     },
     {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "who have the personal identification number 1823123743283?",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.727267146,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "personal identification number",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "personal numeric code value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "personal identification number",
+          "Type": "personal numeric code"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "personal numeric code value"
+        },
+        {
+          "Text": "1823123743283",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
       "Result": "PASSED",
       "Utterance": "who have the cnp 1823123743283?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9650807,
+      "FoundTopIntentScore": 0.9536957,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -88,7 +205,7 @@
       "Utterance": "who have the national identification number 1823123743283?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.841489732,
+      "FoundTopIntentScore": 0.7970258,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -110,123 +227,6 @@
         },
         {
           "Text": "national identification number",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "personal numeric code value"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "builtin.number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "who have the national identity number 1823123743283?",
-      "ExpectedTopIntent": "get_info_of_empolyee",
-      "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8125923,
-      "ExpectedEntities": [
-        {
-          "Text": "who",
-          "Type": "employee ID"
-        },
-        {
-          "Text": "national identity number",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "personal numeric code value"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "who",
-          "Type": "employee ID"
-        },
-        {
-          "Text": "national identity number",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "personal numeric code value"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "builtin.number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "who have the personal numerical code 1823123743283?",
-      "ExpectedTopIntent": "get_info_of_empolyee",
-      "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.752311349,
-      "ExpectedEntities": [
-        {
-          "Text": "who",
-          "Type": "employee ID"
-        },
-        {
-          "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "personal numeric code value"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "who",
-          "Type": "employee ID"
-        },
-        {
-          "Text": "personal numerical code",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "personal numeric code value"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "builtin.number"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "who have the personal identification number 1823123743283?",
-      "ExpectedTopIntent": "get_info_of_empolyee",
-      "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.815357268,
-      "ExpectedEntities": [
-        {
-          "Text": "who",
-          "Type": "employee ID"
-        },
-        {
-          "Text": "personal identification number",
-          "Type": "personal numeric code"
-        },
-        {
-          "Text": "1823123743283",
-          "Type": "personal numeric code value"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "who",
-          "Type": "employee ID"
-        },
-        {
-          "Text": "personal identification number",
           "Type": "personal numeric code"
         },
         {

@@ -10,7 +10,7 @@
       "Utterance": "to whom does the email tudorg@totalsoft.ro belong",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9917267,
+      "FoundTopIntentScore": 0.9886044,
       "ExpectedEntities": [
         {
           "Text": "whom",
@@ -45,7 +45,7 @@
       "Utterance": "to whom does the mail tudorg@totalsoft.ro belong",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9905806,
+      "FoundTopIntentScore": 0.9866138,
       "ExpectedEntities": [
         {
           "Text": "whom",
@@ -80,7 +80,7 @@
       "Utterance": "to whom does the e-mail tudorg@totalsoft.ro belong",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.995177269,
+      "FoundTopIntentScore": 0.995141447,
       "ExpectedEntities": [
         {
           "Text": "whom",
@@ -115,7 +115,7 @@
       "Utterance": "to whom does the electronic mail tudorg@totalsoft.ro belong",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.994232655,
+      "FoundTopIntentScore": 0.9948748,
       "ExpectedEntities": [
         {
           "Text": "whom",

@@ -10,7 +10,7 @@
       "Utterance": "what is raluca's national identity number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.720469,
+      "FoundTopIntentScore": 0.643158436,
       "ExpectedEntities": [
         {
           "Text": "national identity number",
@@ -37,7 +37,7 @@
       "Utterance": "what is raluca's personal numerical code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.6307722,
+      "FoundTopIntentScore": 0.480192274,
       "ExpectedEntities": [
         {
           "Text": "personal numerical code",
@@ -64,7 +64,7 @@
       "Utterance": "what is raluca's personal numeric code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.629628062,
+      "FoundTopIntentScore": 0.478910178,
       "ExpectedEntities": [
         {
           "Text": "personal numeric code",
@@ -91,7 +91,7 @@
       "Utterance": "what is raluca's cnp",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.95441556,
+      "FoundTopIntentScore": 0.9083876,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -118,7 +118,7 @@
       "Utterance": "what is raluca's national identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8292486,
+      "FoundTopIntentScore": 0.8391453,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -145,7 +145,7 @@
       "Utterance": "what is raluca's personal identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.7801216,
+      "FoundTopIntentScore": 0.7577312,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",

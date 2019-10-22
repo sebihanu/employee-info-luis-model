@@ -10,7 +10,7 @@
       "Utterance": "who owns the email tudorg@totalsoft.ro",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.989409447,
+      "FoundTopIntentScore": 0.986567438,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -45,7 +45,7 @@
       "Utterance": "who owns the mail tudorg@totalsoft.ro",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.987444043,
+      "FoundTopIntentScore": 0.983489037,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -80,7 +80,7 @@
       "Utterance": "who owns the e-mail tudorg@totalsoft.ro",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9931606,
+      "FoundTopIntentScore": 0.9933141,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -115,7 +115,7 @@
       "Utterance": "who owns the electronic mail tudorg@totalsoft.ro",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.991448462,
+      "FoundTopIntentScore": 0.992787063,
       "ExpectedEntities": [
         {
           "Text": "who",

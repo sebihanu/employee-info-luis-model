@@ -10,7 +10,7 @@
       "Utterance": "what's raluca's personal numerical code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.7469736,
+      "FoundTopIntentScore": 0.599486,
       "ExpectedEntities": [
         {
           "Text": "personal numerical code",
@@ -37,7 +37,7 @@
       "Utterance": "what's raluca's personal numeric code",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.7455289,
+      "FoundTopIntentScore": 0.5976313,
       "ExpectedEntities": [
         {
           "Text": "personal numeric code",
@@ -64,7 +64,7 @@
       "Utterance": "what's raluca's cnp",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9786487,
+      "FoundTopIntentScore": 0.9518951,
       "ExpectedEntities": [
         {
           "Text": "cnp",
@@ -91,7 +91,7 @@
       "Utterance": "what's raluca's national identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8953065,
+      "FoundTopIntentScore": 0.8944273,
       "ExpectedEntities": [
         {
           "Text": "national identification number",
@@ -118,7 +118,7 @@
       "Utterance": "what's raluca's national identity number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.8237209,
+      "FoundTopIntentScore": 0.752358258,
       "ExpectedEntities": [
         {
           "Text": "national identity number",
@@ -145,7 +145,7 @@
       "Utterance": "what's raluca's personal identification number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.862011254,
+      "FoundTopIntentScore": 0.836145043,
       "ExpectedEntities": [
         {
           "Text": "personal identification number",
