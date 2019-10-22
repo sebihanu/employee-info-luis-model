@@ -1,0 +1,144 @@
+{
+  "TestSummary": "PASSED: 5/5",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_position_05.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "position of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9584679,
+      "ExpectedEntities": [
+        {
+          "Text": "position",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "position",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "role of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.963781536,
+      "ExpectedEntities": [
+        {
+          "Text": "role",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "role",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "function of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.96075,
+      "ExpectedEntities": [
+        {
+          "Text": "function",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "function",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "occupation of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9667986,
+      "ExpectedEntities": [
+        {
+          "Text": "occupation",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "occupation",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "job of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9596138,
+      "ExpectedEntities": [
+        {
+          "Text": "job",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "job",
+          "Type": "position"
+        }
+      ]
+    }
+  ]
+}

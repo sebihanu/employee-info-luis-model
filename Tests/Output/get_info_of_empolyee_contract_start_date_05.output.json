@@ -1,0 +1,174 @@
+{
+  "TestSummary": "PASSED: 3/3",
+  "TestLanguage": "en",
+  "InputFileName": "get_info_of_empolyee_contract_start_date_05.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the contract start date 03/05/2019?",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.911205947,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract start date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract start date value"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract start date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract start date value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "03",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "05",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "2019",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the contract date 03/05/2019?",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.90534234,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract start date value"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract start date value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "03",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "05",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "2019",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the contract signed date 03/05/2019?",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9085643,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract signed date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract start date value"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract signed date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract start date value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "03",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "05",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "2019",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ]
+    }
+  ]
+}

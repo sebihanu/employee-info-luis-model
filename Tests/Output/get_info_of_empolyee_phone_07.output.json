@@ -1,0 +1,165 @@
+{
+  "TestSummary": "PASSED: 4/4",
+  "TestLanguage": "en",
+  "InputFileName": "get_info_of_empolyee_phone_07.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "to whom does the phone number 0722123456 belong",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.938131452,
+      "ExpectedEntities": [
+        {
+          "Text": "whom",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "phone number",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "whom",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "phone number",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "to whom does the phone 0722123456 belong",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.947856963,
+      "ExpectedEntities": [
+        {
+          "Text": "whom",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "phone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "whom",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "phone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "to whom does the telephone 0722123456 belong",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9520684,
+      "ExpectedEntities": [
+        {
+          "Text": "whom",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "whom",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "to whom does the cellphone 0722123456 belong",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9422958,
+      "ExpectedEntities": [
+        {
+          "Text": "whom",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "whom",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "builtin.number"
+        }
+      ]
+    }
+  ]
+}

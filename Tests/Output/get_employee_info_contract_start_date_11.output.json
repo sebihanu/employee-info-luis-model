@@ -1,0 +1,90 @@
+{
+  "TestSummary": "PASSED: 3/3",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_start_date_11.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "help me with raluca miu's contract start date?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.946118355,
+      "ExpectedEntities": [
+        {
+          "Text": "contract start date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract start date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "help me with raluca miu's contract date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9410422,
+      "ExpectedEntities": [
+        {
+          "Text": "contract date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "help me with raluca miu's contract signed date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9123083,
+      "ExpectedEntities": [
+        {
+          "Text": "contract signed date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract signed date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    }
+  ]
+}

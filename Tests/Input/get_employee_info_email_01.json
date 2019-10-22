@@ -1,0 +1,41 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "email",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"email" }
+      ]
+    },
+	{
+      "utterance": "mail",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"mail" }
+      ]
+    },
+	{
+      "utterance": "mail address",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"mail address" }
+      ]
+    },
+	{
+      "utterance": "e-mail",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"e - mail" }
+      ]
+    },
+	{
+      "utterance": "electronic mail",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"electronic mail" }
+      ]
+    }
+  ]
+}

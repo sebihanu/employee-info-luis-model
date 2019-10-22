@@ -1,0 +1,94 @@
+{
+  "TestSummary": "PASSED: 3/3",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_04.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "contract of raluca",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9356169,
+      "ExpectedEntities": [
+        {
+          "Text": "contract",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "of",
+          "Type": "contract ID value"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "contract id of raluca",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.96738863,
+      "ExpectedEntities": [
+        {
+          "Text": "contract id",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract id",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "contract number of raluca",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9677077,
+      "ExpectedEntities": [
+        {
+          "Text": "contract number",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    }
+  ]
+}

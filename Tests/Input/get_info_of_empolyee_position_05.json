@@ -1,0 +1,96 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "who have the function of analyst?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "position",
+          "text": "function"
+        },
+        {
+          "type": "position value",
+          "text": "analyst"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the role of analyst?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "position",
+          "text": "role"
+        },
+        {
+          "type": "position value",
+          "text": "analyst"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the position of analyst?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "position",
+          "text": "position"
+        },
+        {
+          "type": "position value",
+          "text": "analyst"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the occupation of analyst?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "position",
+          "text": "occupation"
+        },
+        {
+          "type": "position value",
+          "text": "analyst"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the job of analyst?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "position",
+          "text": "job"
+        },
+        {
+          "type": "position value",
+          "text": "analyst"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "cnp",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "cnp"
+        }
+      ]
+    },
+    {
+      "utterance": "national identification number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "national identification number"
+        }
+      ]
+    },
+    {
+      "utterance": "national identity number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "national identity number"
+        }
+      ]
+    },
+    {
+      "utterance": "personal numerical code",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal numerical code"
+        }
+      ]
+    },
+    {
+      "utterance": "personal numeric code",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal numeric code"
+        }
+      ]
+    },
+    {
+      "utterance": "personal identification number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal identification number"
+        }
+      ]
+    }
+  ]
+}

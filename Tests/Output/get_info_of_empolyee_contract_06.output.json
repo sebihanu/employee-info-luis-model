@@ -1,0 +1,126 @@
+{
+  "TestSummary": "PASSED: 3/3",
+  "TestLanguage": "en",
+  "InputFileName": "get_info_of_empolyee_contract_06.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the contract abcd123543 123",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.900993168,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "abcd123543",
+          "Type": "contract ID value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "abcd123543",
+          "Type": "contract ID value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "123",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the contract id abcd123543 123",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.8799248,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract id",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "abcd123543",
+          "Type": "contract ID value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract id",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "abcd123543",
+          "Type": "contract ID value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "123",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the contract number abcd123543 123",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.91065377,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract number",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "abcd123543",
+          "Type": "contract ID value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "abcd123543",
+          "Type": "contract ID value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "123",
+          "Type": "builtin.number"
+        }
+      ]
+    }
+  ]
+}

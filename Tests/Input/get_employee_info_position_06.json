@@ -1,0 +1,76 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "what is raluca's position?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "position"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "what is raluca's role?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "role"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "what is raluca's function?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "function"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "what is raluca's occupation?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "occupation"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "what is raluca's job?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "job"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "raluca's contract",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract ID", "text":"contract" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "raluca's contract number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract ID", "text":"contract number" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "raluca's contract id",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract ID", "text":"contract id" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    }
+  ]
+}

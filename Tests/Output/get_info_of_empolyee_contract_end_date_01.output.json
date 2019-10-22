@@ -1,0 +1,229 @@
+{
+  "TestSummary": "PASSED: 4/4",
+  "TestLanguage": "en",
+  "InputFileName": "get_info_of_empolyee_contract_end_date_01.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "who has the contract end date 03/05/2019",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.947240233,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract end date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract end date value"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract end date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract end date value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "03",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "05",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "2019",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who has the contract termination date 03/05/2019",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.921589255,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract termination date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract end date value"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract termination date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract end date value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "03",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "05",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "2019",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who has the end date of the contract 03/05/2019",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9612249,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "end date of the contract",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract end date value"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "end date of the contract",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract end date value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "03",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "05",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "2019",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who has the contract expiry date 03/05/2019",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9391415,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "contract expiry date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract end date value"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract expiry date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "03 / 05 / 2019",
+          "Type": "contract end date value"
+        },
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "03",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "05",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "2019",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "03/05/2019",
+          "Type": "builtin.datetimeV2.date"
+        }
+      ]
+    }
+  ]
+}

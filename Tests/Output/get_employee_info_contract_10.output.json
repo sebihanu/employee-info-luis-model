@@ -1,0 +1,94 @@
+{
+  "TestSummary": "PASSED: 3/3",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_10.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "help me with raluca's contract?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.882490039,
+      "ExpectedEntities": [
+        {
+          "Text": "contract",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "?",
+          "Type": "contract ID value"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "help me with raluca's contract id",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9309377,
+      "ExpectedEntities": [
+        {
+          "Text": "contract id",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract id",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "help me with raluca's contract number",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.932708263,
+      "ExpectedEntities": [
+        {
+          "Text": "contract number",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    }
+  ]
+}

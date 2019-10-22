@@ -1,0 +1,38 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "phone number of raluca miu",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"phone number" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "phone of raluca miu",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"phone" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "telephone of raluca miu",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"telephone" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "cellphone of raluca miu",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"cellphone" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    }
+  ]
+}

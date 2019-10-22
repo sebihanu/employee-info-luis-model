@@ -1,0 +1,144 @@
+{
+  "TestSummary": "PASSED: 5/5",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_position_06.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "what is raluca's position?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.941210032,
+      "ExpectedEntities": [
+        {
+          "Text": "position",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "position",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what is raluca's role?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.948643148,
+      "ExpectedEntities": [
+        {
+          "Text": "role",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "role",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what is raluca's function?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9441165,
+      "ExpectedEntities": [
+        {
+          "Text": "function",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "function",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what is raluca's occupation?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9500219,
+      "ExpectedEntities": [
+        {
+          "Text": "occupation",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "occupation",
+          "Type": "position"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what is raluca's job?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9449255,
+      "ExpectedEntities": [
+        {
+          "Text": "job",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        },
+        {
+          "Text": "job",
+          "Type": "position"
+        }
+      ]
+    }
+  ]
+}

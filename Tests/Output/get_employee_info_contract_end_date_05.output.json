@@ -1,0 +1,117 @@
+{
+  "TestSummary": "PASSED: 4/4",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_end_date_05.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "contract end date of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.96488595,
+      "ExpectedEntities": [
+        {
+          "Text": "contract end date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract end date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "contract termination date of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9654389,
+      "ExpectedEntities": [
+        {
+          "Text": "contract termination date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract termination date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "end date of the contract of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9335713,
+      "ExpectedEntities": [
+        {
+          "Text": "end date of the contract",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "end date of the contract",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "contract expiry date of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.953571,
+      "ExpectedEntities": [
+        {
+          "Text": "contract expiry date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract expiry date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    }
+  ]
+}

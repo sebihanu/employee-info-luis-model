@@ -1,0 +1,38 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "phone number of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"phone number" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "phone of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"phone" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "telephone of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"telephone" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "cellphone of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"cellphone" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    }
+  ]
+}

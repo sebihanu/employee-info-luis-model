@@ -1,0 +1,34 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "who is analyst",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "position value",
+          "text": "analyst"
+        }
+      ]
+    },
+    {
+      "utterance": "who is assistant",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "position value",
+          "text": "assistant"
+        }
+      ]
+    }
+  ]
+}

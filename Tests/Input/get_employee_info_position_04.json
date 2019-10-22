@@ -1,0 +1,76 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "position of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "position"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "role of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "role"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "function of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "function"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "occupation of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "occupation"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "job of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "job"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    }
+  ]
+}

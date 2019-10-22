@@ -1,0 +1,76 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "my position",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "position"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my role",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "role"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my function",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "function"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my occupation",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "occupation"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my job",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "job"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    }
+  ]
+}

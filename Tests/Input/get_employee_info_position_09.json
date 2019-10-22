@@ -1,0 +1,76 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "what's raluca miu's position?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "position"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca miu"
+        }
+      ]
+    },
+    {
+      "utterance": "what's raluca miu's role?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "role"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca miu"
+        }
+      ]
+    },
+    {
+      "utterance": "what's raluca miu's function?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "function"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca miu"
+        }
+      ]
+    },
+    {
+      "utterance": "what's raluca miu's occupation?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "occupation"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca miu"
+        }
+      ]
+    },
+    {
+      "utterance": "what's raluca miu's job?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "position",
+          "text": "job"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca miu"
+        }
+      ]
+    }
+  ]
+}

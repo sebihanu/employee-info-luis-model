@@ -1,0 +1,90 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "help me with raluca's cnp",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "cnp"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "help me with raluca's national identification number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "national identification number"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "help me with raluca's national identity number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "national identity number"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "help me with raluca's personal numerical code",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal numerical code"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "help me with raluca's personal numeric code",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal numeric code"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    },
+    {
+      "utterance": "help me with raluca's personal identification number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal identification number"
+        },
+        {
+          "type": "employee name",
+          "text": "raluca"
+        }
+      ]
+    }
+  ]
+}

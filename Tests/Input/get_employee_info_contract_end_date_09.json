@@ -1,0 +1,38 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "what's raluca miu's contract end date?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract end date" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "what's raluca miu's contract termination date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract termination date" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "what's raluca miu's contract termination date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract termination date" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "what's raluca miu's contract expiry date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract expiry date" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    }
+  ]
+}

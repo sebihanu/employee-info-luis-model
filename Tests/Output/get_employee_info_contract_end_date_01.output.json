@@ -1,0 +1,85 @@
+{
+  "TestSummary": "PASSED: 4/4",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_end_date_01.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "contract end date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.987927,
+      "ExpectedEntities": [
+        {
+          "Text": "contract end date",
+          "Type": "contract end date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract end date",
+          "Type": "contract end date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "contract termination date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.986742735,
+      "ExpectedEntities": [
+        {
+          "Text": "contract termination date",
+          "Type": "contract end date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract termination date",
+          "Type": "contract end date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "end date of the contract",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9737733,
+      "ExpectedEntities": [
+        {
+          "Text": "end date of the contract",
+          "Type": "contract end date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "end date of the contract",
+          "Type": "contract end date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "contract expiry date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9788122,
+      "ExpectedEntities": [
+        {
+          "Text": "contract expiry date",
+          "Type": "contract end date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract expiry date",
+          "Type": "contract end date"
+        }
+      ]
+    }
+  ]
+}

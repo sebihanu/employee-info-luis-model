@@ -1,0 +1,46 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "email of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"email" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "mail of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"mail" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "mail address of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"mail address" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "e-mail of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"e - mail" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "electronic mail of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"electronic mail" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "TestSummary": "PASSED: 5/5",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_email_12.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "my email",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.961086631,
+      "ExpectedEntities": [
+        {
+          "Text": "email",
+          "Type": "mail"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "employee name"
+        },
+        {
+          "Text": "email",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "my mail",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9732693,
+      "ExpectedEntities": [
+        {
+          "Text": "mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "employee name"
+        },
+        {
+          "Text": "mail",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "my mail address",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9797968,
+      "ExpectedEntities": [
+        {
+          "Text": "mail address",
+          "Type": "mail"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "employee name"
+        },
+        {
+          "Text": "mail address",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "my e-mail",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.953377545,
+      "ExpectedEntities": [
+        {
+          "Text": "e - mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "employee name"
+        },
+        {
+          "Text": "e - mail",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "my electronic mail",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.967952251,
+      "ExpectedEntities": [
+        {
+          "Text": "electronic mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "my",
+          "Type": "employee name"
+        },
+        {
+          "Text": "electronic mail",
+          "Type": "mail"
+        }
+      ]
+    }
+  ]
+}

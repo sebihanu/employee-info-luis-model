@@ -1,0 +1,46 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "what's raluca miu's email?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"email" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "what's raluca miu's mail",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"mail" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "what's raluca miu's mail address",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"mail address" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "what's raluca miu's e-mail",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"e - mail" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "what's raluca miu's electronic mail",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "mail", "text":"electronic mail" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    }
+  ]
+}

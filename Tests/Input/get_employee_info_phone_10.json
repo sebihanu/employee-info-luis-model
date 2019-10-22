@@ -1,0 +1,38 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "help me with raluca's phone number?",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"phone number" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "help me with raluca's phone",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"phone" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "help me with raluca's telephone",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"telephone" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "help me with raluca's cellphone",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"cellphone" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "TestSummary": "PASSED: 5/5",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_email_05.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "email of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.8761752,
+      "ExpectedEntities": [
+        {
+          "Text": "email",
+          "Type": "mail"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "email",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "mail of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.894189656,
+      "ExpectedEntities": [
+        {
+          "Text": "mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "mail",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "mail address of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9500169,
+      "ExpectedEntities": [
+        {
+          "Text": "mail address",
+          "Type": "mail"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "mail address",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "e-mail of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9216808,
+      "ExpectedEntities": [
+        {
+          "Text": "e - mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "e - mail",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "electronic mail of raluca miu",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9409296,
+      "ExpectedEntities": [
+        {
+          "Text": "electronic mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "electronic mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "of raluca miu",
+          "Type": "mail value"
+        }
+      ]
+    }
+  ]
+}

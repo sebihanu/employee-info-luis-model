@@ -1,0 +1,90 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "my cnp",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "cnp"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my national identification number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "national identification number"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my national identity number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "national identity number"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my personal numerical code",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal numerical code"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my personal numeric code",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal numeric code"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    },
+    {
+      "utterance": "my personal identification number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        {
+          "type": "personal numeric code",
+          "text": "personal identification number"
+        },
+        {
+          "type": "employee name",
+          "text": "my"
+        }
+      ]
+    }
+  ]
+}

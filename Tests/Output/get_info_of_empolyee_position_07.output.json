@@ -1,0 +1,63 @@
+{
+  "TestSummary": "PASSED: 2/2",
+  "TestLanguage": "en",
+  "InputFileName": "get_info_of_empolyee_position_07.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "who is analyst",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.8768082,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who is assistant",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.958128631,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "assistant",
+          "Type": "position value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "assistant",
+          "Type": "position value"
+        }
+      ]
+    }
+  ]
+}

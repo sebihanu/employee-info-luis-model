@@ -1,0 +1,42 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "who does the email tudorg@totalsoft.ro belong to",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "mail", "text":"email" },
+		{ "type": "mail value", "text":"tudorg @ totalsoft . ro" }
+      ]
+    },
+	{
+      "utterance": "who does the mail tudorg@totalsoft.ro belong to",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "mail", "text":"mail" },
+		{ "type": "mail value", "text":"tudorg @ totalsoft . ro" }
+      ]
+    },
+	{
+      "utterance": "who does the e-mail tudorg@totalsoft.ro belong to",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "mail", "text":"e - mail" },
+		{ "type": "mail value", "text":"tudorg @ totalsoft . ro" }
+      ]
+    },
+	{
+      "utterance": "who does the electronic mail tudorg@totalsoft.ro belong to",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "mail", "text":"electronic mail" },
+		{ "type": "mail value", "text":"tudorg @ totalsoft . ro" }
+      ]
+    }
+  ]
+}

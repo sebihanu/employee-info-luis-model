@@ -1,0 +1,90 @@
+{
+  "TestSummary": "PASSED: 3/3",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_03.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "raluca miu's contract",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.934308648,
+      "ExpectedEntities": [
+        {
+          "Text": "contract",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "raluca miu's contract id",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.97048825,
+      "ExpectedEntities": [
+        {
+          "Text": "contract id",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract id",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "raluca miu's contract number",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.971257448,
+      "ExpectedEntities": [
+        {
+          "Text": "contract number",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract number",
+          "Type": "contract ID"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ]
+    }
+  ]
+}

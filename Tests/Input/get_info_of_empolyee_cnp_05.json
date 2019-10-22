@@ -1,0 +1,114 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [
+    {
+      "utterance": "who have the cnp 1823123743283?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "personal numeric code",
+          "text": "cnp"
+        },
+        {
+          "type": "personal numeric code value",
+          "text": "1823123743283"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the national identification number 1823123743283?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "personal numeric code",
+          "text": "national identification number"
+        },
+        {
+          "type": "personal numeric code value",
+          "text": "1823123743283"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the national identity number 1823123743283?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "personal numeric code",
+          "text": "national identity number"
+        },
+        {
+          "type": "personal numeric code value",
+          "text": "1823123743283"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the personal numerical code 1823123743283?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "personal numeric code",
+          "text": "personal numerical code"
+        },
+        {
+          "type": "personal numeric code value",
+          "text": "1823123743283"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the personal numeric code 1823123743283?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "personal numeric code",
+          "text": "personal numeric code"
+        },
+        {
+          "type": "personal numeric code value",
+          "text": "1823123743283"
+        }
+      ]
+    },
+    {
+      "utterance": "who have the personal identification number 1823123743283?",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        {
+          "type": "employee ID",
+          "text": "who"
+        },
+        {
+          "type": "personal numeric code",
+          "text": "personal identification number"
+        },
+        {
+          "type": "personal numeric code value",
+          "text": "1823123743283"
+        }
+      ]
+    }
+  ]
+}

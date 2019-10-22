@@ -1,0 +1,204 @@
+{
+  "TestSummary": "PASSED: 5/5",
+  "TestLanguage": "en",
+  "InputFileName": "get_info_of_empolyee_position_06.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the function of analyst please",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9705083,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "function",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "analyst please",
+          "Type": "employee name"
+        },
+        {
+          "Text": "function",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the role of analyst please",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9660255,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "role",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "analyst please",
+          "Type": "employee name"
+        },
+        {
+          "Text": "role",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the position of analyst please",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.976986766,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "position",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "analyst please",
+          "Type": "employee name"
+        },
+        {
+          "Text": "position",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the occupation of analyst please",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9539698,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "occupation",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "analyst please",
+          "Type": "employee name"
+        },
+        {
+          "Text": "occupation",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the job of analyst please",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.97721225,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "job",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "analyst please",
+          "Type": "employee name"
+        },
+        {
+          "Text": "job",
+          "Type": "position"
+        },
+        {
+          "Text": "analyst",
+          "Type": "position value"
+        }
+      ]
+    }
+  ]
+}

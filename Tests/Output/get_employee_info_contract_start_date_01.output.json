@@ -1,0 +1,66 @@
+{
+  "TestSummary": "PASSED: 3/3",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_start_date_01.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "contract start date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.987122953,
+      "ExpectedEntities": [
+        {
+          "Text": "contract start date",
+          "Type": "contract start date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract start date",
+          "Type": "contract start date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "contract date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9933951,
+      "ExpectedEntities": [
+        {
+          "Text": "contract date",
+          "Type": "contract start date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract date",
+          "Type": "contract start date"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "contract signed date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9782747,
+      "ExpectedEntities": [
+        {
+          "Text": "contract signed date",
+          "Type": "contract start date"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract signed date",
+          "Type": "contract start date"
+        }
+      ]
+    }
+  ]
+}

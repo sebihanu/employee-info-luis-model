@@ -1,0 +1,335 @@
+{
+  "name": "CosminProto",
+  "versionId": "0.1",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "get_employee_info"
+    },
+    {
+      "name": "get_info_of_empolyee"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "contract ID",
+      "roles": []
+    },
+    {
+      "name": "employee ID",
+      "roles": []
+    },
+    {
+      "name": "employee name",
+      "roles": []
+    },
+    {
+      "name": "phone number",
+      "roles": []
+    }
+  ],
+  "closedLists": [],
+  "composites": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "regex_features": [],
+  "model_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "can you help me with george's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 21,
+          "endPos": 26,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 30,
+          "endPos": 41,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "contract of susan?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 7,
+          "entity": "contract ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 16,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "give me an advice",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "give me cindy's contract",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 12,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 16,
+          "endPos": 23,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "give me john's phone",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 15,
+          "endPos": 19,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "how is the weather?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "michael's contract?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 6,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 10,
+          "endPos": 17,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "my contract id?",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 1,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 3,
+          "endPos": 10,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "phone number of mark?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 11,
+          "entity": "phone number"
+        },
+        {
+          "startPos": 16,
+          "endPos": 19,
+          "entity": "employee name"
+        }
+      ]
+    },
+    {
+      "text": "what is jane's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 21,
+          "endPos": 26,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "what is john's phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 15,
+          "endPos": 19,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "what is mary's contract id?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 15,
+          "endPos": 22,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "what is mike's phone?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 11,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 15,
+          "endPos": 19,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "what is my phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "startPos": 8,
+          "endPos": 9,
+          "entity": "employee name"
+        },
+        {
+          "startPos": 11,
+          "endPos": 15,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "what time is it?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "who does contract id xyz09876 belong to?",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 9,
+          "endPos": 28,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "who does phone number 9876543210 belong to?",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 9,
+          "endPos": 31,
+          "entity": "phone number"
+        }
+      ]
+    },
+    {
+      "text": "who has contract fyt890765?",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 8,
+          "endPos": 25,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "who has contract id abc12345?",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 8,
+          "endPos": 27,
+          "entity": "contract ID"
+        }
+      ]
+    },
+    {
+      "text": "who has the phone number 0123456789?",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "startPos": 0,
+          "endPos": 2,
+          "entity": "employee ID"
+        },
+        {
+          "startPos": 12,
+          "endPos": 34,
+          "entity": "phone number"
+        }
+      ]
+    }
+  ],
+  "luis_schema_version": "4.0.0",
+  "tokenizerVersion": "1.0.0",
+  "settings": []
+}

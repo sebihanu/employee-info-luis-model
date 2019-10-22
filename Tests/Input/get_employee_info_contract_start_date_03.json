@@ -1,0 +1,30 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "raluca miu's contract start date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract start date", "text":"contract start date" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "raluca miu's contract date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract start date", "text":"contract date" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    },
+	{
+      "utterance": "raluca miu's contract signed date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract start date", "text":"contract signed date" },
+		{ "type": "employee name", "text":"raluca miu" }
+      ]
+    }
+  ]
+}

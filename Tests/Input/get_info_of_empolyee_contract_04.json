@@ -1,0 +1,33 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "who have the contract abcd123543",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "contract ID", "text":"contract" },
+		{ "type": "contract ID value", "text":"abcd123543" }
+      ]
+    },
+	{
+      "utterance": "who have the contract id abcd123543",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "contract ID", "text":"contract id" },
+		{ "type": "contract ID value", "text":"abcd123543" }
+      ]
+    },
+	{
+      "utterance": "who have the contract number abcd123543",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "contract ID", "text":"contract number" },
+		{ "type": "contract ID value", "text":"abcd123543" }
+      ]
+    }
+  ]
+}

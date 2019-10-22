@@ -1,0 +1,38 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "contract end date of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract end date" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "contract termination date of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract termination date" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "end date of the contract of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"end date of the contract" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    },
+	{
+      "utterance": "contract expiry date of raluca",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract expiry date" },
+		{ "type": "employee name", "text":"raluca" }
+      ]
+    }
+  ]
+}

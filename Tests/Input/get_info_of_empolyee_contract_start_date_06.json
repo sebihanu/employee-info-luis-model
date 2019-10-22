@@ -1,0 +1,36 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "who have the contract start date 03/05/2019 please",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "contract start date", "text":"contract start date" },
+		{ "type": "contract start date value", "text":"03 / 05 / 2019" },
+		{ "type": "builtin.datetimeV2.date", "text":"03/05/2019" }
+      ]
+    },
+	{
+      "utterance": "who have the contract date 03/05/2019 please",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "contract start date", "text":"contract date" },
+		{ "type": "contract start date value", "text":"03 / 05 / 2019" },
+		{ "type": "builtin.datetimeV2.date", "text":"03/05/2019" }
+      ]
+    },
+	{
+      "utterance": "who have the contract signed date 03/05/2019 please",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"who" },
+		{ "type": "contract start date", "text":"contract signed date" },
+		{ "type": "contract start date value", "text":"03 / 05 / 2019" },
+		{ "type": "builtin.datetimeV2.date", "text":"03/05/2019" }
+      ]
+    }
+  ]
+}

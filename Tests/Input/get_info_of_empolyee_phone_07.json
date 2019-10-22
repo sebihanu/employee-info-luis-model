@@ -1,0 +1,42 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "to whom does the phone number 0722123456 belong",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"whom" },
+		{ "type": "phone number", "text":"phone number" },
+		{ "type": "phone number value", "text":"0722123456" }
+      ]
+    },
+	{
+      "utterance": "to whom does the phone 0722123456 belong",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"whom" },
+		{ "type": "phone number", "text":"phone" },
+		{ "type": "phone number value", "text":"0722123456" }
+      ]
+    },
+	{
+      "utterance": "to whom does the telephone 0722123456 belong",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"whom" },
+		{ "type": "phone number", "text":"telephone" },
+		{ "type": "phone number value", "text":"0722123456" }
+      ]
+    },
+	{
+      "utterance": "to whom does the cellphone 0722123456 belong",
+      "expectedTopIntent": "get_info_of_empolyee",
+      "expectedEntities": [
+        { "type": "employee ID", "text":"whom" },
+		{ "type": "phone number", "text":"cellphone" },
+		{ "type": "phone number value", "text":"0722123456" }
+      ]
+    }
+  ]
+}

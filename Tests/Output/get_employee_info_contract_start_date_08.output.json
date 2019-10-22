@@ -1,0 +1,90 @@
+{
+  "TestSummary": "PASSED: 3/3",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_start_date_08.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "what's raluca's contract start date?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.974546969,
+      "ExpectedEntities": [
+        {
+          "Text": "contract start date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract start date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what's raluca's contract date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9719709,
+      "ExpectedEntities": [
+        {
+          "Text": "contract date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "what's raluca's contract signed date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.949710965,
+      "ExpectedEntities": [
+        {
+          "Text": "contract signed date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract signed date",
+          "Type": "contract start date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    }
+  ]
+}

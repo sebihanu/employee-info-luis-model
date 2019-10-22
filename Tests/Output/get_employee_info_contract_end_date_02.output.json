@@ -1,0 +1,117 @@
+{
+  "TestSummary": "PASSED: 4/4",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_contract_end_date_02.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "raluca's contract end date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9739355,
+      "ExpectedEntities": [
+        {
+          "Text": "contract end date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract end date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "raluca's contract termination date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.97288394,
+      "ExpectedEntities": [
+        {
+          "Text": "contract termination date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract termination date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "raluca's end date of the contract",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.958853245,
+      "ExpectedEntities": [
+        {
+          "Text": "end date of the contract",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "end date of the contract",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "raluca's contract expiry date",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9616983,
+      "ExpectedEntities": [
+        {
+          "Text": "contract expiry date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "contract expiry date",
+          "Type": "contract end date"
+        },
+        {
+          "Text": "raluca",
+          "Type": "employee name"
+        }
+      ]
+    }
+  ]
+}

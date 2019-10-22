@@ -1,0 +1,27 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "contract",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract ID", "text":"contract" }
+      ]
+    },
+	{
+      "utterance": "contract number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract ID", "text":"contract number" }
+      ]
+    },
+	{
+      "utterance": "contract id",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract ID", "text":"contract id" }
+      ]
+    }
+  ]
+}

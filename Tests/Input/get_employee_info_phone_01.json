@@ -1,0 +1,34 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "phone number",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"phone number" }
+      ]
+    },
+	{
+      "utterance": "phone",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"phone" }
+      ]
+    },
+	{
+      "utterance": "telephone",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"telephone" }
+      ]
+    },
+	{
+      "utterance": "cellphone",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "phone number", "text":"cellphone" }
+      ]
+    }
+  ]
+}

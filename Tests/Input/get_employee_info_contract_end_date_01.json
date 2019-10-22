@@ -1,0 +1,34 @@
+{
+  "testLanguage": "en",
+  "intentMinScore": "0.75",
+  "inputTestUtterances": [   	
+    {
+      "utterance": "contract end date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract end date" }
+      ]
+    },
+	{
+      "utterance": "contract termination date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract termination date" }
+      ]
+    },
+	{
+      "utterance": "end date of the contract",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"end date of the contract" }
+      ]
+    },
+	{
+      "utterance": "contract expiry date",
+      "expectedTopIntent": "get_employee_info",
+      "expectedEntities": [
+        { "type": "contract end date", "text":"contract expiry date" }
+      ]
+    }
+  ]
+}

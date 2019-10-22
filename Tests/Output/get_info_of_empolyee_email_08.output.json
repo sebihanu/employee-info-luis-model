@@ -1,0 +1,149 @@
+{
+  "TestSummary": "PASSED: 4/4",
+  "TestLanguage": "en",
+  "InputFileName": "get_info_of_empolyee_email_08.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "who does the email tudorg@totalsoft.ro belong to",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9965881,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "email",
+          "Type": "mail"
+        },
+        {
+          "Text": "tudorg @ totalsoft . ro",
+          "Type": "mail value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "email",
+          "Type": "mail"
+        },
+        {
+          "Text": "tudorg @ totalsoft . ro",
+          "Type": "mail value"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who does the mail tudorg@totalsoft.ro belong to",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.996031761,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "tudorg @ totalsoft . ro",
+          "Type": "mail value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "tudorg @ totalsoft . ro",
+          "Type": "mail value"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who does the e-mail tudorg@totalsoft.ro belong to",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.996262133,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "e - mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "tudorg @ totalsoft . ro",
+          "Type": "mail value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "e - mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "tudorg @ totalsoft . ro",
+          "Type": "mail value"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who does the electronic mail tudorg@totalsoft.ro belong to",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.995579243,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "electronic mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "tudorg @ totalsoft . ro",
+          "Type": "mail value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "electronic mail",
+          "Type": "mail"
+        },
+        {
+          "Text": "tudorg @ totalsoft . ro",
+          "Type": "mail value"
+        }
+      ]
+    }
+  ]
+}

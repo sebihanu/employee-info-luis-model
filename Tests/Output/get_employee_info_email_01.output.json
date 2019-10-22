@@ -1,0 +1,104 @@
+{
+  "TestSummary": "PASSED: 5/5",
+  "TestLanguage": "en",
+  "InputFileName": "get_employee_info_email_01.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "email",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9630517,
+      "ExpectedEntities": [
+        {
+          "Text": "email",
+          "Type": "mail"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "email",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "mail",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.977876961,
+      "ExpectedEntities": [
+        {
+          "Text": "mail",
+          "Type": "mail"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "mail",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "mail address",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.981497645,
+      "ExpectedEntities": [
+        {
+          "Text": "mail address",
+          "Type": "mail"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "mail address",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "e-mail",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9529895,
+      "ExpectedEntities": [
+        {
+          "Text": "e - mail",
+          "Type": "mail"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "e - mail",
+          "Type": "mail"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "electronic mail",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.972553551,
+      "ExpectedEntities": [
+        {
+          "Text": "electronic mail",
+          "Type": "mail"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "electronic mail",
+          "Type": "mail"
+        }
+      ]
+    }
+  ]
+}

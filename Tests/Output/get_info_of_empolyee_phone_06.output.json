@@ -1,0 +1,185 @@
+{
+  "TestSummary": "PASSED: 4/4",
+  "TestLanguage": "en",
+  "InputFileName": "get_info_of_empolyee_phone_06.json",
+  "InputFolder": "Input",
+  "IntentMinScore": 0.75,
+  "OutputTestUtterances": [
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the phone number 0722123456 123",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.89796114,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "phone number",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "123",
+          "Type": "employee name"
+        },
+        {
+          "Text": "phone number",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "123",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the phone 0722123456 123",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.9218516,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "phone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "phone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "123",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the telephone 0722123456 123",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.920418143,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "123",
+          "Type": "builtin.number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "who have the cellphone 0722123456 123",
+      "ExpectedTopIntent": "get_info_of_empolyee",
+      "FoundTopIntent": "get_info_of_empolyee",
+      "FoundTopIntentScore": 0.8975419,
+      "ExpectedEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "who",
+          "Type": "employee ID"
+        },
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "phone number value"
+        },
+        {
+          "Text": "0722123456",
+          "Type": "builtin.number"
+        },
+        {
+          "Text": "123",
+          "Type": "builtin.number"
+        }
+      ]
+    }
+  ]
+}
