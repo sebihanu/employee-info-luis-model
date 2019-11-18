@@ -212,72 +212,40 @@
         },
         {
           "entity": "phone number",
-          "startPos": 21,
+          "startPos": 15,
           "endPos": 26
         }
       ]
     },
     {
-      "text": "what is john's phone number?",
+      "text": "what is mike bill's phone",
       "intent": "get_employee_info",
       "entities": [
         {
           "entity": "employee name",
           "startPos": 8,
+          "endPos": 16
+        },
+        {
+          "entity": "phone number",
+          "startPos": 20,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "what's luiza's telephone?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 7,
           "endPos": 11
         },
         {
           "entity": "phone number",
           "startPos": 15,
-          "endPos": 19
-        }
-      ]
-    },
-    {
-      "text": "what is mike's phone?",
-      "intent": "get_employee_info",
-      "entities": [
-        {
-          "entity": "employee name",
-          "startPos": 8,
-          "endPos": 11
-        },
-        {
-          "entity": "phone number",
-          "startPos": 15,
-          "endPos": 19
-        }
-      ]
-    },
-    {
-      "text": "my phone number?",
-      "intent": "get_employee_info",
-      "entities": [
-        {
-          "entity": "employee name",
-          "startPos": 0,
-          "endPos": 1
-        },
-        {
-          "entity": "phone number",
-          "startPos": 3,
-          "endPos": 7
-        }
-      ]
-    },
-    {
-      "text": "my phone number?",
-      "intent": "get_employee_info",
-      "entities": [
-        {
-          "entity": "employee name",
-          "startPos": 0,
-          "endPos": 1
-        },
-        {
-          "entity": "phone number",
-          "startPos": 3,
-          "endPos": 14
+          "endPos": 23
         }
       ]
     },
@@ -298,18 +266,18 @@
       ]
     },
     {
-      "text": "phone number of mark",
+      "text": "help me with alex's telephone",
       "intent": "get_employee_info",
       "entities": [
         {
-          "entity": "phone number",
-          "startPos": 0,
-          "endPos": 11
+          "entity": "employee name",
+          "startPos": 13,
+          "endPos": 16
         },
         {
-          "entity": "employee name",
-          "startPos": 16,
-          "endPos": 19
+          "entity": "phone number",
+          "startPos": 20,
+          "endPos": 28
         }
       ]
     },
@@ -330,7 +298,7 @@
       ]
     },
     {
-      "text": "phone number of mark twain",
+      "text": "phone number of mark",
       "intent": "get_employee_info",
       "entities": [
         {
@@ -341,7 +309,55 @@
         {
           "entity": "employee name",
           "startPos": 16,
-          "endPos": 25
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "telephone of mark twain",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "phone number",
+          "startPos": 0,
+          "endPos": 8
+        },
+        {
+          "entity": "employee name",
+          "startPos": 13,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "my cellphone?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "phone number",
+          "startPos": 3,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "my phone number?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "phone number",
+          "startPos": 3,
+          "endPos": 14
         }
       ]
     },
@@ -362,7 +378,7 @@
       ]
     },
     {
-      "text": "michael oliver's contract?",
+      "text": "michael oliver's contract",
       "intent": "get_employee_info",
       "entities": [
         {
@@ -378,18 +394,34 @@
       ]
     },
     {
-      "text": "contract id of susan?",
+      "text": "contract of moana johnson",
       "intent": "get_employee_info",
       "entities": [
         {
           "entity": "contract ID",
           "startPos": 0,
-          "endPos": 10
+          "endPos": 7
         },
         {
           "entity": "employee name",
-          "startPos": 15,
-          "endPos": 19
+          "startPos": 12,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "contract number of susan?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "contract ID",
+          "startPos": 0,
+          "endPos": 14
+        },
+        {
+          "entity": "employee name",
+          "startPos": 19,
+          "endPos": 23
         }
       ]
     },
@@ -426,7 +458,7 @@
       ]
     },
     {
-      "text": "my contract id?",
+      "text": "my contract",
       "intent": "get_employee_info",
       "entities": [
         {
@@ -442,7 +474,39 @@
       ]
     },
     {
-      "text": "florin's email?",
+      "text": "my contract number",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 3,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "my contract id",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "contract ID",
+          "startPos": 3,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "viorel's mail",
       "intent": "get_employee_info",
       "entities": [
         {
@@ -453,12 +517,60 @@
         {
           "entity": "mail",
           "startPos": 9,
-          "endPos": 13
+          "endPos": 12
         }
       ]
     },
     {
-      "text": "florin miu's email?",
+      "text": "ioana petre's email",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 0,
+          "endPos": 10
+        },
+        {
+          "entity": "mail",
+          "startPos": 14,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "what is florin's email?",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 8,
+          "endPos": 13
+        },
+        {
+          "entity": "mail",
+          "startPos": 17,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "help me with radu's mail",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "employee name",
+          "startPos": 13,
+          "endPos": 16
+        },
+        {
+          "entity": "mail",
+          "startPos": 20,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "radu matei's mail address",
       "intent": "get_employee_info",
       "entities": [
         {
@@ -469,28 +581,28 @@
         {
           "entity": "mail",
           "startPos": 13,
-          "endPos": 17
+          "endPos": 24
         }
       ]
     },
     {
-      "text": "e-mail of grigore",
+      "text": "email of grigore",
       "intent": "get_employee_info",
       "entities": [
         {
           "entity": "mail",
           "startPos": 0,
-          "endPos": 5
+          "endPos": 4
         },
         {
           "entity": "employee name",
-          "startPos": 10,
-          "endPos": 16
+          "startPos": 9,
+          "endPos": 15
         }
       ]
     },
     {
-      "text": "mail of grigore ioan",
+      "text": "mail of greg oleg",
       "intent": "get_employee_info",
       "entities": [
         {
@@ -501,7 +613,39 @@
         {
           "entity": "employee name",
           "startPos": 8,
-          "endPos": 19
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "what's e-mail of grigore ioan",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "mail",
+          "startPos": 7,
+          "endPos": 12
+        },
+        {
+          "entity": "employee name",
+          "startPos": 17,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "what is mail of miruna",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "mail",
+          "startPos": 8,
+          "endPos": 11
+        },
+        {
+          "entity": "employee name",
+          "startPos": 16,
+          "endPos": 21
         }
       ]
     },
@@ -869,6 +1013,28 @@
       ]
     },
     {
+      "text": "personal numeric code",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "personal numeric code",
+          "startPos": 0,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "national identification number",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "personal numeric code",
+          "startPos": 0,
+          "endPos": 29
+        }
+      ]
+    },
+    {
       "text": "fynn's national identification number",
       "intent": "get_employee_info",
       "entities": [
@@ -901,34 +1067,50 @@
       ]
     },
     {
-      "text": "national identification number of miruna",
+      "text": "personal numerical code of miruna",
       "intent": "get_employee_info",
       "entities": [
         {
           "entity": "personal numeric code",
           "startPos": 0,
-          "endPos": 29
+          "endPos": 22
         },
         {
           "entity": "employee name",
-          "startPos": 34,
-          "endPos": 39
+          "startPos": 27,
+          "endPos": 32
         }
       ]
     },
     {
-      "text": "national identification number of miruna stan",
+      "text": "national identity number of miruna stan",
       "intent": "get_employee_info",
       "entities": [
         {
           "entity": "personal numeric code",
           "startPos": 0,
-          "endPos": 29
+          "endPos": 23
         },
         {
           "entity": "employee name",
-          "startPos": 34,
-          "endPos": 44
+          "startPos": 28,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "personal numeric code of evelin bamboo",
+      "intent": "get_employee_info",
+      "entities": [
+        {
+          "entity": "personal numeric code",
+          "startPos": 0,
+          "endPos": 20
+        },
+        {
+          "entity": "employee name",
+          "startPos": 25,
+          "endPos": 37
         }
       ]
     },
@@ -1077,7 +1259,7 @@
       ]
     },
     {
-      "text": "who have the phone 0123456789",
+      "text": "who have the phone 987654321",
       "intent": "get_info_of_empolyee",
       "entities": [
         {
@@ -1093,7 +1275,28 @@
         {
           "entity": "phone number value",
           "startPos": 19,
-          "endPos": 28
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "who have the telephone 0123456789",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "phone number",
+          "startPos": 13,
+          "endPos": 21
+        },
+        {
+          "entity": "phone number value",
+          "startPos": 23,
+          "endPos": 32
         }
       ]
     },
@@ -1119,6 +1322,27 @@
       ]
     },
     {
+      "text": "who has the cellphone 54632154789",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "phone number",
+          "startPos": 12,
+          "endPos": 20
+        },
+        {
+          "entity": "phone number value",
+          "startPos": 22,
+          "endPos": 32
+        }
+      ]
+    },
+    {
       "text": "to whom does the cellphone 9976543210 belong",
       "intent": "get_info_of_empolyee",
       "entities": [
@@ -1140,7 +1364,7 @@
       ]
     },
     {
-      "text": "who owns the telephone 9996543210",
+      "text": "who owns the telephone 88554477699",
       "intent": "get_info_of_empolyee",
       "entities": [
         {
@@ -1156,7 +1380,7 @@
         {
           "entity": "phone number value",
           "startPos": 23,
-          "endPos": 32
+          "endPos": 33
         }
       ]
     },
@@ -1366,6 +1590,38 @@
       ]
     },
     {
+      "text": "who is auditor?",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "position value",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "who is financial analyst",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "position value",
+          "startPos": 7,
+          "endPos": 23
+        }
+      ]
+    },
+    {
       "text": "who have the position of accountant",
       "intent": "get_info_of_empolyee",
       "entities": [
@@ -1492,7 +1748,7 @@
       ]
     },
     {
-      "text": "who have the national identification number 1842347654321",
+      "text": "who have the national identification number 1842347654321?",
       "intent": "get_info_of_empolyee",
       "entities": [
         {
@@ -1513,7 +1769,28 @@
       ]
     },
     {
-      "text": "who has the national identification number 1854334545431",
+      "text": "who have the national identity number 1842347654321",
+      "intent": "get_info_of_empolyee",
+      "entities": [
+        {
+          "entity": "employee ID",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "personal numeric code",
+          "startPos": 13,
+          "endPos": 36
+        },
+        {
+          "entity": "personal numeric code value",
+          "startPos": 38,
+          "endPos": 50
+        }
+      ]
+    },
+    {
+      "text": "who has the personal numeric code 1854334545431",
       "intent": "get_info_of_empolyee",
       "entities": [
         {
@@ -1524,12 +1801,12 @@
         {
           "entity": "personal numeric code",
           "startPos": 12,
-          "endPos": 41
+          "endPos": 32
         },
         {
           "entity": "personal numeric code value",
-          "startPos": 43,
-          "endPos": 55
+          "startPos": 34,
+          "endPos": 46
         }
       ]
     },
@@ -1555,7 +1832,7 @@
       ]
     },
     {
-      "text": "who owns the national identification number 567657654321",
+      "text": "who owns the personal numerical code 567657654321",
       "intent": "get_info_of_empolyee",
       "entities": [
         {
@@ -1566,12 +1843,12 @@
         {
           "entity": "personal numeric code",
           "startPos": 13,
-          "endPos": 42
+          "endPos": 35
         },
         {
           "entity": "personal numeric code value",
-          "startPos": 44,
-          "endPos": 55
+          "startPos": 37,
+          "endPos": 48
         }
       ]
     },

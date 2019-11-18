@@ -1,16 +1,16 @@
 {
-  "TestSummary": "FAILED: 2/5",
+  "TestSummary": "PASSED: 5/5",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_email_03.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED: Intent score too low ",
+      "Result": "PASSED",
       "Utterance": "raluca miu's email",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.7055175,
+      "FoundTopIntentScore": 0.782945752,
       "ExpectedEntities": [
         {
           "Text": "email",
@@ -33,11 +33,11 @@
       ]
     },
     {
-      "Result": "FAILED: Intent score too low ",
+      "Result": "PASSED",
       "Utterance": "raluca miu's mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.732564151,
+      "FoundTopIntentScore": 0.8099703,
       "ExpectedEntities": [
         {
           "Text": "mail",
@@ -64,7 +64,7 @@
       "Utterance": "raluca miu's mail address",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9500344,
+      "FoundTopIntentScore": 0.9787975,
       "ExpectedEntities": [
         {
           "Text": "mail address",
@@ -91,7 +91,7 @@
       "Utterance": "raluca miu's e-mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.923263,
+      "FoundTopIntentScore": 0.9582955,
       "ExpectedEntities": [
         {
           "Text": "e - mail",
@@ -118,7 +118,7 @@
       "Utterance": "raluca miu's electronic mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.935732663,
+      "FoundTopIntentScore": 0.975623667,
       "ExpectedEntities": [
         {
           "Text": "electronic mail",

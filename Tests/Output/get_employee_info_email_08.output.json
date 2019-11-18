@@ -1,19 +1,19 @@
 {
-  "TestSummary": "FAILED: 1/5",
+  "TestSummary": "PASSED: 5/5",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_email_08.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED: Intent score too low ",
-      "Utterance": "what's raluca's mail",
+      "Result": "PASSED",
+      "Utterance": "what's raluca's email?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.6999769,
+      "FoundTopIntentScore": 0.929304361,
       "ExpectedEntities": [
         {
-          "Text": "mail",
+          "Text": "email",
           "Type": "mail"
         },
         {
@@ -27,20 +27,20 @@
           "Type": "employee name"
         },
         {
-          "Text": "mail",
+          "Text": "email",
           "Type": "mail"
         }
       ]
     },
     {
       "Result": "PASSED",
-      "Utterance": "what's raluca's email?",
+      "Utterance": "what's raluca's mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.815133035,
+      "FoundTopIntentScore": 0.9084784,
       "ExpectedEntities": [
         {
-          "Text": "email",
+          "Text": "mail",
           "Type": "mail"
         },
         {
@@ -54,7 +54,7 @@
           "Type": "employee name"
         },
         {
-          "Text": "email",
+          "Text": "mail",
           "Type": "mail"
         }
       ]
@@ -64,7 +64,7 @@
       "Utterance": "what's raluca's mail address",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.942609,
+      "FoundTopIntentScore": 0.99034375,
       "ExpectedEntities": [
         {
           "Text": "mail address",
@@ -91,7 +91,7 @@
       "Utterance": "what's raluca's e-mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9107343,
+      "FoundTopIntentScore": 0.97949934,
       "ExpectedEntities": [
         {
           "Text": "e - mail",
@@ -118,7 +118,7 @@
       "Utterance": "what's raluca's electronic mail",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9202579,
+      "FoundTopIntentScore": 0.987454832,
       "ExpectedEntities": [
         {
           "Text": "electronic mail",

@@ -1,16 +1,16 @@
 {
-  "TestSummary": "FAILED: 1/3",
+  "TestSummary": "PASSED: 3/3",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_contract_12.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED. ENTITIES:  TYPE: employee name TEXT: my\r\n",
+      "Result": "PASSED",
       "Utterance": "my contract",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9273295,
+      "FoundTopIntentScore": 0.9838038,
       "ExpectedEntities": [
         {
           "Text": "contract",
@@ -25,6 +25,10 @@
         {
           "Text": "contract",
           "Type": "contract ID"
+        },
+        {
+          "Text": "my",
+          "Type": "employee name"
         }
       ]
     },
@@ -33,7 +37,7 @@
       "Utterance": "my contract id",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9678588,
+      "FoundTopIntentScore": 0.9954905,
       "ExpectedEntities": [
         {
           "Text": "contract",
@@ -60,7 +64,7 @@
       "Utterance": "my contract number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9795502,
+      "FoundTopIntentScore": 0.991942644,
       "ExpectedEntities": [
         {
           "Text": "contract number",

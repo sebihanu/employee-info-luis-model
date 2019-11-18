@@ -1,16 +1,16 @@
 {
-  "TestSummary": "PASSED: 5/5",
+  "TestSummary": "FAILED: 2/5",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_position_07.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "PASSED",
+      "Result": "FAILED: Intent score too low ",
       "Utterance": "what is raluca miu's position?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.922900856,
+      "FoundTopIntentScore": 0.744873,
       "ExpectedEntities": [
         {
           "Text": "position",
@@ -33,11 +33,38 @@
       ]
     },
     {
+      "Result": "FAILED: Intent score too low ",
+      "Utterance": "what is raluca miu's job?",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.7122473,
+      "ExpectedEntities": [
+        {
+          "Text": "job",
+          "Type": "position"
+        },
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "raluca miu",
+          "Type": "employee name"
+        },
+        {
+          "Text": "job",
+          "Type": "position"
+        }
+      ]
+    },
+    {
       "Result": "PASSED",
       "Utterance": "what is raluca miu's role?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.931362748,
+      "FoundTopIntentScore": 0.7548583,
       "ExpectedEntities": [
         {
           "Text": "role",
@@ -64,7 +91,7 @@
       "Utterance": "what is raluca miu's function?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.93952626,
+      "FoundTopIntentScore": 0.7586879,
       "ExpectedEntities": [
         {
           "Text": "function",
@@ -91,7 +118,7 @@
       "Utterance": "what is raluca miu's occupation?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9334642,
+      "FoundTopIntentScore": 0.78823,
       "ExpectedEntities": [
         {
           "Text": "occupation",
@@ -109,33 +136,6 @@
         },
         {
           "Text": "occupation",
-          "Type": "position"
-        }
-      ]
-    },
-    {
-      "Result": "PASSED",
-      "Utterance": "what is raluca miu's job?",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9343061,
-      "ExpectedEntities": [
-        {
-          "Text": "job",
-          "Type": "position"
-        },
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "raluca miu",
-          "Type": "employee name"
-        },
-        {
-          "Text": "job",
           "Type": "position"
         }
       ]

@@ -12,30 +12,38 @@
 ## get_employee_info
 
 > phone number utterances
-- what is {employee name=jane}'s phone {phone number=number}?
-- what is {employee name=john}'s {phone number=phone} number?
-- what is {employee name=mike}'s {phone number=phone}?
-- {employee name=my} {phone number=phone} number?
-- {employee name=my} {phone number=phone number}?
-
+- what is {employee name=jane}'s {phone number=phone number}?
+- what is {employee name=mike bill}'s {phone number=phone}
+- what's {employee name=luiza}'s {phone number=telephone}?
 - can you help me with {employee name=george}'s {phone number=phone number}?
-- {phone number=phone number} of {employee name=mark}
+- help me with {employee name=alex}'s {phone number=telephone}
 - give me {employee name=john}'s {phone number=phone}
-- {phone number=phone number} of {employee name=mark twain}
+- {phone number=phone number} of {employee name=mark}
+- {phone number=telephone} of {employee name=mark twain}
+- {employee name=my} {phone number=cellphone}?
+- {employee name=my} {phone number=phone number}?
 
 > contract utterances
 - {employee name=michael}'s {contract ID=contract number}?
-- {employee name=michael oliver}'s {contract ID=contract}?
-- {contract ID=contract id} of {employee name=susan}?
+- {employee name=michael oliver}'s {contract ID=contract}
+- {contract ID=contract} of {employee name=moana johnson}
+- {contract ID=contract number} of {employee name=susan}?
 - what is {contract ID=contract id} of {employee name=susan lee}?
 - give me {employee name=cindy}'s {contract ID=contract}
-- {employee name=my} {contract ID=contract} id?
+- {employee name=my} {contract ID=contract}
+- {employee name=my} {contract ID=contract number}
+- {employee name=my} {contract ID=contract} id
 
 >e-mail utterances
-- {employee name=florin}'s {mail=email}?
-- {employee name=florin miu}'s {mail=email}?
-- {mail=e-mail} of {employee name=grigore}
-- {mail=mail} of {employee name=grigore ioan}
+- {employee name=viorel}'s {mail=mail}
+- {employee name=ioana petre}'s {mail=email}
+- what is {employee name=florin}'s {mail=email}?
+- help me with {employee name=radu}'s {mail=mail}
+- {employee name=radu matei}'s {mail=mail address}
+- {mail=email} of {employee name=grigore}
+- {mail=mail} of {employee name=greg oleg}
+- what's {mail=e-mail} of {employee name=grigore ioan}
+- what is {mail=mail} of {employee name=miruna}
 - {employee name=my} {mail=mail address}?
 
 >department utterances
@@ -69,10 +77,13 @@
 
 >personal numeric code utterances
 - {personal numeric code=cnp}
+- {personal numeric code=personal numeric code}
+- {personal numeric code=national identification number}
 - {employee name=fynn}'s {personal numeric code=national identification number}
 - what's {employee name=fynn laslo}'s {personal numeric code=national identification number}
-- {personal numeric code=national identification number} of {employee name=miruna}
-- {personal numeric code=national identification number} of {employee name=miruna stan}
+- {personal numeric code=personal numerical code} of {employee name=miruna}
+- {personal numeric code=national identity number} of {employee name=miruna stan}
+- {personal numeric code=personal numeric code} of {employee name=evelin bamboo}
 - {employee name=my} {personal numeric code=national identification number}?
 
 >notice days utterances
@@ -88,10 +99,12 @@
 
 ## get_info_of_empolyee
 > phone number utterances
-- {employee ID=who} have the {phone number=phone} {phone number value=0123456789}
+- {employee ID=who} have the {phone number=phone} {phone number value=987654321}
+- {employee ID=who} have the {phone number=telephone} {phone number value=0123456789}
 - {employee ID=who} has the {phone number=phone number} {phone number value=0113356789}
+- {employee ID=who} has the {phone number=cellphone} {phone number value=54632154789}
 - to {employee ID=whom} does the {phone number=cellphone} {phone number value=9976543210} belong
-- {employee ID=who} owns the {phone number=telephone} {phone number value=9996543210}
+- {employee ID=who} owns the {phone number=telephone} {phone number value=88554477699}
 
 > contract utterances
 - {employee ID=who} have the {contract ID=contract} {contract ID value=fyt89032123}
@@ -111,6 +124,8 @@
 
 >position utterances
 - {employee ID=who} is {position value=manager}
+- {employee ID=who} is {position value=auditor}?
+- {employee ID=who} is {position value=financial analyst}
 - {employee ID=who} have the {position=position} of {position value=accountant}
 - {employee ID=who} has the {position=function} of {position value=software developer}
 
@@ -123,10 +138,11 @@
 - {employee ID=who} has the {contract end date=end date of the contract} {contract end date value=03/08/2017}
 
 >personal numeric code utterances
-- {employee ID=who} have the {personal numeric code=national identification number} {personal numeric code value=1842347654321}
-- {employee ID=who} has the {personal numeric code=national identification number} {personal numeric code value=1854334545431}
+- {employee ID=who} have the {personal numeric code=national identification number} {personal numeric code value=1842347654321}?
+- {employee ID=who} have the {personal numeric code=national identity number} {personal numeric code value=1842347654321}
+- {employee ID=who} has the {personal numeric code=personal numeric code} {personal numeric code value=1854334545431}
 - to {employee ID=whom} does {personal numeric code=national identification number} {personal numeric code value=1345365421} belong
-- {employee ID=who} owns the {personal numeric code=national identification number} {personal numeric code value=567657654321}
+- {employee ID=who} owns the {personal numeric code=personal numerical code} {personal numeric code value=567657654321}
 
 >notice days utterances
 - {employee ID=who} have {notice days value=10} days {notice days=notice}

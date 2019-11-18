@@ -10,7 +10,7 @@
       "Utterance": "help me with raluca's contract?",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.7718603,
+      "FoundTopIntentScore": 0.925219655,
       "ExpectedEntities": [
         {
           "Text": "contract",
@@ -27,10 +27,6 @@
           "Type": "contract ID"
         },
         {
-          "Text": "?",
-          "Type": "contract ID value"
-        },
-        {
           "Text": "raluca",
           "Type": "employee name"
         }
@@ -41,7 +37,7 @@
       "Utterance": "help me with raluca's contract id",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9012469,
+      "FoundTopIntentScore": 0.985744059,
       "ExpectedEntities": [
         {
           "Text": "contract id",
@@ -68,7 +64,7 @@
       "Utterance": "help me with raluca's contract number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9173998,
+      "FoundTopIntentScore": 0.979174,
       "ExpectedEntities": [
         {
           "Text": "contract number",

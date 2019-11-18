@@ -10,7 +10,7 @@
       "Utterance": "who has the contract abcd123543",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.964013,
+      "FoundTopIntentScore": 0.964051366,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -45,7 +45,7 @@
       "Utterance": "who has the contract id abcd123543",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9609112,
+      "FoundTopIntentScore": 0.961513162,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -80,7 +80,7 @@
       "Utterance": "who has the contract number abcd123543",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.982263,
+      "FoundTopIntentScore": 0.9779932,
       "ExpectedEntities": [
         {
           "Text": "who",

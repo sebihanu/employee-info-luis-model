@@ -10,7 +10,7 @@
       "Utterance": "who have the function of analyst please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.940181732,
+      "FoundTopIntentScore": 0.9819223,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -49,7 +49,7 @@
       "Utterance": "who have the role of analyst please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9347529,
+      "FoundTopIntentScore": 0.9806703,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -68,6 +68,10 @@
         {
           "Text": "who",
           "Type": "employee ID"
+        },
+        {
+          "Text": "analyst please",
+          "Type": "employee name"
         },
         {
           "Text": "role",
@@ -84,7 +88,7 @@
       "Utterance": "who have the position of analyst please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.957042456,
+      "FoundTopIntentScore": 0.985914946,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -103,6 +107,10 @@
         {
           "Text": "who",
           "Type": "employee ID"
+        },
+        {
+          "Text": "analyst please",
+          "Type": "employee name"
         },
         {
           "Text": "position",
@@ -119,7 +127,7 @@
       "Utterance": "who have the occupation of analyst please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9103525,
+      "FoundTopIntentScore": 0.9718467,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -140,6 +148,10 @@
           "Type": "employee ID"
         },
         {
+          "Text": "analyst please",
+          "Type": "employee name"
+        },
+        {
           "Text": "occupation",
           "Type": "position"
         },
@@ -154,7 +166,7 @@
       "Utterance": "who have the job of analyst please",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9494455,
+      "FoundTopIntentScore": 0.9858007,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -173,6 +185,10 @@
         {
           "Text": "who",
           "Type": "employee ID"
+        },
+        {
+          "Text": "analyst please",
+          "Type": "employee name"
         },
         {
           "Text": "job",

@@ -10,7 +10,7 @@
       "Utterance": "to whom does the phone number 0722123456 belong",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.95233047,
+      "FoundTopIntentScore": 0.9646172,
       "ExpectedEntities": [
         {
           "Text": "whom",
@@ -31,10 +31,6 @@
           "Type": "employee ID"
         },
         {
-          "Text": "belong",
-          "Type": "employee name"
-        },
-        {
           "Text": "phone number",
           "Type": "phone number"
         },
@@ -53,7 +49,7 @@
       "Utterance": "to whom does the phone 0722123456 belong",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.906942368,
+      "FoundTopIntentScore": 0.929554462,
       "ExpectedEntities": [
         {
           "Text": "whom",
@@ -92,7 +88,7 @@
       "Utterance": "to whom does the telephone 0722123456 belong",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.89752686,
+      "FoundTopIntentScore": 0.9222874,
       "ExpectedEntities": [
         {
           "Text": "whom",
@@ -131,7 +127,7 @@
       "Utterance": "to whom does the cellphone 0722123456 belong",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8922749,
+      "FoundTopIntentScore": 0.9299247,
       "ExpectedEntities": [
         {
           "Text": "whom",

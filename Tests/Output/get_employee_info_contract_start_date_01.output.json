@@ -10,7 +10,7 @@
       "Utterance": "contract start date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9758102,
+      "FoundTopIntentScore": 0.987079859,
       "ExpectedEntities": [
         {
           "Text": "contract start date",
@@ -29,7 +29,7 @@
       "Utterance": "contract date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.9861171,
+      "FoundTopIntentScore": 0.9944548,
       "ExpectedEntities": [
         {
           "Text": "contract date",
@@ -48,7 +48,7 @@
       "Utterance": "contract signed date",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.948744953,
+      "FoundTopIntentScore": 0.974513352,
       "ExpectedEntities": [
         {
           "Text": "contract signed date",

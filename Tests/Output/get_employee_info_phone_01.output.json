@@ -1,54 +1,16 @@
 {
-  "TestSummary": "FAILED: 2/4",
+  "TestSummary": "PASSED: 4/4",
   "TestLanguage": "en",
   "InputFileName": "get_employee_info_phone_01.json",
   "InputFolder": "Input",
   "IntentMinScore": 0.75,
   "OutputTestUtterances": [
     {
-      "Result": "FAILED: Intent score too low ",
-      "Utterance": "telephone",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.3238548,
-      "ExpectedEntities": [
-        {
-          "Text": "telephone",
-          "Type": "phone number"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "telephone",
-          "Type": "phone number"
-        }
-      ]
-    },
-    {
-      "Result": "FAILED: Intent score too low ",
-      "Utterance": "cellphone",
-      "ExpectedTopIntent": "get_employee_info",
-      "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.620719,
-      "ExpectedEntities": [
-        {
-          "Text": "cellphone",
-          "Type": "phone number"
-        }
-      ],
-      "FoundEntities": [
-        {
-          "Text": "cellphone",
-          "Type": "phone number"
-        }
-      ]
-    },
-    {
       "Result": "PASSED",
       "Utterance": "phone number",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.973048031,
+      "FoundTopIntentScore": 0.9840982,
       "ExpectedEntities": [
         {
           "Text": "phone number",
@@ -67,7 +29,7 @@
       "Utterance": "phone",
       "ExpectedTopIntent": "get_employee_info",
       "FoundTopIntent": "get_employee_info",
-      "FoundTopIntentScore": 0.918507457,
+      "FoundTopIntentScore": 0.973821938,
       "ExpectedEntities": [
         {
           "Text": "phone",
@@ -77,6 +39,44 @@
       "FoundEntities": [
         {
           "Text": "phone",
+          "Type": "phone number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "telephone",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.9415439,
+      "ExpectedEntities": [
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "telephone",
+          "Type": "phone number"
+        }
+      ]
+    },
+    {
+      "Result": "PASSED",
+      "Utterance": "cellphone",
+      "ExpectedTopIntent": "get_employee_info",
+      "FoundTopIntent": "get_employee_info",
+      "FoundTopIntentScore": 0.969213963,
+      "ExpectedEntities": [
+        {
+          "Text": "cellphone",
+          "Type": "phone number"
+        }
+      ],
+      "FoundEntities": [
+        {
+          "Text": "cellphone",
           "Type": "phone number"
         }
       ]

@@ -10,7 +10,7 @@
       "Utterance": "who has the phone number 0722123456?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.9316937,
+      "FoundTopIntentScore": 0.972501636,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -49,7 +49,7 @@
       "Utterance": "who has the phone 0722123456?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.913350761,
+      "FoundTopIntentScore": 0.969769359,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -88,7 +88,7 @@
       "Utterance": "who has the telephone 0722123456?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.8468963,
+      "FoundTopIntentScore": 0.9326832,
       "ExpectedEntities": [
         {
           "Text": "who",
@@ -127,7 +127,7 @@
       "Utterance": "who has the cellphone 0722123456?",
       "ExpectedTopIntent": "get_info_of_empolyee",
       "FoundTopIntent": "get_info_of_empolyee",
-      "FoundTopIntentScore": 0.816054761,
+      "FoundTopIntentScore": 0.927979946,
       "ExpectedEntities": [
         {
           "Text": "who",
